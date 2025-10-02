@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_file": "cargurus-com-2025-10-02.csv",
-    "conversion_timestamp": "2025-10-01T20:29:36.999710",
+    "conversion_timestamp": "2025-10-01T20:55:44.927588",
     "total_records": 609,
     "duplicates_removed": 144,
     "field_names": [
@@ -19,7 +19,8 @@
       "location",
       "payment",
       "trim",
-      "price"
+      "price",
+      "created_at"
     ],
     "data_cleaning": {
       "payment_conversions": 578,
@@ -45,7 +46,8 @@
       "location": "Westfield, NJ",
       "payment": 670,
       "trim": "Tech AWD",
-      "price": 37900
+      "price": 37900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ139234",
@@ -62,7 +64,8 @@
       "location": "Springfield, MO",
       "payment": 786,
       "trim": "Luxury 3 AWD",
-      "price": 44468
+      "price": 44468,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK9SZ313203",
@@ -79,7 +82,8 @@
       "location": "Carlsbad, CA",
       "payment": 1068,
       "trim": "Sport 1 RWD",
-      "price": 60590
+      "price": 60590,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRLXRZ121093",
@@ -96,7 +100,8 @@
       "location": "Chandler, AZ",
       "payment": 793,
       "trim": "Luxury 2 AWD",
-      "price": 44883
+      "price": 44883,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ138397",
@@ -113,7 +118,8 @@
       "location": "Marquette, MI",
       "payment": 724,
       "trim": "Luxury 3 AWD",
-      "price": 40998
+      "price": 40998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK3RZ105344",
@@ -130,7 +136,8 @@
       "location": "Alliance, OH",
       "payment": 610,
       "trim": "Tech RWD",
-      "price": 34500
+      "price": 34500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK3RZ108522",
@@ -147,7 +154,8 @@
       "location": "Rittman, OH",
       "payment": 600,
       "trim": "Luxury 1 RWD",
-      "price": 33950
+      "price": 33950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2RZ109968",
@@ -164,7 +172,8 @@
       "location": "San Ramon, CA",
       "payment": 618,
       "trim": "Sport 1 AWD",
-      "price": 34995
+      "price": 34995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7PZ003214",
@@ -181,7 +190,8 @@
       "location": "Cathedral City, CA",
       "payment": 637,
       "trim": "Luxury AWD",
-      "price": 36000
+      "price": 36000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL3SZ300150",
@@ -198,7 +208,8 @@
       "location": "Seattle, WA",
       "payment": 969,
       "trim": "Sport 1 AWD",
-      "price": 54992
+      "price": 54992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK4PZ000082",
@@ -215,7 +226,8 @@
       "location": "Rittman, OH",
       "payment": 530,
       "trim": "Luxury RWD",
-      "price": 29950
+      "price": 29950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6RZ135232",
@@ -232,7 +244,8 @@
       "location": "Calumet City, IL",
       "payment": 713,
       "trim": "Sport 1 AWD",
-      "price": 40355
+      "price": 40355,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL6RZ135260",
@@ -249,7 +262,8 @@
       "location": "Columbus, OH",
       "payment": 769,
       "trim": "Sport 2 AWD",
-      "price": 43500
+      "price": 43500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL9SZ307386",
@@ -266,7 +280,8 @@
       "location": "Saukville, WI",
       "payment": 846,
       "trim": "Luxury 3 AWD",
-      "price": 47999
+      "price": 47999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK9RZ110162",
@@ -283,7 +298,8 @@
       "location": "Mount Holly, NJ",
       "payment": 645,
       "trim": "Luxury 1 RWD",
-      "price": 36500
+      "price": 36500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK0RZ136675",
@@ -300,7 +316,8 @@
       "location": "Santa Clara, CA",
       "payment": 782,
       "trim": "Sport 3 RWD",
-      "price": 44261
+      "price": 44261,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRLXRZ131955",
@@ -317,7 +334,8 @@
       "location": "Joliet, IL",
       "payment": 760,
       "trim": "Sport 2 AWD",
-      "price": 43017
+      "price": 43017,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL4RZ100169",
@@ -334,7 +352,8 @@
       "location": "Findlay, OH",
       "payment": 654,
       "trim": "Sport 1 AWD",
-      "price": 36993
+      "price": 36993,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL0RZ127095",
@@ -351,7 +370,8 @@
       "location": "Portage, MI",
       "payment": 795,
       "trim": "Luxury 2 AWD",
-      "price": 44988
+      "price": 44988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK0RZ101682",
@@ -368,7 +388,8 @@
       "location": "Des Plaines, IL",
       "payment": 671,
       "trim": "Sport 1 RWD",
-      "price": 37985
+      "price": 37985,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK9RZ130623",
@@ -385,7 +406,8 @@
       "location": "Jacksonville, FL",
       "payment": 684,
       "trim": "Luxury 1 RWD",
-      "price": 38700
+      "price": 38700,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK0RZ133801",
@@ -402,7 +424,8 @@
       "location": "Bloomington, IL",
       "payment": 720,
       "trim": "Luxury 1 RWD",
-      "price": 40750
+      "price": 40750,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK4RZ105086",
@@ -419,7 +442,8 @@
       "location": "Seffner, FL",
       "payment": 610,
       "trim": "Sport 1 RWD",
-      "price": 34497
+      "price": 34497,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL5RZ104205",
@@ -436,7 +460,8 @@
       "location": "San Antonio, TX",
       "payment": 668,
       "trim": "Tech AWD",
-      "price": 37818
+      "price": 37818,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL5RZ119695",
@@ -453,7 +478,8 @@
       "location": "Alexandria, VA",
       "payment": 760,
       "trim": "Sport 3 AWD",
-      "price": 43000
+      "price": 43000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL1RZ116983",
@@ -470,7 +496,8 @@
       "location": "Pekin, IL",
       "payment": 720,
       "trim": "Luxury 1 AWD",
-      "price": 40777
+      "price": 40777,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL5RZ111395",
@@ -487,7 +514,8 @@
       "location": "Fishers, IN",
       "payment": 671,
       "trim": "Tech AWD",
-      "price": 37950
+      "price": 37950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "",
@@ -504,7 +532,8 @@
       "location": "",
       "payment": "",
       "trim": "",
-      "price": ""
+      "price": "",
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK1PZ000833",
@@ -521,7 +550,8 @@
       "location": "Las Vegas, NV",
       "payment": 602,
       "trim": "Luxury RWD",
-      "price": 34000
+      "price": 34000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ136988",
@@ -538,7 +568,8 @@
       "location": "Centerville, OH",
       "payment": 737,
       "trim": "Luxury 3 AWD",
-      "price": 41700
+      "price": 41700,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL1SZ318433",
@@ -555,7 +586,8 @@
       "location": "Bee Cave, TX",
       "payment": 934,
       "trim": "Sport 2 AWD",
-      "price": 52999
+      "price": 52999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK0RZ121156",
@@ -572,7 +604,8 @@
       "location": "San Antonio, TX",
       "payment": 819,
       "trim": "Sport 3 RWD",
-      "price": 46387
+      "price": 46387,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK2RZ136175",
@@ -589,7 +622,8 @@
       "location": "Jacksonville, FL",
       "payment": 812,
       "trim": "Sport 3 RWD",
-      "price": 45990
+      "price": 45990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK2RZ100573",
@@ -606,7 +640,8 @@
       "location": "Saint Joseph, MO",
       "payment": 601,
       "trim": "Luxury 1 RWD",
-      "price": 33999
+      "price": 33999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRLXRZ100068",
@@ -623,7 +658,8 @@
       "location": "Jacksonville, FL",
       "payment": 732,
       "trim": "Luxury 2 AWD",
-      "price": 41420
+      "price": 41420,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL8RZ100408",
@@ -640,7 +676,8 @@
       "location": "Sykesville, MD",
       "payment": 712,
       "trim": "Luxury 1 AWD",
-      "price": 40295
+      "price": 40295,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL9RZ140483",
@@ -657,7 +694,8 @@
       "location": "Zionsville, IN",
       "payment": 790,
       "trim": "Luxury 3 AWD",
-      "price": 44700
+      "price": 44700,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL9RZ137181",
@@ -674,7 +712,8 @@
       "location": "Greensboro, NC",
       "payment": 800,
       "trim": "Sport 2 AWD",
-      "price": 45298
+      "price": 45298,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL0RZ138834",
@@ -691,7 +730,8 @@
       "location": "Cottonwood, AZ",
       "payment": 833,
       "trim": "Sport 2 AWD",
-      "price": 47162
+      "price": 47162,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5RZ140650",
@@ -708,7 +748,8 @@
       "location": "Fremont, OH",
       "payment": 759,
       "trim": "Sport 1 AWD",
-      "price": 42977
+      "price": 42977,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRLXRZ105327",
@@ -725,7 +766,8 @@
       "location": "Cincinnati, OH",
       "payment": 726,
       "trim": "Sport 1 AWD",
-      "price": 41084
+      "price": 41084,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL2RZ118195",
@@ -742,7 +784,8 @@
       "location": "Plano, TX",
       "payment": 795,
       "trim": "Sport 2 AWD",
-      "price": 44998
+      "price": 44998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ116790",
@@ -759,7 +802,8 @@
       "location": "Bartlett, IL",
       "payment": 742,
       "trim": "Luxury 3 AWD",
-      "price": 41995
+      "price": 41995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL4SZ300832",
@@ -776,7 +820,8 @@
       "location": "Riverside, CA",
       "payment": 969,
       "trim": "Luxury 3 AWD",
-      "price": 54995
+      "price": 54995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK8RZ112321",
@@ -793,7 +838,8 @@
       "location": "Bay Shore, NY",
       "payment": 741,
       "trim": "Luxury 2 RWD",
-      "price": 41919
+      "price": 41919,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK1RZ134982",
@@ -810,7 +856,8 @@
       "location": "Lake Villa, IL",
       "payment": 795,
       "trim": "Sport 1 RWD",
-      "price": 44999
+      "price": 44999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK8PZ000103",
@@ -827,7 +874,8 @@
       "location": "Maple Shade, NJ",
       "payment": 566,
       "trim": "Luxury RWD",
-      "price": 31999
+      "price": 31999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL0RZ102136",
@@ -844,7 +892,8 @@
       "location": "San Jose, CA",
       "payment": 722,
       "trim": "Luxury 1 AWD",
-      "price": 40879
+      "price": 40879,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK9RZ100506",
@@ -861,7 +910,8 @@
       "location": "Montclair, CA",
       "payment": 657,
       "trim": "Luxury 1 RWD",
-      "price": 37165
+      "price": 37165,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL4RZ123971",
@@ -878,7 +928,8 @@
       "location": "Jacksonville, FL",
       "payment": 777,
       "trim": "Sport 3 AWD",
-      "price": 43990
+      "price": 43990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ135711",
@@ -895,7 +946,8 @@
       "location": "Ottumwa, IA",
       "payment": 823,
       "trim": "Luxury 3 AWD",
-      "price": 46608
+      "price": 46608,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ136882",
@@ -912,7 +964,8 @@
       "location": "Ballwin, MO",
       "payment": 751,
       "trim": "Luxury 3 AWD",
-      "price": 42490
+      "price": 42490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL8RZ105852",
@@ -929,7 +982,8 @@
       "location": "Hempstead, NY",
       "payment": 688,
       "trim": "Luxury 1 AWD",
-      "price": 38920
+      "price": 38920,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL2RZ103223",
@@ -946,7 +1000,8 @@
       "location": "Lansdale, PA",
       "payment": 616,
       "trim": "Tech AWD",
-      "price": 34890
+      "price": 34890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ138302",
@@ -963,7 +1018,8 @@
       "location": "Portage, MI",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46988
+      "price": 46988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRKXPZ002550",
@@ -980,7 +1036,8 @@
       "location": "Huntington Station, NY",
       "payment": 600,
       "trim": "Luxury RWD",
-      "price": 33900
+      "price": 33900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK9RZ136957",
@@ -997,7 +1054,8 @@
       "location": "Carrollton, TX",
       "payment": 777,
       "trim": "Luxury 3 RWD",
-      "price": 43977
+      "price": 43977,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2RZ136510",
@@ -1014,7 +1072,8 @@
       "location": "Fishers, IN",
       "payment": 812,
       "trim": "Sport 1 AWD",
-      "price": 45946
+      "price": 45946,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK8PZ001316",
@@ -1031,7 +1090,8 @@
       "location": "Bay Shore, NY",
       "payment": 653,
       "trim": "Luxury RWD",
-      "price": 36919
+      "price": 36919,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ139967",
@@ -1048,7 +1108,8 @@
       "location": "Akron, OH",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44980
+      "price": 44980,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ136368",
@@ -1065,7 +1126,8 @@
       "location": "Silver Spring, MD",
       "payment": 760,
       "trim": "Luxury 3 AWD",
-      "price": 43000
+      "price": 43000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK8RZ115836",
@@ -1082,7 +1144,8 @@
       "location": "Aurora, MO",
       "payment": 671,
       "trim": "Tech RWD",
-      "price": 37996
+      "price": 37996,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK9RZ111160",
@@ -1099,7 +1162,8 @@
       "location": "Plano, TX",
       "payment": 724,
       "trim": "Sport 1 RWD",
-      "price": 40988
+      "price": 40988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRKXRZ130503",
@@ -1116,7 +1180,8 @@
       "location": "Wayland, MI",
       "payment": 654,
       "trim": "Luxury 1 RWD",
-      "price": 37000
+      "price": 37000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK3PZ000073",
@@ -1133,7 +1198,8 @@
       "location": "Saint Augustine, FL",
       "payment": 619,
       "trim": "Luxury RWD",
-      "price": 34990
+      "price": 34990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPYRL6SZ302966",
@@ -1150,7 +1216,8 @@
       "location": "Morrow, GA",
       "payment": 942,
       "trim": "Sport 3 AWD",
-      "price": 53422
+      "price": 53422,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ139084",
@@ -1167,7 +1234,8 @@
       "location": "McClellandtown, PA",
       "payment": 760,
       "trim": "Luxury 3 AWD",
-      "price": 42995
+      "price": 42995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7RZ132167",
@@ -1184,7 +1252,8 @@
       "location": "Asheville, NC",
       "payment": 707,
       "trim": "Luxury 1 AWD",
-      "price": 39991
+      "price": 39991,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL1RZ102176",
@@ -1201,7 +1270,8 @@
       "location": "Ballwin, MO",
       "payment": 684,
       "trim": "Luxury 1 AWD",
-      "price": 38690
+      "price": 38690,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ139802",
@@ -1218,7 +1288,8 @@
       "location": "Ottumwa, IA",
       "payment": 813,
       "trim": "Luxury 3 AWD",
-      "price": 46024
+      "price": 46024,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK7RZ115456",
@@ -1235,7 +1306,8 @@
       "location": "Houston, TX",
       "payment": 777,
       "trim": "Luxury 1 RWD",
-      "price": 43997
+      "price": 43997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRKXRZ107537",
@@ -1252,7 +1324,8 @@
       "location": "Savannah, TN",
       "payment": 706,
       "trim": "Sport 1 RWD",
-      "price": 39986
+      "price": 39986,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL0RZ104452",
@@ -1269,7 +1342,8 @@
       "location": "East Petersburg, PA",
       "payment": 619,
       "trim": "Tech AWD",
-      "price": 35037
+      "price": 35037,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ110128",
@@ -1286,7 +1360,8 @@
       "location": "Alton, IL",
       "payment": 706,
       "trim": "Luxury 3 AWD",
-      "price": 39985
+      "price": 39985,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK3RZ130271",
@@ -1303,7 +1378,8 @@
       "location": "Tampa, FL",
       "payment": 617,
       "trim": "Sport 1 RWD",
-      "price": 34900
+      "price": 34900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL8RZ112019",
@@ -1320,7 +1396,8 @@
       "location": "Albuquerque, NM",
       "payment": 760,
       "trim": "Luxury 2 AWD",
-      "price": 42997
+      "price": 42997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK6RZ101668",
@@ -1337,7 +1414,8 @@
       "location": "Stillwater, OK",
       "payment": 579,
       "trim": "Sport 1 RWD",
-      "price": 32742
+      "price": 32742,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ138309",
@@ -1354,7 +1432,8 @@
       "location": "McKinney, TX",
       "payment": 779,
       "trim": "Luxury 3 AWD",
-      "price": 44098
+      "price": 44098,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPYRL1SZ307850",
@@ -1371,7 +1450,8 @@
       "location": "Mechanicsburg, PA",
       "payment": 1020,
       "trim": "Sport 3 AWD",
-      "price": 57900
+      "price": 57900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ138293",
@@ -1388,7 +1468,8 @@
       "location": "Minneapolis, MN",
       "payment": 794,
       "trim": "Luxury 3 AWD",
-      "price": 44970
+      "price": 44970,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK6RZ120310",
@@ -1405,7 +1486,8 @@
       "location": "Mobile, AL",
       "payment": 645,
       "trim": "Tech RWD",
-      "price": 36500
+      "price": 36500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL3RZ123476",
@@ -1422,7 +1504,8 @@
       "location": "Decatur, GA",
       "payment": 654,
       "trim": "Luxury 2 AWD",
-      "price": 36990
+      "price": 36990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL0RZ119880",
@@ -1439,7 +1522,8 @@
       "location": "Tinley Park, IL",
       "payment": 776,
       "trim": "Sport 2 AWD",
-      "price": 43900
+      "price": 43900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ141170",
@@ -1456,7 +1540,8 @@
       "location": "Ballwin, MO",
       "payment": 786,
       "trim": "Luxury 3 AWD",
-      "price": 44490
+      "price": 44490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL9RZ126367",
@@ -1473,7 +1558,8 @@
       "location": "Matteson, IL",
       "payment": 652,
       "trim": "Tech AWD",
-      "price": 36880
+      "price": 36880,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL3PZ003386",
@@ -1490,7 +1576,8 @@
       "location": "Pleasantville, NJ",
       "payment": 708,
       "trim": "Luxury AWD",
-      "price": 39990
+      "price": 39990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK7SZ300627",
@@ -1507,7 +1594,8 @@
       "location": "Mesa, AZ",
       "payment": 844,
       "trim": "Sport 1 RWD",
-      "price": 47895
+      "price": 47895,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK2SZ306308",
@@ -1524,7 +1612,8 @@
       "location": "Fremont, CA",
       "payment": 908,
       "trim": "Luxury 1 RWD",
-      "price": 51499
+      "price": 51499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ137885",
@@ -1541,7 +1630,8 @@
       "location": "West Bend, WI",
       "payment": 785,
       "trim": "Luxury 3 AWD",
-      "price": 44441
+      "price": 44441,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRKXRZ136670",
@@ -1558,7 +1648,8 @@
       "location": "Saint Augustine, FL",
       "payment": 716,
       "trim": "Luxury 2 RWD",
-      "price": 40500
+      "price": 40500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL7RZ129263",
@@ -1575,7 +1666,8 @@
       "location": "BeeCave, TX",
       "payment": 883,
       "trim": "Sport 3 AWD",
-      "price": 49977
+      "price": 49977,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ136395",
@@ -1592,7 +1684,8 @@
       "location": "Portage, MI",
       "payment": 811,
       "trim": "Luxury 3 AWD",
-      "price": 45888
+      "price": 45888,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL8RZ138981",
@@ -1609,7 +1702,8 @@
       "location": "Houston, TX",
       "payment": 680,
       "trim": "Luxury 1 AWD",
-      "price": 38498
+      "price": 38498,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ138920",
@@ -1626,7 +1720,8 @@
       "location": "Cuyahoga Falls, OH",
       "payment": 742,
       "trim": "Luxury 3 AWD",
-      "price": 42000
+      "price": 42000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2SZ301266",
@@ -1643,7 +1738,8 @@
       "location": "Cedarburg, WI",
       "payment": 863,
       "trim": "Luxury 3 AWD",
-      "price": 48969
+      "price": 48969,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ137134",
@@ -1660,7 +1756,8 @@
       "location": "Bentonville, AR",
       "payment": 769,
       "trim": "Luxury 3 AWD",
-      "price": 43500
+      "price": 43500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK1RZ106649",
@@ -1677,7 +1774,8 @@
       "location": "San Antonio, TX",
       "payment": 742,
       "trim": "Luxury 2 RWD",
-      "price": 41998
+      "price": 41998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK3RZ132581",
@@ -1694,7 +1792,8 @@
       "location": "Mechanicsburg, PA",
       "payment": 796,
       "trim": "Luxury 3 RWD",
-      "price": 45066
+      "price": 45066,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL7RZ119106",
@@ -1711,7 +1810,8 @@
       "location": "Houston, TX",
       "payment": 768,
       "trim": "Sport 3 AWD",
-      "price": 43488
+      "price": 43488,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ137719",
@@ -1728,7 +1828,8 @@
       "location": "Portage, MI",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46988
+      "price": 46988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK6RZ108734",
@@ -1745,7 +1846,8 @@
       "location": "Aurora, MO",
       "payment": 724,
       "trim": "Sport 1 RWD",
-      "price": 40996
+      "price": 40996,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL0SZ305543",
@@ -1762,7 +1864,8 @@
       "location": "Ft Worth, TX",
       "payment": 952,
       "trim": "Luxury 3 AWD",
-      "price": 53996
+      "price": 53996,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK6RZ100343",
@@ -1779,7 +1882,8 @@
       "location": "Mount Holly, NJ",
       "payment": 654,
       "trim": "Sport 1 RWD",
-      "price": 36999
+      "price": 36999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ137855",
@@ -1796,7 +1900,8 @@
       "location": "Cuyahoga Falls, OH",
       "payment": 751,
       "trim": "Luxury 3 AWD",
-      "price": 42500
+      "price": 42500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL2RZ120586",
@@ -1813,7 +1918,8 @@
       "location": "Westfield, NJ",
       "payment": 601,
       "trim": "Tech AWD",
-      "price": 33997
+      "price": 33997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRKXRZ100572",
@@ -1830,7 +1936,8 @@
       "location": "Springfield, IL",
       "payment": 733,
       "trim": "Sport 1 RWD",
-      "price": 41501
+      "price": 41501,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL9RZ138376",
@@ -1847,7 +1954,8 @@
       "location": "Springfield, MO",
       "payment": 759,
       "trim": "Luxury 3 AWD",
-      "price": 42989
+      "price": 42989,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL3RZ104066",
@@ -1864,7 +1972,8 @@
       "location": "Ballwin, MO",
       "payment": 742,
       "trim": "Sport 1 AWD",
-      "price": 41990
+      "price": 41990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK2RZ106415",
@@ -1881,7 +1990,8 @@
       "location": "Kennesaw, GA",
       "payment": 693,
       "trim": "Sport 1 RWD",
-      "price": 39222
+      "price": 39222,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL6RZ101010",
@@ -1898,7 +2008,8 @@
       "location": "Warwick, RI",
       "payment": 740,
       "trim": "Luxury 1 AWD",
-      "price": 41888
+      "price": 41888,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ137971",
@@ -1915,7 +2026,8 @@
       "location": "Mount Hope, WV",
       "payment": 812,
       "trim": "Luxury 3 AWD",
-      "price": 45966
+      "price": 45966,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK5PZ000267",
@@ -1932,7 +2044,8 @@
       "location": "Wichita, KS",
       "payment": 690,
       "trim": "Luxury RWD",
-      "price": 38982
+      "price": 38982,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ138716",
@@ -1949,7 +2062,8 @@
       "location": "McClellandtown, PA",
       "payment": 760,
       "trim": "Luxury 3 AWD",
-      "price": 42995
+      "price": 42995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL3RZ109694",
@@ -1966,7 +2080,8 @@
       "location": "Alliance, OH",
       "payment": 742,
       "trim": "Luxury 1 AWD",
-      "price": 42000
+      "price": 42000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK1RZ105814",
@@ -1983,7 +2098,8 @@
       "location": "Jacksonville, FL",
       "payment": 681,
       "trim": "Luxury 1 RWD",
-      "price": 38560
+      "price": 38560,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK3RZ105426",
@@ -2000,7 +2116,8 @@
       "location": "The Woodlands, TX",
       "payment": 707,
       "trim": "Luxury 1 RWD",
-      "price": 39999
+      "price": 39999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL8RZ130633",
@@ -2017,7 +2134,8 @@
       "location": "Glendale, AZ",
       "payment": 934,
       "trim": "Sport 3 AWD",
-      "price": 52888
+      "price": 52888,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL1RZ108259",
@@ -2034,7 +2152,8 @@
       "location": "Long Island city , NY",
       "payment": 708,
       "trim": "Sport 1 AWD",
-      "price": 40055
+      "price": 40055,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ135706",
@@ -2051,7 +2170,8 @@
       "location": "Rochester, MN",
       "payment": 742,
       "trim": "Luxury 3 AWD",
-      "price": 41995
+      "price": 41995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK1RZ107233",
@@ -2068,7 +2188,8 @@
       "location": "Anchorage, AK",
       "payment": 789,
       "trim": "Sport 1 RWD",
-      "price": 44649
+      "price": 44649,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ136350",
@@ -2085,7 +2206,8 @@
       "location": "McClellandtown, PA",
       "payment": 760,
       "trim": "Luxury 3 AWD",
-      "price": 42995
+      "price": 42995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK4RZ101538",
@@ -2102,7 +2224,8 @@
       "location": "Maplewood, NJ",
       "payment": 668,
       "trim": "Sport 1 RWD",
-      "price": 37798
+      "price": 37798,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL8RZ117399",
@@ -2119,7 +2242,8 @@
       "location": "Dublin, OH",
       "payment": 746,
       "trim": "Luxury 1 AWD",
-      "price": 42249
+      "price": 42249,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ131771",
@@ -2136,7 +2260,8 @@
       "location": "Plano, TX",
       "payment": 759,
       "trim": "Luxury 3 AWD",
-      "price": 42950
+      "price": 42950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL0SZ316208",
@@ -2153,7 +2278,8 @@
       "location": "East Petersburg, PA",
       "payment": 1057,
       "trim": "Sport 1 AWD",
-      "price": 59974
+      "price": 59974,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ137448",
@@ -2170,7 +2296,8 @@
       "location": "North Hills, PA",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 45000
+      "price": 45000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL5RZ134658",
@@ -2187,7 +2314,8 @@
       "location": "Avon, IN",
       "payment": 680,
       "trim": "Tech AWD",
-      "price": 38495
+      "price": 38495,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL8SZ306506",
@@ -2204,7 +2332,8 @@
       "location": "Fishers, IN",
       "payment": 1013,
       "trim": "Sport 2 AWD",
-      "price": 57500
+      "price": 57500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK4RZ102776",
@@ -2221,7 +2350,8 @@
       "location": "Rockville, MD",
       "payment": 671,
       "trim": "Luxury 1 RWD",
-      "price": 37997
+      "price": 37997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK5RZ102494",
@@ -2238,7 +2368,8 @@
       "location": "Port Richey, FL",
       "payment": 777,
       "trim": "Luxury 1 RWD",
-      "price": 43975
+      "price": 43975,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRKXRZ102134",
@@ -2255,7 +2386,8 @@
       "location": "San Francisco, CA",
       "payment": 677,
       "trim": "Tech RWD",
-      "price": 38299
+      "price": 38299,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK2RZ108357",
@@ -2272,7 +2404,8 @@
       "location": "Silver Spring, MD",
       "payment": 677,
       "trim": "Sport 1 RWD",
-      "price": 38300
+      "price": 38300,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK3RZ111047",
@@ -2289,7 +2422,8 @@
       "location": "Round Rock, TX",
       "payment": 698,
       "trim": "Luxury 1 RWD",
-      "price": 39500
+      "price": 39500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL9RZ137745",
@@ -2306,7 +2440,8 @@
       "location": "Jacksonville, FL",
       "payment": 777,
       "trim": "Luxury 3 AWD",
-      "price": 43990
+      "price": 43990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRKXRZ131361",
@@ -2323,7 +2458,8 @@
       "location": "Mount Pleasant, SC",
       "payment": 733,
       "trim": "Luxury 1 RWD",
-      "price": 41488
+      "price": 41488,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK7RZ109073",
@@ -2340,7 +2476,8 @@
       "location": "San Francisco, CA",
       "payment": 636,
       "trim": "Tech RWD",
-      "price": 35999
+      "price": 35999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPYRLXSZ301058",
@@ -2357,7 +2494,8 @@
       "location": "Woburn, MA",
       "payment": 1110,
       "trim": "Sport 3 AWD",
-      "price": 62985
+      "price": 62985,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ139045",
@@ -2374,7 +2512,8 @@
       "location": "North Hills, PA",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 45000
+      "price": 45000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL0SZ308223",
@@ -2391,7 +2530,8 @@
       "location": "Fremont, CA",
       "payment": 1054,
       "trim": "Sport 1 AWD",
-      "price": 59819
+      "price": 59819,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK8RZ122724",
@@ -2408,7 +2548,8 @@
       "location": "Fort Lauderdale, FL",
       "payment": 716,
       "trim": "Luxury 1 RWD",
-      "price": 40499
+      "price": 40499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK5SZ317522",
@@ -2425,7 +2566,8 @@
       "location": "Riverside, CA",
       "payment": 1087,
       "trim": "Luxury 2 RWD",
-      "price": 61690
+      "price": 61690,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK9RZ105358",
@@ -2442,7 +2584,8 @@
       "location": "Las Vegas, NV",
       "payment": 813,
       "trim": "Sport 3 RWD",
-      "price": 46000
+      "price": 46000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK9RZ133357",
@@ -2459,7 +2602,8 @@
       "location": "Seffner, FL",
       "payment": 654,
       "trim": "Tech RWD",
-      "price": 36997
+      "price": 36997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK3RZ133896",
@@ -2476,7 +2620,8 @@
       "location": "Plano, TX",
       "payment": 723,
       "trim": "Sport 1 RWD",
-      "price": 40950
+      "price": 40950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5RZ104795",
@@ -2493,7 +2638,8 @@
       "location": "Enumclaw, WA",
       "payment": 707,
       "trim": "Sport 1 AWD",
-      "price": 39996
+      "price": 39996,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK0RZ110146",
@@ -2510,7 +2656,8 @@
       "location": "Homestead, FL",
       "payment": 707,
       "trim": "Luxury 1 RWD",
-      "price": 39990
+      "price": 39990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK0RZ114207",
@@ -2527,7 +2674,8 @@
       "location": "Mesa, AZ",
       "payment": 865,
       "trim": "Sport 3 RWD",
-      "price": 48977
+      "price": 48977,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ137149",
@@ -2544,7 +2692,8 @@
       "location": "Springfield, MO",
       "payment": 777,
       "trim": "Luxury 3 AWD",
-      "price": 43985
+      "price": 43985,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL3RZ109011",
@@ -2561,7 +2710,8 @@
       "location": "Marysville, OH",
       "payment": 628,
       "trim": "Sport 1 AWD",
-      "price": 35557
+      "price": 35557,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL3RZ101126",
@@ -2578,7 +2728,8 @@
       "location": "Skokie, IL",
       "payment": 654,
       "trim": "Luxury 1 AWD",
-      "price": 36997
+      "price": 36997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK1RZ109814",
@@ -2595,7 +2746,8 @@
       "location": "Laurel, MD",
       "payment": 601,
       "trim": "Tech RWD",
-      "price": 33995
+      "price": 33995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL1RZ102081",
@@ -2612,7 +2764,8 @@
       "location": "Fremont, OH",
       "payment": 652,
       "trim": "Luxury 1 AWD",
-      "price": 36900
+      "price": 36900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL0RZ105161",
@@ -2629,7 +2782,8 @@
       "location": "Decatur, GA",
       "payment": 734,
       "trim": "Sport 3 AWD",
-      "price": 41554
+      "price": 41554,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK2PZ002624",
@@ -2646,7 +2800,8 @@
       "location": "Hartford, CT",
       "payment": 665,
       "trim": "Luxury RWD",
-      "price": 37580
+      "price": 37580,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL1PZ002673",
@@ -2663,7 +2818,8 @@
       "location": "Waterbury, CT",
       "payment": 654,
       "trim": "Luxury AWD",
-      "price": 36979
+      "price": 36979,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK3RZ126635",
@@ -2680,7 +2836,8 @@
       "location": "Fremont, OH",
       "payment": 830,
       "trim": "Luxury 3 RWD",
-      "price": 46995
+      "price": 46995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL2RZ105751",
@@ -2697,7 +2854,8 @@
       "location": "Waldorf, MD",
       "payment": 687,
       "trim": "Luxury 1 AWD",
-      "price": 38890
+      "price": 38890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6RZ101341",
@@ -2714,7 +2872,8 @@
       "location": "Waldorf, MD",
       "payment": 689,
       "trim": "Sport 1 AWD",
-      "price": 38980
+      "price": 38980,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL6RZ123745",
@@ -2731,7 +2890,8 @@
       "location": "Lansdale, PA",
       "payment": 846,
       "trim": "Sport 3 AWD",
-      "price": 47890
+      "price": 47890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL7RZ138626",
@@ -2748,7 +2908,8 @@
       "location": "Atlanta, GA",
       "payment": 901,
       "trim": "Sport 3 AWD",
-      "price": 51000
+      "price": 51000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7RZ104305",
@@ -2765,7 +2926,8 @@
       "location": "Rochester, NY",
       "payment": 716,
       "trim": "Luxury 1 AWD",
-      "price": 40544
+      "price": 40544,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRLXRZ102458",
@@ -2782,7 +2944,8 @@
       "location": "Mechanicsburg, PA",
       "payment": 777,
       "trim": "Sport 1 AWD",
-      "price": 43987
+      "price": 43987,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK3RZ131556",
@@ -2799,7 +2962,8 @@
       "location": "Austin, TX",
       "payment": 792,
       "trim": "Luxury 1 RWD",
-      "price": 44812
+      "price": 44812,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK0RZ107594",
@@ -2816,7 +2980,8 @@
       "location": "Castroville, TX",
       "payment": 729,
       "trim": "Sport 1 RWD",
-      "price": 41253
+      "price": 41253,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK0RZ109040",
@@ -2833,7 +2998,8 @@
       "location": "Homestead, FL",
       "payment": 618,
       "trim": "Sport 1 RWD",
-      "price": 34990
+      "price": 34990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL8RZ101809",
@@ -2850,7 +3016,8 @@
       "location": "Lansdale, PA",
       "payment": 758,
       "trim": "Sport 1 AWD",
-      "price": 42890
+      "price": 42890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ136863",
@@ -2867,7 +3034,8 @@
       "location": "De Pere, WI",
       "payment": 794,
       "trim": "Luxury 3 AWD",
-      "price": 44964
+      "price": 44964,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK2SZ311654",
@@ -2884,7 +3052,8 @@
       "location": "Cape May Court House, NJ",
       "payment": 997,
       "trim": "Luxury 1 RWD",
-      "price": 56550
+      "price": 56550,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK0PZ001391",
@@ -2901,7 +3070,8 @@
       "location": "Cumming, GA",
       "payment": 600,
       "trim": "Luxury RWD",
-      "price": 33888
+      "price": 33888,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL2RZ113327",
@@ -2918,7 +3088,8 @@
       "location": "Palos Hills, IL",
       "payment": 757,
       "trim": "Luxury 2 AWD",
-      "price": 42863
+      "price": 42863,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK9RZ100613",
@@ -2935,7 +3106,8 @@
       "location": "Pompano Beach, FL",
       "payment": 724,
       "trim": "Sport 1 RWD",
-      "price": 40999
+      "price": 40999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK6RZ115934",
@@ -2952,7 +3124,8 @@
       "location": "Saint Augustine, FL",
       "payment": 760,
       "trim": "Luxury 1 RWD",
-      "price": 42995
+      "price": 42995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ138904",
@@ -2969,7 +3142,8 @@
       "location": "Livonia, MI",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRKXSZ310963",
@@ -2986,7 +3160,8 @@
       "location": "Riverside, CA",
       "payment": 991,
       "trim": "Luxury 1 RWD",
-      "price": 56215
+      "price": 56215,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ136855",
@@ -3003,7 +3178,8 @@
       "location": "Zumbrota, MN",
       "payment": 751,
       "trim": "Luxury 3 AWD",
-      "price": 42495
+      "price": 42495,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL9SZ309953",
@@ -3020,7 +3196,8 @@
       "location": "Fremont, CA",
       "payment": 967,
       "trim": "Sport 1 AWD",
-      "price": 54888
+      "price": 54888,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ137967",
@@ -3037,7 +3214,8 @@
       "location": "Ransomville, NY",
       "payment": 771,
       "trim": "Luxury 3 AWD",
-      "price": 43668
+      "price": 43668,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL6RZ126192",
@@ -3054,7 +3232,8 @@
       "location": "Oklahoma City, OK",
       "payment": 855,
       "trim": "Sport 3 AWD",
-      "price": 48399
+      "price": 48399,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK1RZ100031",
@@ -3071,7 +3250,8 @@
       "location": "Alliance, OH",
       "payment": 615,
       "trim": "Tech RWD",
-      "price": 34800
+      "price": 34800,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL4SZ313857",
@@ -3088,7 +3268,8 @@
       "location": "Grapevine, TX",
       "payment": 994,
       "trim": "Luxury 2 AWD",
-      "price": 56394
+      "price": 56394,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL6RZ122305",
@@ -3105,7 +3286,8 @@
       "location": "Poughkeepsie, NY",
       "payment": 881,
       "trim": "Sport 3 AWD",
-      "price": 49900
+      "price": 49900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL4RZ126854",
@@ -3122,7 +3304,8 @@
       "location": "Tinley Park, IL",
       "payment": 882,
       "trim": "Sport 3 AWD",
-      "price": 49950
+      "price": 49950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ138361",
@@ -3139,7 +3322,8 @@
       "location": "Laurel, MD",
       "payment": 781,
       "trim": "Luxury 3 AWD",
-      "price": 44191
+      "price": 44191,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL4RZ105413",
@@ -3156,7 +3340,8 @@
       "location": "Manassas, VA",
       "payment": 698,
       "trim": "Luxury 1 AWD",
-      "price": 39500
+      "price": 39500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL2RZ103644",
@@ -3173,7 +3358,8 @@
       "location": "Farmingdale, NY",
       "payment": 758,
       "trim": "Luxury 1 AWD",
-      "price": 42900
+      "price": 42900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK3RZ107479",
@@ -3190,7 +3376,8 @@
       "location": "Marietta, GA",
       "payment": 629,
       "trim": "Tech RWD",
-      "price": 35592
+      "price": 35592,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ135724",
@@ -3207,7 +3394,8 @@
       "location": "New Bern, NC",
       "payment": 778,
       "trim": "Luxury 3 AWD",
-      "price": 44048
+      "price": 44048,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL4RZ110863",
@@ -3224,7 +3412,8 @@
       "location": "Southborough, MA",
       "payment": 795,
       "trim": "Sport 1 AWD",
-      "price": 44991
+      "price": 44991,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK4RZ115729",
@@ -3241,7 +3430,8 @@
       "location": "Stillwater, OK",
       "payment": 682,
       "trim": "Sport 1 RWD",
-      "price": 38583
+      "price": 38583,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK5PZ000785",
@@ -3258,7 +3448,8 @@
       "location": "Marietta, GA",
       "payment": 619,
       "trim": "Luxury RWD",
-      "price": 34990
+      "price": 34990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL2RZ104440",
@@ -3275,7 +3466,8 @@
       "location": "Marietta, GA",
       "payment": 703,
       "trim": "Luxury 1 AWD",
-      "price": 39790
+      "price": 39790,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ139158",
@@ -3292,7 +3484,8 @@
       "location": "Spruce Pine, NC",
       "payment": 768,
       "trim": "Luxury 3 AWD",
-      "price": 43497
+      "price": 43497,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL4RZ130291",
@@ -3309,7 +3502,8 @@
       "location": "Brandon, FL",
       "payment": 705,
       "trim": "Luxury 2 AWD",
-      "price": 39900
+      "price": 39900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ137384",
@@ -3326,7 +3520,8 @@
       "location": "Spruce Pine, NC",
       "payment": 764,
       "trim": "Luxury 3 AWD",
-      "price": 43267
+      "price": 43267,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK8RZ119638",
@@ -3343,7 +3538,8 @@
       "location": "Morrow, GA",
       "payment": 865,
       "trim": "Sport 3 RWD",
-      "price": 48992
+      "price": 48992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK4RZ103393",
@@ -3360,7 +3556,8 @@
       "location": "White Marsh, MD",
       "payment": 698,
       "trim": "Luxury 1 RWD",
-      "price": 39500
+      "price": 39500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ140348",
@@ -3377,7 +3574,8 @@
       "location": "Hannibal, MO",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46989
+      "price": 46989,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK0RZ134753",
@@ -3394,7 +3592,8 @@
       "location": "Houston, TX",
       "payment": 724,
       "trim": "Luxury 2 RWD",
-      "price": 40995
+      "price": 40995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRLXRZ115184",
@@ -3411,7 +3610,8 @@
       "location": "Bristol, CT",
       "payment": 733,
       "trim": "Luxury 1 AWD",
-      "price": 41499
+      "price": 41499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ139069",
@@ -3428,7 +3628,8 @@
       "location": "Charlotte, NC",
       "payment": 765,
       "trim": "Luxury 3 AWD",
-      "price": 43296
+      "price": 43296,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ137838",
@@ -3445,7 +3646,8 @@
       "location": "Silver Spring, MD",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 45000
+      "price": 45000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL8RZ115913",
@@ -3462,7 +3664,8 @@
       "location": "Orchard Park, NY",
       "payment": 793,
       "trim": "Luxury 1 AWD",
-      "price": 44907
+      "price": 44907,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK1RZ100069",
@@ -3479,7 +3682,8 @@
       "location": "Edmonds, WA",
       "payment": 678,
       "trim": "Sport 1 RWD",
-      "price": 38350
+      "price": 38350,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ138395",
@@ -3496,7 +3700,8 @@
       "location": "Charlotte, NC",
       "payment": 767,
       "trim": "Luxury 3 AWD",
-      "price": 43440
+      "price": 43440,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL1RZ111976",
@@ -3513,7 +3718,8 @@
       "location": "Bellevue, WA",
       "payment": 722,
       "trim": "Luxury 1 AWD",
-      "price": 40880
+      "price": 40880,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL5RZ105159",
@@ -3530,7 +3736,8 @@
       "location": "Lansdale, PA",
       "payment": 634,
       "trim": "Luxury 1 AWD",
-      "price": 35890
+      "price": 35890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK7RZ119693",
@@ -3547,7 +3754,8 @@
       "location": "Fenton, MI",
       "payment": 724,
       "trim": "Sport 1 RWD",
-      "price": 41000
+      "price": 41000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK8SZ302747",
@@ -3564,7 +3772,8 @@
       "location": "Cape Coral, FL",
       "payment": 877,
       "trim": "Luxury 1 RWD",
-      "price": 49752
+      "price": 49752,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ136850",
@@ -3581,7 +3790,8 @@
       "location": "Marshall, MN",
       "payment": 782,
       "trim": "Luxury 3 AWD",
-      "price": 44272
+      "price": 44272,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK1RZ112311",
@@ -3598,7 +3808,8 @@
       "location": "Gilbert, AZ",
       "payment": 646,
       "trim": "Tech RWD",
-      "price": 36573
+      "price": 36573,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK8RZ136164",
@@ -3615,7 +3826,8 @@
       "location": "Santa Clara, CA",
       "payment": 803,
       "trim": "Sport 3 RWD",
-      "price": 45447
+      "price": 45447,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK0RZ113589",
@@ -3632,7 +3844,8 @@
       "location": "Brandon, FL",
       "payment": 744,
       "trim": "Luxury 2 RWD",
-      "price": 42093
+      "price": 42093,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ141169",
@@ -3649,7 +3862,8 @@
       "location": "Fremont, OH",
       "payment": 839,
       "trim": "Luxury 3 AWD",
-      "price": 47500
+      "price": 47500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK7RZ109835",
@@ -3666,7 +3880,8 @@
       "location": "Costa Mesa, CA",
       "payment": 767,
       "trim": "Luxury 1 RWD",
-      "price": 43393
+      "price": 43393,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ137973",
@@ -3683,7 +3898,8 @@
       "location": "Hot Springs, AR",
       "payment": 798,
       "trim": "Luxury 3 AWD",
-      "price": 45186
+      "price": 45186,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK2RZ101799",
@@ -3700,7 +3916,8 @@
       "location": "Wesley Chapel, FL",
       "payment": 645,
       "trim": "Tech RWD",
-      "price": 36490
+      "price": 36490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ132214",
@@ -3717,7 +3934,8 @@
       "location": "Cleveland, OH",
       "payment": 821,
       "trim": "Luxury 3 AWD",
-      "price": 46499
+      "price": 46499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5SZ305571",
@@ -3734,7 +3952,8 @@
       "location": "Jacksonville, FL",
       "payment": 880,
       "trim": "Luxury 3 AWD",
-      "price": 49900
+      "price": 49900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL9RZ114567",
@@ -3751,7 +3970,8 @@
       "location": "Louisville, KY",
       "payment": 724,
       "trim": "Sport 1 AWD",
-      "price": 40998
+      "price": 40998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRKXRZ105178",
@@ -3768,7 +3988,8 @@
       "location": "Dallas, TX",
       "payment": 705,
       "trim": "Luxury 1 RWD",
-      "price": 39900
+      "price": 39900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ139887",
@@ -3785,7 +4006,8 @@
       "location": "Ballwin, MO",
       "payment": 777,
       "trim": "Luxury 3 AWD",
-      "price": 43990
+      "price": 43990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL1SZ309844",
@@ -3802,7 +4024,8 @@
       "location": "Jacksonville, FL",
       "payment": 916,
       "trim": "Luxury 3 AWD",
-      "price": 51990
+      "price": 51990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK5SZ306870",
@@ -3819,7 +4042,8 @@
       "location": "Newnan, GA",
       "payment": 915,
       "trim": "Luxury 1 RWD",
-      "price": 51920
+      "price": 51920,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2RZ114474",
@@ -3836,7 +4060,8 @@
       "location": "Minneapolis, MN",
       "payment": 646,
       "trim": "Sport 1 AWD",
-      "price": 36555
+      "price": 36555,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK5SZ300798",
@@ -3853,7 +4078,8 @@
       "location": "Sanger, TX",
       "payment": 1011,
       "trim": "Luxury 2 RWD",
-      "price": 57350
+      "price": 57350,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK1RZ107000",
@@ -3870,7 +4096,8 @@
       "location": "Gainesville, GA",
       "payment": 687,
       "trim": "Luxury 1 RWD",
-      "price": 38900
+      "price": 38900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK2RZ109606",
@@ -3887,7 +4114,8 @@
       "location": "Ridgeland, MS",
       "payment": 768,
       "trim": "Sport 1 RWD",
-      "price": 43490
+      "price": 43490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK0RZ106548",
@@ -3904,7 +4132,8 @@
       "location": "Enumclaw, WA",
       "payment": 742,
       "trim": "Luxury 1 RWD",
-      "price": 41993
+      "price": 41993,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL0RZ110169",
@@ -3921,7 +4150,8 @@
       "location": "Warsaw, IN",
       "payment": 706,
       "trim": "Luxury 1 AWD",
-      "price": 39955
+      "price": 39955,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL6RZ108201",
@@ -3938,7 +4168,8 @@
       "location": "Ballwin, MO",
       "payment": 645,
       "trim": "Tech AWD",
-      "price": 36490
+      "price": 36490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK9RZ129586",
@@ -3955,7 +4186,8 @@
       "location": "Knoxville, TN",
       "payment": 754,
       "trim": "Luxury 3 RWD",
-      "price": 42654
+      "price": 42654,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL7RZ138707",
@@ -3972,7 +4204,8 @@
       "location": "Springfield, MO",
       "payment": 829,
       "trim": "Sport 3 AWD",
-      "price": 46950
+      "price": 46950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK6RZ101001",
@@ -3989,7 +4222,8 @@
       "location": "Decatur, GA",
       "payment": 581,
       "trim": "Luxury 1 RWD",
-      "price": 32902
+      "price": 32902,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK4RZ102857",
@@ -4006,7 +4240,8 @@
       "location": "Laguna Niguel, CA",
       "payment": 669,
       "trim": "Luxury 1 RWD",
-      "price": 37888
+      "price": 37888,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ138884",
@@ -4023,7 +4258,8 @@
       "location": "Portland, OR",
       "payment": 791,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK3RZ126689",
@@ -4040,7 +4276,8 @@
       "location": "Livonia, MI",
       "payment": 777,
       "trim": "Luxury 2 RWD",
-      "price": 43990
+      "price": 43990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL0RZ122892",
@@ -4057,7 +4294,8 @@
       "location": "Marshfield, WI",
       "payment": 770,
       "trim": "Sport 2 AWD",
-      "price": 43572
+      "price": 43572,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5RZ109432",
@@ -4074,7 +4312,8 @@
       "location": "Denver, CO",
       "payment": 729,
       "trim": "Sport 1 AWD",
-      "price": 41290
+      "price": 41290,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK6SZ302181",
@@ -4091,7 +4330,8 @@
       "location": "Santa Clara, CA",
       "payment": 1001,
       "trim": "Luxury 1 RWD",
-      "price": 56791
+      "price": 56791,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL7RZ108220",
@@ -4108,7 +4348,8 @@
       "location": "Woburn, MA",
       "payment": 790,
       "trim": "Sport 1 AWD",
-      "price": 44690
+      "price": 44690,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ137138",
@@ -4125,7 +4366,8 @@
       "location": "Portland, OR",
       "payment": 791,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL9RZ107155",
@@ -4142,7 +4384,8 @@
       "location": "Bay Shore, NY",
       "payment": 670,
       "trim": "Tech AWD",
-      "price": 37919
+      "price": 37919,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ137898",
@@ -4159,7 +4402,8 @@
       "location": "Henrico, VA",
       "payment": 813,
       "trim": "Luxury 3 AWD",
-      "price": 45998
+      "price": 45998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK4RZ103192",
@@ -4176,7 +4420,8 @@
       "location": "Duarte, CA",
       "payment": 654,
       "trim": "Sport 1 RWD",
-      "price": 36998
+      "price": 36998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK4RZ108320",
@@ -4193,7 +4438,8 @@
       "location": "Saint Augustine, FL",
       "payment": 636,
       "trim": "Tech RWD",
-      "price": 35995
+      "price": 35995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRK2RZ113683",
@@ -4210,7 +4456,8 @@
       "location": "Bullhead City, AZ",
       "payment": 660,
       "trim": "Sport 2 RWD",
-      "price": 37362
+      "price": 37362,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL5RZ121633",
@@ -4227,7 +4474,8 @@
       "location": "Murfreesboro, TN",
       "payment": 829,
       "trim": "Luxury 2 AWD",
-      "price": 46900
+      "price": 46900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRLXRZ100693",
@@ -4244,7 +4492,8 @@
       "location": "Lansdale, PA",
       "payment": 669,
       "trim": "Sport 1 AWD",
-      "price": 37890
+      "price": 37890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL3RZ101322",
@@ -4261,7 +4510,8 @@
       "location": "Kokomo, IN",
       "payment": 654,
       "trim": "Luxury 1 AWD",
-      "price": 36991
+      "price": 36991,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK8RZ136710",
@@ -4278,7 +4528,8 @@
       "location": "Austin, TX",
       "payment": 853,
       "trim": "Luxury 3 RWD",
-      "price": 48278
+      "price": 48278,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ139594",
@@ -4295,7 +4546,8 @@
       "location": "Minneapolis, MN",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44975
+      "price": 44975,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK6SZ308286",
@@ -4312,7 +4564,8 @@
       "location": "Fremont, CA",
       "payment": 999,
       "trim": "Luxury 1 RWD",
-      "price": 56666
+      "price": 56666,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ139533",
@@ -4329,7 +4582,8 @@
       "location": "St Paul, MN",
       "payment": 777,
       "trim": "Luxury 3 AWD",
-      "price": 43997
+      "price": 43997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL6RZ107518",
@@ -4346,7 +4600,8 @@
       "location": "Wayland, MI",
       "payment": 671,
       "trim": "Luxury 1 AWD",
-      "price": 38000
+      "price": 38000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRK1RZ111715",
@@ -4363,7 +4618,8 @@
       "location": "Lake Villa, IL",
       "payment": 862,
       "trim": "Sport 2 RWD",
-      "price": 48799
+      "price": 48799,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK4RZ103720",
@@ -4380,7 +4636,8 @@
       "location": "Frisco, TX",
       "payment": 711,
       "trim": "Luxury 1 RWD",
-      "price": 40241
+      "price": 40241,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL7RZ101039",
@@ -4397,7 +4654,8 @@
       "location": "Lansdale, PA",
       "payment": 652,
       "trim": "Sport 1 AWD",
-      "price": 36890
+      "price": 36890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL7RZ103759",
@@ -4414,7 +4672,8 @@
       "location": "Lansdale, PA",
       "payment": 722,
       "trim": "Sport 1 AWD",
-      "price": 40890
+      "price": 40890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK1RZ116496",
@@ -4431,7 +4690,8 @@
       "location": "Houston, TX",
       "payment": 742,
       "trim": "Sport 1 RWD",
-      "price": 41995
+      "price": 41995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK7RZ117329",
@@ -4448,7 +4708,8 @@
       "location": "Frisco, TX",
       "payment": 890,
       "trim": "Sport 3 RWD",
-      "price": 50367
+      "price": 50367,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ103955",
@@ -4465,7 +4726,8 @@
       "location": "Chantilly, VA",
       "payment": 857,
       "trim": "Luxury 3 AWD",
-      "price": 48500
+      "price": 48500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ137943",
@@ -4482,7 +4744,8 @@
       "location": "Hartford, CT",
       "payment": 858,
       "trim": "Luxury 3 AWD",
-      "price": 48595
+      "price": 48595,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL6SZ306022",
@@ -4499,7 +4762,8 @@
       "location": "Roseville, CA",
       "payment": 1075,
       "trim": "Luxury 2 AWD",
-      "price": 60976
+      "price": 60976,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ137903",
@@ -4516,7 +4780,8 @@
       "location": "Austin, TX",
       "payment": 851,
       "trim": "Luxury 3 AWD",
-      "price": 48145
+      "price": 48145,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ137137",
@@ -4533,7 +4798,8 @@
       "location": "Matteson, IL",
       "payment": 781,
       "trim": "Luxury 3 AWD",
-      "price": 44225
+      "price": 44225,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5SZ303805",
@@ -4550,7 +4816,8 @@
       "location": "Santa Clara, CA",
       "payment": 928,
       "trim": "Luxury 3 AWD",
-      "price": 52646
+      "price": 52646,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK5RZ105461",
@@ -4567,7 +4834,8 @@
       "location": "Wilmington, NC",
       "payment": 689,
       "trim": "Luxury 1 RWD",
-      "price": 38990
+      "price": 38990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL9RZ141083",
@@ -4584,7 +4852,8 @@
       "location": "San Antonio, TX",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44998
+      "price": 44998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL7SZ310127",
@@ -4601,7 +4870,8 @@
       "location": "Sherman Oaks, CA",
       "payment": 1101,
       "trim": "Luxury 2 AWD",
-      "price": 62490
+      "price": 62490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL7RZ115252",
@@ -4618,7 +4888,8 @@
       "location": "Portsmouth, NH",
       "payment": 881,
       "trim": "Luxury 2 AWD",
-      "price": 49880
+      "price": 49880,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL8RZ122199",
@@ -4635,7 +4906,8 @@
       "location": "Annapolis, MD",
       "payment": 777,
       "trim": "Sport 2 AWD",
-      "price": 44000
+      "price": 44000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRKXRZ101513",
@@ -4652,7 +4924,8 @@
       "location": "Homestead, FL",
       "payment": 751,
       "trim": "Sport 1 RWD",
-      "price": 42490
+      "price": 42490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL3RZ104723",
@@ -4669,7 +4942,8 @@
       "location": "Ballwin, MO",
       "payment": 707,
       "trim": "Luxury 1 AWD",
-      "price": 39990
+      "price": 39990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ133499",
@@ -4686,7 +4960,8 @@
       "location": "Portland, OR",
       "payment": 791,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK2RZ109542",
@@ -4703,7 +4978,8 @@
       "location": "San Diego, CA",
       "payment": 746,
       "trim": "Sport 1 RWD",
-      "price": 42223
+      "price": 42223,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ139046",
@@ -4720,7 +4996,8 @@
       "location": "Jacksonville, FL",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ137329",
@@ -4737,7 +5014,8 @@
       "location": "Poughkeepsie, NY",
       "payment": 821,
       "trim": "Luxury 3 AWD",
-      "price": 46499
+      "price": 46499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6RZ108211",
@@ -4754,7 +5032,8 @@
       "location": "Henderson, NV",
       "payment": 776,
       "trim": "Sport 1 AWD",
-      "price": 43899
+      "price": 43899,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK1RZ132835",
@@ -4771,7 +5050,8 @@
       "location": "St Augustine, FL",
       "payment": 724,
       "trim": "Luxury 1 RWD",
-      "price": 40991
+      "price": 40991,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK6PZ001878",
@@ -4788,7 +5068,8 @@
       "location": "Newport News, VA",
       "payment": 628,
       "trim": "Luxury RWD",
-      "price": 35500
+      "price": 35500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ137369",
@@ -4805,7 +5086,8 @@
       "location": "Conway, SC",
       "payment": 813,
       "trim": "Luxury 3 AWD",
-      "price": 45998
+      "price": 45998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL4RZ118902",
@@ -4822,7 +5104,8 @@
       "location": "Dublin, OH",
       "payment": 848,
       "trim": "Sport 3 AWD",
-      "price": 47990
+      "price": 47990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK7RZ115725",
@@ -4839,7 +5122,8 @@
       "location": "Santa Clarita, CA",
       "payment": 687,
       "trim": "Sport 1 RWD",
-      "price": 38895
+      "price": 38895,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL9PZ002470",
@@ -4856,7 +5140,8 @@
       "location": "North Hampton, NH",
       "payment": 708,
       "trim": "Luxury AWD",
-      "price": 39990
+      "price": 39990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK4RZ130642",
@@ -4873,7 +5158,8 @@
       "location": "Florence, KY",
       "payment": 636,
       "trim": "Tech RWD",
-      "price": 36018
+      "price": 36018,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK0RZ107033",
@@ -4890,7 +5176,8 @@
       "location": "Carrollton, TX",
       "payment": 706,
       "trim": "Luxury 2 RWD",
-      "price": 39977
+      "price": 39977,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ141125",
@@ -4907,7 +5194,8 @@
       "location": "Charlotte, NC",
       "payment": 772,
       "trim": "Luxury 3 AWD",
-      "price": 43724
+      "price": 43724,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK1RZ121417",
@@ -4924,7 +5212,8 @@
       "location": "Grapevine, TX",
       "payment": 883,
       "trim": "Luxury 3 RWD",
-      "price": 49982
+      "price": 49982,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL2RZ104437",
@@ -4941,7 +5230,8 @@
       "location": "St Paul, MN",
       "payment": 760,
       "trim": "Luxury 1 AWD",
-      "price": 42997
+      "price": 42997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6RZ122688",
@@ -4958,7 +5248,8 @@
       "location": "Fishers, IN",
       "payment": 777,
       "trim": "Sport 1 AWD",
-      "price": 44000
+      "price": 44000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ136798",
@@ -4975,7 +5266,8 @@
       "location": "Livonia, MI",
       "payment": 777,
       "trim": "Luxury 3 AWD",
-      "price": 43990
+      "price": 43990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK3RZ101506",
@@ -4992,7 +5284,8 @@
       "location": "San Francisco, CA",
       "payment": 707,
       "trim": "Luxury 1 RWD",
-      "price": 39999
+      "price": 39999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ131701",
@@ -5009,7 +5302,8 @@
       "location": "Minneapolis, MN",
       "payment": 813,
       "trim": "Luxury 3 AWD",
-      "price": 45998
+      "price": 45998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK3RZ106519",
@@ -5026,7 +5320,8 @@
       "location": "Daytona Beach, FL",
       "payment": 759,
       "trim": "Sport 1 RWD",
-      "price": 42988
+      "price": 42988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ137749",
@@ -5043,7 +5338,8 @@
       "location": "Ballwin, MO",
       "payment": 786,
       "trim": "Luxury 3 AWD",
-      "price": 44490
+      "price": 44490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRK6RZ120863",
@@ -5060,7 +5356,8 @@
       "location": "Fort Lauderdale, FL",
       "payment": 754,
       "trim": "Sport 2 RWD",
-      "price": 42690
+      "price": 42690,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK4RZ123209",
@@ -5077,7 +5374,8 @@
       "location": "Arlington, TX",
       "payment": 803,
       "trim": "Luxury 3 RWD",
-      "price": 45471
+      "price": 45471,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK7RZ108405",
@@ -5094,7 +5392,8 @@
       "location": "Frisco, TX",
       "payment": 846,
       "trim": "Sport 3 RWD",
-      "price": 47880
+      "price": 47880,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK7RZ114526",
@@ -5111,7 +5410,8 @@
       "location": "Fife, WA",
       "payment": 742,
       "trim": "Sport 1 RWD",
-      "price": 41975
+      "price": 41975,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK3RZ109209",
@@ -5128,7 +5428,8 @@
       "location": "Brooksville, FL",
       "payment": 742,
       "trim": "Sport 1 RWD",
-      "price": 41995
+      "price": 41995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK1RZ109404",
@@ -5145,7 +5446,8 @@
       "location": "Houston, TX",
       "payment": 671,
       "trim": "Sport 2 RWD",
-      "price": 37995
+      "price": 37995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7RZ109150",
@@ -5162,7 +5464,8 @@
       "location": "Cheshire, CT",
       "payment": 777,
       "trim": "Luxury 1 AWD",
-      "price": 43999
+      "price": 43999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK9RZ100472",
@@ -5179,7 +5482,8 @@
       "location": "Phoenix, AZ",
       "payment": 654,
       "trim": "Tech RWD",
-      "price": 36995
+      "price": 36995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ136847",
@@ -5196,7 +5500,8 @@
       "location": "Terrell, TX",
       "payment": 792,
       "trim": "Luxury 3 AWD",
-      "price": 44827
+      "price": 44827,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK0RZ106509",
@@ -5213,7 +5518,8 @@
       "location": "Sanford, FL",
       "payment": 734,
       "trim": "Sport 1 RWD",
-      "price": 41528
+      "price": 41528,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL4RZ100812",
@@ -5230,7 +5536,8 @@
       "location": "White Marsh, MD",
       "payment": 742,
       "trim": "Luxury 1 AWD",
-      "price": 42000
+      "price": 42000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK9RZ107068",
@@ -5247,7 +5554,8 @@
       "location": "Carrollton, TX",
       "payment": 677,
       "trim": "Luxury 3 RWD",
-      "price": 38299
+      "price": 38299,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL5RZ102567",
@@ -5264,7 +5572,8 @@
       "location": "White Bear Lake, MN",
       "payment": 724,
       "trim": "Luxury 1 AWD",
-      "price": 40998
+      "price": 40998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK6RZ136598",
@@ -5281,7 +5590,8 @@
       "location": "San Antonio, TX",
       "payment": 742,
       "trim": "Luxury 2 RWD",
-      "price": 41998
+      "price": 41998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK7SZ308409",
@@ -5298,7 +5608,8 @@
       "location": "Tustin, CA",
       "payment": 1057,
       "trim": "Luxury 1 RWD",
-      "price": 59990
+      "price": 59990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK1RZ103317",
@@ -5315,7 +5626,8 @@
       "location": "Columbus, OH",
       "payment": 671,
       "trim": "Tech RWD",
-      "price": 37977
+      "price": 37977,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL6RZ102755",
@@ -5332,7 +5644,8 @@
       "location": "Euless, TX",
       "payment": 636,
       "trim": "Luxury 1 AWD",
-      "price": 35981
+      "price": 35981,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL4RZ109244",
@@ -5349,7 +5662,8 @@
       "location": "Lansdale, PA",
       "payment": 705,
       "trim": "Sport 1 AWD",
-      "price": 39890
+      "price": 39890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL5RZ100656",
@@ -5366,7 +5680,8 @@
       "location": "Knoxville, TN",
       "payment": 732,
       "trim": "Luxury 1 AWD",
-      "price": 41410
+      "price": 41410,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ138739",
@@ -5383,7 +5698,8 @@
       "location": "Gas City, IN",
       "payment": 809,
       "trim": "Luxury 3 AWD",
-      "price": 45790
+      "price": 45790,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPYRLXSZ301755",
@@ -5400,7 +5716,8 @@
       "location": "Dayton, OH",
       "payment": 1057,
       "trim": "Sport 3 AWD",
-      "price": 59975
+      "price": 59975,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ139184",
@@ -5417,7 +5734,8 @@
       "location": "Chantilly, VA",
       "payment": 786,
       "trim": "Luxury 3 AWD",
-      "price": 44500
+      "price": 44500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK9RZ101731",
@@ -5434,7 +5752,8 @@
       "location": "Monroe, NC",
       "payment": 682,
       "trim": "Sport 1 RWD",
-      "price": 38588
+      "price": 38588,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL7SZ302106",
@@ -5451,7 +5770,8 @@
       "location": "Jacksonville, FL",
       "payment": 906,
       "trim": "Luxury 3 AWD",
-      "price": 51400
+      "price": 51400,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL7SZ310550",
@@ -5468,7 +5788,8 @@
       "location": "Sacramento, CA",
       "payment": 1020,
       "trim": "Luxury 2 AWD",
-      "price": 57900
+      "price": 57900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL4PZ002876",
@@ -5485,7 +5806,8 @@
       "location": "Falls Church, VA",
       "payment": 575,
       "trim": "Luxury AWD",
-      "price": 32500
+      "price": 32500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2SZ300926",
@@ -5502,7 +5824,8 @@
       "location": "New Rochelle, NY",
       "payment": 932,
       "trim": "Luxury 3 AWD",
-      "price": 52900
+      "price": 52900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRK0RZ118168",
@@ -5519,7 +5842,8 @@
       "location": "Euless, TX",
       "payment": 740,
       "trim": "Sport 2 RWD",
-      "price": 41881
+      "price": 41881,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL6RZ105326",
@@ -5536,7 +5860,8 @@
       "location": "San Antonio, TX",
       "payment": 883,
       "trim": "Sport 3 AWD",
-      "price": 49998
+      "price": 49998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK3RZ101858",
@@ -5553,7 +5878,8 @@
       "location": "Bay Shore, NY",
       "payment": 670,
       "trim": "Tech RWD",
-      "price": 37919
+      "price": 37919,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL2RZ132474",
@@ -5570,7 +5896,8 @@
       "location": "San Antonio, TX",
       "payment": 883,
       "trim": "Sport 3 AWD",
-      "price": 49998
+      "price": 49998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRLXSZ305955",
@@ -5587,7 +5914,8 @@
       "location": "Clyde, OH",
       "payment": 1038,
       "trim": "Sport 2 AWD",
-      "price": 58893
+      "price": 58893,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL4RZ108165",
@@ -5604,7 +5932,8 @@
       "location": "Elwood, IN",
       "payment": 760,
       "trim": "Luxury 1 AWD",
-      "price": 42995
+      "price": 42995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRKXRZ102250",
@@ -5621,7 +5950,8 @@
       "location": "Crestview, FL",
       "payment": 689,
       "trim": "Luxury 1 RWD",
-      "price": 38990
+      "price": 38990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL1RZ117478",
@@ -5638,7 +5968,8 @@
       "location": "Buena Park, CA",
       "payment": 918,
       "trim": "Sport 3 AWD",
-      "price": 51995
+      "price": 51995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ138908",
@@ -5655,7 +5986,8 @@
       "location": "Annapolis, MD",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44992
+      "price": 44992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK5RZ143885",
@@ -5672,7 +6004,8 @@
       "location": "San Francisco, CA",
       "payment": 712,
       "trim": "Luxury 1 RWD",
-      "price": 40299
+      "price": 40299,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK1SZ310338",
@@ -5689,7 +6022,8 @@
       "location": "Sherman Oaks, CA",
       "payment": 1088,
       "trim": "Sport 2 RWD",
-      "price": 61715
+      "price": 61715,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ139291",
@@ -5706,7 +6040,8 @@
       "location": "Columbus, OH",
       "payment": 781,
       "trim": "Luxury 3 AWD",
-      "price": 44210
+      "price": 44210,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ137961",
@@ -5723,7 +6058,8 @@
       "location": "San Antonio, TX",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44998
+      "price": 44998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPYRL5SZ306801",
@@ -5740,7 +6076,8 @@
       "location": "Morrow, GA",
       "payment": 952,
       "trim": "Sport 3 AWD",
-      "price": 53993
+      "price": 53993,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ138886",
@@ -5757,7 +6094,8 @@
       "location": "Albion, NY",
       "payment": 804,
       "trim": "Luxury 3 AWD",
-      "price": 45485
+      "price": 45485,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK4RZ100770",
@@ -5774,7 +6112,8 @@
       "location": "Tampa, FL",
       "payment": 679,
       "trim": "Luxury 1 RWD",
-      "price": 38431
+      "price": 38431,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK3RZ132389",
@@ -5791,7 +6130,8 @@
       "location": "Troy, MI",
       "payment": 776,
       "trim": "Sport 1 RWD",
-      "price": 43900
+      "price": 43900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK5RZ141391",
@@ -5808,7 +6148,8 @@
       "location": "Dallas, TX",
       "payment": 671,
       "trim": "Tech RWD",
-      "price": 37996
+      "price": 37996,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK6RZ136665",
@@ -5825,7 +6166,8 @@
       "location": "San Antonio, TX",
       "payment": 760,
       "trim": "Luxury 2 RWD",
-      "price": 42998
+      "price": 42998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL3RZ108237",
@@ -5842,7 +6184,8 @@
       "location": "Raynham, MA",
       "payment": 756,
       "trim": "Luxury 1 AWD",
-      "price": 42800
+      "price": 42800,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK1RZ127838",
@@ -5859,7 +6202,8 @@
       "location": "Murfreesboro, TN",
       "payment": 882,
       "trim": "Sport 3 RWD",
-      "price": 49950
+      "price": 49950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRLXRZ105299",
@@ -5876,7 +6220,8 @@
       "location": "Livonia, MI",
       "payment": 760,
       "trim": "Luxury 1 AWD",
-      "price": 42990
+      "price": 42990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL0RZ101674",
@@ -5893,7 +6238,8 @@
       "location": "Memphis, TN",
       "payment": 724,
       "trim": "Sport 1 AWD",
-      "price": 40991
+      "price": 40991,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK6PZ001511",
@@ -5910,7 +6256,8 @@
       "location": "Houston, TX",
       "payment": 655,
       "trim": "Luxury RWD",
-      "price": 36995
+      "price": 36995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ139263",
@@ -5927,7 +6274,8 @@
       "location": "McClellandtown, PA",
       "payment": 760,
       "trim": "Luxury 3 AWD",
-      "price": 42995
+      "price": 42995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL0PZ003040",
@@ -5944,7 +6292,8 @@
       "location": "Pittsburgh, PA",
       "payment": 632,
       "trim": "Luxury AWD",
-      "price": 35722
+      "price": 35722,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK5PZ000060",
@@ -5961,7 +6310,8 @@
       "location": "San Antonio, TX",
       "payment": 655,
       "trim": "Luxury RWD",
-      "price": 36998
+      "price": 36998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL2RZ132314",
@@ -5978,7 +6328,8 @@
       "location": "Morrow, GA",
       "payment": 865,
       "trim": "Sport 3 AWD",
-      "price": 48992
+      "price": 48992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ136129",
@@ -5995,7 +6346,8 @@
       "location": "Kannapolis, NC",
       "payment": 790,
       "trim": "Luxury 3 AWD",
-      "price": 44725
+      "price": 44725,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK0RZ110415",
@@ -6012,7 +6364,8 @@
       "location": "Murrieta, CA",
       "payment": 758,
       "trim": "Sport 1 RWD",
-      "price": 42910
+      "price": 42910,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK1RZ132866",
@@ -6029,7 +6382,8 @@
       "location": "San Antonio, TX",
       "payment": 742,
       "trim": "Luxury 1 RWD",
-      "price": 41998
+      "price": 41998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL0SZ302125",
@@ -6046,7 +6400,8 @@
       "location": "Dayton, OH",
       "payment": 952,
       "trim": "Luxury 3 AWD",
-      "price": 53990
+      "price": 53990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ140446",
@@ -6063,7 +6418,8 @@
       "location": "San Antonio, TX",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46998
+      "price": 46998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL4SZ305647",
@@ -6080,7 +6436,8 @@
       "location": "Olympia, WA",
       "payment": 1049,
       "trim": "Sport 1 AWD",
-      "price": 59497
+      "price": 59497,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK3RZ105313",
@@ -6097,7 +6454,8 @@
       "location": "Shreveport, LA",
       "payment": 642,
       "trim": "Tech RWD",
-      "price": 36334
+      "price": 36334,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL9RZ139141",
@@ -6114,7 +6472,8 @@
       "location": "Marietta, GA",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL0RZ130177",
@@ -6131,7 +6490,8 @@
       "location": "Ballwin, MO",
       "payment": 742,
       "trim": "Luxury 1 AWD",
-      "price": 41990
+      "price": 41990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK2SZ305518",
@@ -6148,7 +6508,8 @@
       "location": "Frisco, TX",
       "payment": 917,
       "trim": "Luxury 3 RWD",
-      "price": 51999
+      "price": 51999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRK0RZ120714",
@@ -6165,7 +6526,8 @@
       "location": "Raleigh, NC",
       "payment": 865,
       "trim": "Sport 2 RWD",
-      "price": 48967
+      "price": 48967,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK5RZ110190",
@@ -6182,7 +6544,8 @@
       "location": "San Francisco, CA",
       "payment": 645,
       "trim": "Tech RWD",
-      "price": 36499
+      "price": 36499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL6SZ313027",
@@ -6199,7 +6562,8 @@
       "location": "Wilkes Barre, PA",
       "payment": 1093,
       "trim": "Luxury 1 AWD",
-      "price": 62000
+      "price": 62000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ137863",
@@ -6216,7 +6580,8 @@
       "location": "Leominster, MA",
       "payment": 812,
       "trim": "Luxury 3 AWD",
-      "price": 45990
+      "price": 45990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK7SZ314247",
@@ -6233,7 +6598,8 @@
       "location": "Sherman Oaks, CA",
       "payment": 1121,
       "trim": "Sport 2 RWD",
-      "price": 63590
+      "price": 63590,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL0SZ305574",
@@ -6250,7 +6616,8 @@
       "location": "Norwood, MA",
       "payment": 1004,
       "trim": "Luxury 3 AWD",
-      "price": 56951
+      "price": 56951,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK6RZ123220",
@@ -6267,7 +6634,8 @@
       "location": "Austin, TX",
       "payment": 707,
       "trim": "Sport 1 RWD",
-      "price": 39990
+      "price": 39990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL5RZ100849",
@@ -6284,7 +6652,8 @@
       "location": "Lexington, TN",
       "payment": 702,
       "trim": "Luxury 1 AWD",
-      "price": 39758
+      "price": 39758,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ116840",
@@ -6301,7 +6670,8 @@
       "location": "Monroe, MI",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47979
+      "price": 47979,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ136416",
@@ -6318,7 +6688,8 @@
       "location": "Annapolis, MD",
       "payment": 821,
       "trim": "Luxury 3 AWD",
-      "price": 46492
+      "price": 46492,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ110809",
@@ -6335,7 +6706,8 @@
       "location": "San Antonio, TX",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46998
+      "price": 46998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL2RZ105064",
@@ -6352,7 +6724,8 @@
       "location": "Morrow, GA",
       "payment": 865,
       "trim": "Sport 3 AWD",
-      "price": 48992
+      "price": 48992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ104639",
@@ -6369,7 +6742,8 @@
       "location": "Matteson, IL",
       "payment": 837,
       "trim": "Luxury 3 AWD",
-      "price": 47375
+      "price": 47375,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL9RZ140287",
@@ -6386,7 +6760,8 @@
       "location": "Warrensville Heights, OH",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44998
+      "price": 44998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL1SZ316486",
@@ -6403,7 +6778,8 @@
       "location": "Sherman Oaks, CA",
       "payment": 1193,
       "trim": "Sport 2 AWD",
-      "price": 67715
+      "price": 67715,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ138319",
@@ -6420,7 +6796,8 @@
       "location": "Boone, NC",
       "payment": 751,
       "trim": "Luxury 3 AWD",
-      "price": 42499
+      "price": 42499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ141137",
@@ -6437,7 +6814,8 @@
       "location": "Cleveland, OH",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46993
+      "price": 46993,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL4RZ100938",
@@ -6454,7 +6832,8 @@
       "location": "Lansdale, PA",
       "payment": 687,
       "trim": "Luxury 1 AWD",
-      "price": 38890
+      "price": 38890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5RZ120821",
@@ -6471,7 +6850,8 @@
       "location": "Riverside, CA",
       "payment": 883,
       "trim": "Sport 1 AWD",
-      "price": 49999
+      "price": 49999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRLXSZ310250",
@@ -6488,7 +6868,8 @@
       "location": "Danbury, CT",
       "payment": 1036,
       "trim": "Luxury 3 AWD",
-      "price": 58755
+      "price": 58755,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL1SZ300934",
@@ -6505,7 +6886,8 @@
       "location": "New Rochelle, NY",
       "payment": 1005,
       "trim": "Luxury 3 AWD",
-      "price": 57000
+      "price": 57000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL1RZ130570",
@@ -6522,7 +6904,8 @@
       "location": "San Francisco, CA",
       "payment": 728,
       "trim": "Sport 1 AWD",
-      "price": 41199
+      "price": 41199,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL7SZ300667",
@@ -6539,7 +6922,8 @@
       "location": "Nanuet, NY",
       "payment": 1057,
       "trim": "Sport 1 AWD",
-      "price": 59990
+      "price": 59990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ139150",
@@ -6556,7 +6940,8 @@
       "location": "Warrensville Heights, OH",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44998
+      "price": 44998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL2PZ003251",
@@ -6573,7 +6958,8 @@
       "location": "Budd Lake, NJ",
       "payment": 708,
       "trim": "Luxury AWD",
-      "price": 39995
+      "price": 39995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL8RZ123725",
@@ -6590,7 +6976,8 @@
       "location": "Provo, UT",
       "payment": 818,
       "trim": "Sport 2 AWD",
-      "price": 46328
+      "price": 46328,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL4RZ114270",
@@ -6607,7 +6994,8 @@
       "location": "Las Vegas, NV",
       "payment": 866,
       "trim": "Luxury 2 AWD",
-      "price": 48998
+      "price": 48998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ135681",
@@ -6624,7 +7012,8 @@
       "location": "Akron, OH",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47998
+      "price": 47998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL1RZ125476",
@@ -6641,7 +7030,8 @@
       "location": "Roseville, CA",
       "payment": 918,
       "trim": "Sport 2 AWD",
-      "price": 51995
+      "price": 51995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6RZ104188",
@@ -6658,7 +7048,8 @@
       "location": "Albion, NY",
       "payment": 742,
       "trim": "Sport 1 AWD",
-      "price": 42000
+      "price": 42000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7RZ108483",
@@ -6675,7 +7066,8 @@
       "location": "Hendersonville, TN",
       "payment": 759,
       "trim": "Luxury 1 AWD",
-      "price": 42985
+      "price": 42985,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2RZ105905",
@@ -6692,7 +7084,8 @@
       "location": "Groveport, OH",
       "payment": 702,
       "trim": "Sport 1 AWD",
-      "price": 39759
+      "price": 39759,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ131785",
@@ -6709,7 +7102,8 @@
       "location": "Libertyville, IL",
       "payment": 809,
       "trim": "Luxury 3 AWD",
-      "price": 45799
+      "price": 45799,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6SZ300945",
@@ -6726,7 +7120,8 @@
       "location": "Pittsburgh, PA",
       "payment": 1057,
       "trim": "Luxury 3 AWD",
-      "price": 59990
+      "price": 59990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRLXSZ302133",
@@ -6743,7 +7138,8 @@
       "location": "Avon, IN",
       "payment": 1029,
       "trim": "Luxury 3 AWD",
-      "price": 58364
+      "price": 58364,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK9SZ315555",
@@ -6760,7 +7156,8 @@
       "location": "Carlsbad, CA",
       "payment": 1070,
       "trim": "Luxury 1 RWD",
-      "price": 60715
+      "price": 60715,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL0RZ104610",
@@ -6777,7 +7174,8 @@
       "location": "Farmington, NY",
       "payment": 830,
       "trim": "Sport 1 AWD",
-      "price": 46995
+      "price": 46995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK1SZ315422",
@@ -6794,7 +7192,8 @@
       "location": "West Covina, CA",
       "payment": 1081,
       "trim": "Luxury 1 RWD",
-      "price": 61315
+      "price": 61315,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL1RZ108309",
@@ -6811,7 +7210,8 @@
       "location": "Newport News, VA",
       "payment": 759,
       "trim": "Sport 1 AWD",
-      "price": 42950
+      "price": 42950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK1SZ317994",
@@ -6828,7 +7228,8 @@
       "location": "West Covina, CA",
       "payment": 1059,
       "trim": "Luxury 1 RWD",
-      "price": 60090
+      "price": 60090,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK2RZ113567",
@@ -6845,7 +7246,8 @@
       "location": "Memphis, TN",
       "payment": 756,
       "trim": "Luxury 3 RWD",
-      "price": 42800
+      "price": 42800,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ139050",
@@ -6862,7 +7264,8 @@
       "location": "Dublin, OH",
       "payment": 777,
       "trim": "Luxury 3 AWD",
-      "price": 43990
+      "price": 43990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ135667",
@@ -6879,7 +7282,8 @@
       "location": "Akron, OH",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46998
+      "price": 46998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK3SZ317687",
@@ -6896,7 +7300,8 @@
       "location": "West Covina, CA",
       "payment": 1063,
       "trim": "Luxury 1 RWD",
-      "price": 60334
+      "price": 60334,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRLXSZ300142",
@@ -6913,7 +7318,8 @@
       "location": "Libertyville, IL",
       "payment": 982,
       "trim": "Sport 2 AWD",
-      "price": 55742
+      "price": 55742,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK6SZ317991",
@@ -6930,7 +7336,8 @@
       "location": "West Covina, CA",
       "payment": 1059,
       "trim": "Luxury 1 RWD",
-      "price": 60090
+      "price": 60090,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL3RZ123518",
@@ -6947,7 +7354,8 @@
       "location": "Raleigh, NC",
       "payment": 825,
       "trim": "Sport 2 AWD",
-      "price": 46700
+      "price": 46700,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK2SZ306258",
@@ -6964,7 +7372,8 @@
       "location": "Fort Myers, FL",
       "payment": 950,
       "trim": "Luxury 1 RWD",
-      "price": 53900
+      "price": 53900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7RZ141029",
@@ -6981,7 +7390,8 @@
       "location": "Clinton Township, MI",
       "payment": 750,
       "trim": "Luxury 1 AWD",
-      "price": 42441
+      "price": 42441,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7RZ104613",
@@ -6998,7 +7408,8 @@
       "location": "Warwick, RI",
       "payment": 830,
       "trim": "Luxury 1 AWD",
-      "price": 46988
+      "price": 46988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL5RZ110569",
@@ -7015,7 +7426,8 @@
       "location": "Groveport, OH",
       "payment": 723,
       "trim": "Luxury 1 AWD",
-      "price": 40905
+      "price": 40905,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL8RZ100773",
@@ -7032,7 +7444,8 @@
       "location": "Newport News, VA",
       "payment": 829,
       "trim": "Sport 1 AWD",
-      "price": 46950
+      "price": 46950,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK9SZ316480",
@@ -7049,7 +7462,8 @@
       "location": "Beverly Hills, CA",
       "payment": 1081,
       "trim": "Luxury 1 RWD",
-      "price": 61315
+      "price": 61315,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRKXRZ136351",
@@ -7066,7 +7480,8 @@
       "location": "Nanuet, NY",
       "payment": 777,
       "trim": "Luxury 1 RWD",
-      "price": 44000
+      "price": 44000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK9SZ317591",
@@ -7083,7 +7498,8 @@
       "location": "Beverly Hills, CA",
       "payment": 1068,
       "trim": "Sport 1 RWD",
-      "price": 60590
+      "price": 60590,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL9SZ304306",
@@ -7100,7 +7516,8 @@
       "location": "Nanuet, NY",
       "payment": 1084,
       "trim": "Luxury 1 AWD",
-      "price": 61490
+      "price": 61490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK6SZ317998",
@@ -7117,7 +7534,8 @@
       "location": "Carlsbad, CA",
       "payment": 1089,
       "trim": "Sport 1 RWD",
-      "price": 61815
+      "price": 61815,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL0SZ304301",
@@ -7134,7 +7552,8 @@
       "location": "Nanuet, NY",
       "payment": 1181,
       "trim": "Luxury 2 AWD",
-      "price": 66990
+      "price": 66990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL4SZ300681",
@@ -7151,7 +7570,8 @@
       "location": "Nanuet, NY",
       "payment": 1128,
       "trim": "Luxury 1 AWD",
-      "price": 63990
+      "price": 63990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK7RZ136200",
@@ -7168,7 +7588,8 @@
       "location": "Norco, CA",
       "payment": 762,
       "trim": "Luxury 3 RWD",
-      "price": 43130
+      "price": 43130,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2SZ305463",
@@ -7185,7 +7606,8 @@
       "location": "Saukville, WI",
       "payment": 864,
       "trim": "Luxury 3 AWD",
-      "price": 48999
+      "price": 48999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL1RZ100265",
@@ -7202,7 +7624,8 @@
       "location": "Lombard, IL",
       "payment": 694,
       "trim": "Luxury 1 AWD",
-      "price": 39303
+      "price": 39303,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL7RZ107455",
@@ -7219,7 +7642,8 @@
       "location": "Matteson, IL",
       "payment": 674,
       "trim": "Sport 1 AWD",
-      "price": 38175
+      "price": 38175,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK6RZ123140",
@@ -7236,7 +7660,8 @@
       "location": "Bradenton, FL",
       "payment": 768,
       "trim": "Sport 3 RWD",
-      "price": 43488
+      "price": 43488,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL6RZ130808",
@@ -7253,7 +7678,8 @@
       "location": "Bradenton, FL",
       "payment": 848,
       "trim": "Sport 3 AWD",
-      "price": 47988
+      "price": 47988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL0SZ301623",
@@ -7270,7 +7696,8 @@
       "location": "Saukville, WI",
       "payment": 811,
       "trim": "Luxury 3 AWD",
-      "price": 45999
+      "price": 45999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK7RZ140710",
@@ -7287,7 +7714,8 @@
       "location": "Lenoir, NC",
       "payment": 811,
       "trim": "Sport 3 RWD",
-      "price": 45900
+      "price": 45900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK7RZ116455",
@@ -7304,7 +7732,8 @@
       "location": "Watsonville, CA",
       "payment": 759,
       "trim": "Sport 3 RWD",
-      "price": 42980
+      "price": 42980,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL7RZ131745",
@@ -7321,7 +7750,8 @@
       "location": "Birmingham, AL",
       "payment": 707,
       "trim": "Tech AWD",
-      "price": 39998
+      "price": 39998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK6RZ128081",
@@ -7338,7 +7768,8 @@
       "location": "Annapolis, MD",
       "payment": 742,
       "trim": "Luxury 2 RWD",
-      "price": 41990
+      "price": 41990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL6RZ107467",
@@ -7355,7 +7786,8 @@
       "location": "Doylestown, PA",
       "payment": 618,
       "trim": "Tech AWD",
-      "price": 34990
+      "price": 34990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL8RZ109934",
@@ -7372,7 +7804,8 @@
       "location": "Henderson, NV",
       "payment": 767,
       "trim": "Luxury 1 AWD",
-      "price": 43399
+      "price": 43399,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ136454",
@@ -7389,7 +7822,8 @@
       "location": "Bradenton, FL",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47988
+      "price": 47988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL5RZ111652",
@@ -7406,7 +7840,8 @@
       "location": "St Paul, MN",
       "payment": 848,
       "trim": "Sport 3 AWD",
-      "price": 47997
+      "price": 47997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK1RZ123046",
@@ -7423,7 +7858,8 @@
       "location": "Glendale, AZ",
       "payment": 705,
       "trim": "Luxury 2 RWD",
-      "price": 39900
+      "price": 39900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRKXRZ123551",
@@ -7440,7 +7876,8 @@
       "location": "Jupiter, FL",
       "payment": 654,
       "trim": "Tech RWD",
-      "price": 36999
+      "price": 36999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ137800",
@@ -7457,7 +7894,8 @@
       "location": "Bentonville, AR",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ136104",
@@ -7474,7 +7912,8 @@
       "location": "Bentonville, AR",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK2PZ002123",
@@ -7491,7 +7930,8 @@
       "location": "Carlsbad, CA",
       "payment": "",
       "trim": "Luxury RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ138277",
@@ -7508,7 +7948,8 @@
       "location": "Oklahoma City, OK",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK7RZ136195",
@@ -7525,7 +7966,8 @@
       "location": "Virden, IL",
       "payment": "",
       "trim": "Luxury 3 RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL0RZ100962",
@@ -7542,7 +7984,8 @@
       "location": "Wichita, KS",
       "payment": "",
       "trim": "Sport 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK3RZ127669",
@@ -7559,7 +8002,8 @@
       "location": "Franklin, TN",
       "payment": "",
       "trim": "Luxury 3 RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ139128",
@@ -7576,7 +8020,8 @@
       "location": "Annapolis, MD",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL7RZ106846",
@@ -7593,7 +8038,8 @@
       "location": "Warwick, RI",
       "payment": "",
       "trim": "Luxury 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL1RZ132998",
@@ -7610,7 +8056,8 @@
       "location": "Carlsbad, CA",
       "payment": "",
       "trim": "Luxury 2 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ137926",
@@ -7627,7 +8074,8 @@
       "location": "Branson, MO",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL9SZ306115",
@@ -7644,7 +8092,8 @@
       "location": "New York, NY",
       "payment": "",
       "trim": "Sport 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK9RZ103169",
@@ -7661,7 +8110,8 @@
       "location": "Lincolnton, NC",
       "payment": "",
       "trim": "Sport 1 RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL1SZ313751",
@@ -7678,7 +8128,8 @@
       "location": "Bethesda, MD",
       "payment": 1211,
       "trim": "Sport 2 AWD",
-      "price": 68710
+      "price": 68710,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK8RZ102943",
@@ -7695,7 +8146,8 @@
       "location": "Riverside, CA",
       "payment": 812,
       "trim": "Luxury 1 RWD",
-      "price": 45955
+      "price": 45955,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ136486",
@@ -7712,7 +8164,8 @@
       "location": "Andover, MA",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL1SZ315486",
@@ -7729,7 +8182,8 @@
       "location": "Bay Shore, NY",
       "payment": "",
       "trim": "Sport 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL9SZ310603",
@@ -7746,7 +8200,8 @@
       "location": "Burlingame, CA",
       "payment": 1153,
       "trim": "Sport 1 AWD",
-      "price": 65414
+      "price": 65414,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURKXSZ317518",
@@ -7763,7 +8218,8 @@
       "location": "Saint Augustine, FL",
       "payment": 916,
       "trim": "Sport 1 RWD",
-      "price": 51990
+      "price": 51990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK9SZ300189",
@@ -7780,7 +8236,8 @@
       "location": "Saint Augustine, FL",
       "payment": 930,
       "trim": "Sport 1 RWD",
-      "price": 52790
+      "price": 52790,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK8SZ317149",
@@ -7797,7 +8254,8 @@
       "location": "Burlingame, CA",
       "payment": 1019,
       "trim": "Luxury 1 RWD",
-      "price": 57817
+      "price": 57817,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL8SZ305053",
@@ -7814,7 +8272,8 @@
       "location": "Bellevue, WA",
       "payment": "",
       "trim": "Sport 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL1SZ306745",
@@ -7831,7 +8290,8 @@
       "location": "Pasadena, CA",
       "payment": 1128,
       "trim": "Luxury 1 AWD",
-      "price": 64000
+      "price": 64000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL6SZ312816",
@@ -7848,7 +8308,8 @@
       "location": "Burlingame, CA",
       "payment": 1081,
       "trim": "Luxury 1 AWD",
-      "price": 61351
+      "price": 61351,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURLXSZ311386",
@@ -7865,7 +8326,8 @@
       "location": "Burlingame, CA",
       "payment": 1163,
       "trim": "Sport 1 AWD",
-      "price": 66014
+      "price": 66014,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL9SZ310505",
@@ -7882,7 +8344,8 @@
       "location": "Bellevue, WA",
       "payment": "",
       "trim": "Sport 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL6SZ318332",
@@ -7899,7 +8362,8 @@
       "location": "Bethesda, MD",
       "payment": 1247,
       "trim": "Sport 2 AWD",
-      "price": 70750
+      "price": 70750,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL8SZ307401",
@@ -7916,7 +8380,8 @@
       "location": "Riverside, CA",
       "payment": 1050,
       "trim": "Luxury 2 AWD",
-      "price": 59595
+      "price": 59595,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL4SZ310076",
@@ -7933,7 +8398,8 @@
       "location": "Bethesda, MD",
       "payment": 1084,
       "trim": "Luxury 1 AWD",
-      "price": 61510
+      "price": 61510,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL8SZ310064",
@@ -7950,7 +8416,8 @@
       "location": "Bethesda, MD",
       "payment": 1084,
       "trim": "Luxury 1 AWD",
-      "price": 61510
+      "price": 61510,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL1SZ311163",
@@ -7967,7 +8434,8 @@
       "location": "Bethesda, MD",
       "payment": 1093,
       "trim": "Sport 1 AWD",
-      "price": 62010
+      "price": 62010,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK8SZ309157",
@@ -7984,7 +8452,8 @@
       "location": "West Covina, CA",
       "payment": 1104,
       "trim": "Sport 1 RWD",
-      "price": 62669
+      "price": 62669,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6SZ310438",
@@ -8001,7 +8470,8 @@
       "location": "Glendale, AZ",
       "payment": 1085,
       "trim": "Luxury 3 AWD",
-      "price": 61578
+      "price": 61578,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL7RZ124967",
@@ -8018,7 +8488,8 @@
       "location": "Denton, TX",
       "payment": "",
       "trim": "Sport 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL0SZ308218",
@@ -8035,7 +8506,8 @@
       "location": "Bethesda, MD",
       "payment": 1203,
       "trim": "Luxury 2 AWD",
-      "price": 68240
+      "price": 68240,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL5SZ308028",
@@ -8052,7 +8524,8 @@
       "location": "Bethesda, MD",
       "payment": 1077,
       "trim": "Luxury 1 AWD",
-      "price": 61115
+      "price": 61115,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL9SZ307139",
@@ -8069,7 +8542,8 @@
       "location": "Bethesda, MD",
       "payment": 1077,
       "trim": "Luxury 1 AWD",
-      "price": 61115
+      "price": 61115,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL0SZ309517",
@@ -8086,7 +8560,8 @@
       "location": "Bedford, OH",
       "payment": 999,
       "trim": "Sport 1 AWD",
-      "price": 56693
+      "price": 56693,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL6SZ315828",
@@ -8103,7 +8578,8 @@
       "location": "Bethesda, MD",
       "payment": 1102,
       "trim": "Luxury 1 AWD",
-      "price": 62500
+      "price": 62500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK4SZ317787",
@@ -8120,7 +8596,8 @@
       "location": "Beverly Hills, CA",
       "payment": 1079,
       "trim": "Sport 1 RWD",
-      "price": 61215
+      "price": 61215,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK8SZ317873",
@@ -8137,7 +8614,8 @@
       "location": "Beverly Hills, CA",
       "payment": 1068,
       "trim": "Sport 1 RWD",
-      "price": 60590
+      "price": 60590,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK5SZ315272",
@@ -8154,7 +8632,8 @@
       "location": "Beverly Hills, CA",
       "payment": 1078,
       "trim": "Sport 1 RWD",
-      "price": 61190
+      "price": 61190,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK5SZ310945",
@@ -8171,7 +8650,8 @@
       "location": "Carlsbad, CA",
       "payment": 1066,
       "trim": "Sport 1 RWD",
-      "price": 60490
+      "price": 60490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL1SZ313783",
@@ -8188,7 +8668,8 @@
       "location": "Bethesda, MD",
       "payment": 1195,
       "trim": "Luxury 2 AWD",
-      "price": 67815
+      "price": 67815,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURKXSZ313842",
@@ -8205,7 +8686,8 @@
       "location": "New York, NY",
       "payment": 1086,
       "trim": "Sport 1 RWD",
-      "price": 61610
+      "price": 61610,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL3SZ313508",
@@ -8222,7 +8704,8 @@
       "location": "Bethesda, MD",
       "payment": 1221,
       "trim": "Sport 2 AWD",
-      "price": 69310
+      "price": 69310,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYXPZRL8TZ600139",
@@ -8239,7 +8722,8 @@
       "location": "Norfolk, VA",
       "payment": 1232,
       "trim": "AWD",
-      "price": 69882
+      "price": 69882,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK5SZ316969",
@@ -8256,7 +8740,8 @@
       "location": "New York, NY",
       "payment": 1086,
       "trim": "Sport 1 RWD",
-      "price": 61640
+      "price": 61640,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL9SZ303088",
@@ -8273,7 +8758,8 @@
       "location": "Nanuet, NY",
       "payment": 1110,
       "trim": "Luxury 1 AWD",
-      "price": 62990
+      "price": 62990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK7SZ311496",
@@ -8290,7 +8776,8 @@
       "location": "Duluth, GA",
       "payment": "",
       "trim": "Sport 1 RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL9SZ315753",
@@ -8307,7 +8794,8 @@
       "location": "Bellevue, WA",
       "payment": "",
       "trim": "Sport 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL2RZ129799",
@@ -8324,7 +8812,8 @@
       "location": "Henderson, NC",
       "payment": "",
       "trim": "Luxury 2 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK2RZ108263",
@@ -8341,7 +8830,8 @@
       "location": "Morrow, GA",
       "payment": "",
       "trim": "Sport 3 RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ137794",
@@ -8358,7 +8848,8 @@
       "location": "Hartford, CT",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ138327",
@@ -8375,7 +8866,8 @@
       "location": "Hartford, CT",
       "payment": "",
       "trim": "Luxury 3 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK2RZ100975",
@@ -8392,7 +8884,8 @@
       "location": "Shreveport, LA",
       "payment": "",
       "trim": "Tech RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL9RZ120854",
@@ -8409,7 +8902,8 @@
       "location": "Raynham, MA",
       "payment": "",
       "trim": "Sport 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL7SZ310496",
@@ -8426,7 +8920,8 @@
       "location": "Bellevue, WA",
       "payment": "",
       "trim": "Sport 2 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRLXPZ000730",
@@ -8443,7 +8938,8 @@
       "location": "Titusville, FL",
       "payment": "",
       "trim": "Luxury AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRKXRZ130111",
@@ -8460,7 +8956,8 @@
       "location": "Terrell, TX",
       "payment": "",
       "trim": "Luxury 2 RWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRLXSZ308123",
@@ -8477,7 +8974,8 @@
       "location": "Syracuse, NY",
       "payment": "",
       "trim": "Luxury 1 AWD",
-      "price": 0
+      "price": 0,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURLXSZ308763",
@@ -8494,7 +8992,8 @@
       "location": "Highland Park, IL",
       "payment": 797,
       "trim": "Sport 1 AWD",
-      "price": 45222
+      "price": 45222,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK2SZ310956",
@@ -8511,7 +9010,8 @@
       "location": "Mobile, AL",
       "payment": 837,
       "trim": "Luxury 1 RWD",
-      "price": 47500
+      "price": 47500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK2SZ307730",
@@ -8528,7 +9028,8 @@
       "location": "Homestead, FL",
       "payment": 881,
       "trim": "Sport 1 RWD",
-      "price": 49991
+      "price": 49991,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK8RZ111392",
@@ -8545,7 +9046,8 @@
       "location": "Seaside, CA",
       "payment": 974,
       "trim": "Sport 1 RWD",
-      "price": 55153
+      "price": 55153,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL4SZ308896",
@@ -8562,7 +9064,8 @@
       "location": "Woodland, CA",
       "payment": 1388,
       "trim": "Luxury 3 AWD",
-      "price": 78766
+      "price": 78766,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL3RZ108754",
@@ -8579,7 +9082,8 @@
       "location": "Peoria, IL",
       "payment": 1709,
       "trim": "Tech AWD",
-      "price": 96764
+      "price": 96764,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK7RZ135524",
@@ -8596,7 +9100,8 @@
       "location": "Santa Clarita, CA",
       "payment": 1395,
       "trim": "Sport 3 RWD",
-      "price": 78990
+      "price": 78990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ125170",
@@ -8613,7 +9118,8 @@
       "location": "Long Island city , NY",
       "payment": 1231,
       "trim": "Luxury 3 AWD",
-      "price": 69709
+      "price": 69709,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL9RZ115001",
@@ -8630,7 +9136,8 @@
       "location": "Florence, KY",
       "payment": 715,
       "trim": "Luxury 1 AWD",
-      "price": 40491
+      "price": 40491,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK8PZ002479",
@@ -8647,7 +9154,8 @@
       "location": "Longview, TX",
       "payment": 643,
       "trim": "Luxury RWD",
-      "price": 36365
+      "price": 36365,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK3RZ101795",
@@ -8664,7 +9172,8 @@
       "location": "Baton Rouge, LA",
       "payment": 760,
       "trim": "Luxury 1 RWD",
-      "price": 42995
+      "price": 42995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL5RZ106098",
@@ -8681,7 +9190,8 @@
       "location": "Lombard, IL",
       "payment": 838,
       "trim": "Luxury 1 AWD",
-      "price": 47423
+      "price": 47423,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK2RZ127671",
@@ -8698,7 +9208,8 @@
       "location": "Louisville, KY",
       "payment": 848,
       "trim": "Sport 3 RWD",
-      "price": 47980
+      "price": 47980,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ119480",
@@ -8715,7 +9226,8 @@
       "location": "Monticello, IL",
       "payment": 839,
       "trim": "Luxury 3 AWD",
-      "price": 47490
+      "price": 47490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ137316",
@@ -8732,7 +9244,8 @@
       "location": "Fond Du Lac, WI",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47998
+      "price": 47998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK3RZ102218",
@@ -8749,7 +9262,8 @@
       "location": "Ocala, FL",
       "payment": 764,
       "trim": "Luxury 1 RWD",
-      "price": 43229
+      "price": 43229,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ138201",
@@ -8766,7 +9280,8 @@
       "location": "Saint Augustine, FL",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK7RZ109052",
@@ -8783,7 +9298,8 @@
       "location": "Ocala, FL",
       "payment": 738,
       "trim": "Sport 1 RWD",
-      "price": 41790
+      "price": 41790,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL2RZ109024",
@@ -8800,7 +9316,8 @@
       "location": "Seattle, WA",
       "payment": 776,
       "trim": "Luxury 1 AWD",
-      "price": 43900
+      "price": 43900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK5RZ109406",
@@ -8817,7 +9334,8 @@
       "location": "Colma, CA",
       "payment": 670,
       "trim": "Sport 1 RWD",
-      "price": 37900
+      "price": 37900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ139614",
@@ -8834,7 +9352,8 @@
       "location": "Fond Du Lac, WI",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47998
+      "price": 47998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL0RZ115503",
@@ -8851,7 +9370,8 @@
       "location": "Lansdale, PA",
       "payment": 775,
       "trim": "Luxury 1 AWD",
-      "price": 43890
+      "price": 43890,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL9RZ102569",
@@ -8868,7 +9388,8 @@
       "location": "Saint Peters, MO",
       "payment": 757,
       "trim": "Luxury 1 AWD",
-      "price": 42864
+      "price": 42864,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK9SZ308105",
@@ -8885,7 +9406,8 @@
       "location": "Fremont, CA",
       "payment": 1066,
       "trim": "Luxury 1 RWD",
-      "price": 60499
+      "price": 60499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK8RZ101131",
@@ -8902,7 +9424,8 @@
       "location": "Austin, TX",
       "payment": 760,
       "trim": "Luxury 1 RWD",
-      "price": 42998
+      "price": 42998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL4RZ141184",
@@ -8919,7 +9442,8 @@
       "location": "Waukesha, WI",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47995
+      "price": 47995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRL8SZ301090",
@@ -8936,7 +9460,8 @@
       "location": "Maumee, OH",
       "payment": 969,
       "trim": "Luxury 1 AWD",
-      "price": 54998
+      "price": 54998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRK0RZ112912",
@@ -8953,7 +9478,8 @@
       "location": "Porter, TX",
       "payment": 892,
       "trim": "Sport 3 RWD",
-      "price": 50500
+      "price": 50500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL8RZ109027",
@@ -8970,7 +9496,8 @@
       "location": "Bloomington, MN",
       "payment": 760,
       "trim": "Luxury 1 AWD",
-      "price": 42998
+      "price": 42998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK4RZ109526",
@@ -8987,7 +9514,8 @@
       "location": "San Francisco, CA",
       "payment": 689,
       "trim": "Sport 1 RWD",
-      "price": 38999
+      "price": 38999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRKXRZ100319",
@@ -9004,7 +9532,8 @@
       "location": "Saint Augustine, FL",
       "payment": 636,
       "trim": "Luxury 1 RWD",
-      "price": 35995
+      "price": 35995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ135744",
@@ -9021,7 +9550,8 @@
       "location": "Fond Du Lac, WI",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47998
+      "price": 47998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL9RZ105079",
@@ -9038,7 +9568,8 @@
       "location": "Marietta, GA",
       "payment": 680,
       "trim": "Tech AWD",
-      "price": 38490
+      "price": 38490,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK8RZ101459",
@@ -9055,7 +9586,8 @@
       "location": "Vallejo, CA",
       "payment": 773,
       "trim": "Sport 1 RWD",
-      "price": 43750
+      "price": 43750,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK4PZ000034",
@@ -9072,7 +9604,8 @@
       "location": "Palmyra, NJ",
       "payment": 672,
       "trim": "Luxury RWD",
-      "price": 37990
+      "price": 37990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ138245",
@@ -9089,7 +9622,8 @@
       "location": "Saint Augustine, FL",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5RZ101475",
@@ -9106,7 +9640,8 @@
       "location": "Cleveland, OH",
       "payment": 777,
       "trim": "Sport 1 AWD",
-      "price": 43992
+      "price": 43992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL5RZ103257",
@@ -9123,7 +9658,8 @@
       "location": "Duluth, GA",
       "payment": 819,
       "trim": "Sport 1 AWD",
-      "price": 46383
+      "price": 46383,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK7RZ108488",
@@ -9140,7 +9676,8 @@
       "location": "Conyers, GA",
       "payment": 707,
       "trim": "Luxury 1 RWD",
-      "price": 39991
+      "price": 39991,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK0RZ109285",
@@ -9157,7 +9694,8 @@
       "location": "Memphis, TN",
       "payment": 742,
       "trim": "Tech RWD",
-      "price": 41998
+      "price": 41998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRKXRZ101673",
@@ -9174,7 +9712,8 @@
       "location": "Marietta, GA",
       "payment": 742,
       "trim": "Sport 1 RWD",
-      "price": 41999
+      "price": 41999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL8SZ313228",
@@ -9191,7 +9730,8 @@
       "location": "Modesto, CA",
       "payment": 1233,
       "trim": "Sport 2 AWD",
-      "price": 69955
+      "price": 69955,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL5RZ138452",
@@ -9208,7 +9748,8 @@
       "location": "Greeley, CO",
       "payment": 724,
       "trim": "Tech AWD",
-      "price": 41000
+      "price": 41000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL4RZ131056",
@@ -9225,7 +9766,8 @@
       "location": "Palmyra, NJ",
       "payment": 760,
       "trim": "Luxury 1 AWD",
-      "price": 42990
+      "price": 42990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK5RZ122453",
@@ -9242,7 +9784,8 @@
       "location": "Austin, TX",
       "payment": 703,
       "trim": "Tech RWD",
-      "price": 39800
+      "price": 39800,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK7RZ115571",
@@ -9259,7 +9802,8 @@
       "location": "Winchester, VA",
       "payment": 813,
       "trim": "Luxury 1 RWD",
-      "price": 45995
+      "price": 45995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRK1RZ113884",
@@ -9276,7 +9820,8 @@
       "location": "Enumclaw, WA",
       "payment": 775,
       "trim": "Sport 2 RWD",
-      "price": 43881
+      "price": 43881,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURK7SZ303558",
@@ -9293,7 +9838,8 @@
       "location": "Newnan, GA",
       "payment": 938,
       "trim": "Sport 1 RWD",
-      "price": 53241
+      "price": 53241,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK4RZ111115",
@@ -9310,7 +9856,8 @@
       "location": "San Francisco, CA",
       "payment": 689,
       "trim": "Sport 1 RWD",
-      "price": 38999
+      "price": 38999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK2RZ103417",
@@ -9327,7 +9874,8 @@
       "location": "Novi, MI",
       "payment": 777,
       "trim": "Sport 1 RWD",
-      "price": 43995
+      "price": 43995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL7SZ307084",
@@ -9344,7 +9892,8 @@
       "location": "Tustin, CA",
       "payment": 1128,
       "trim": "Sport 1 AWD",
-      "price": 63990
+      "price": 63990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRL8RZ103369",
@@ -9361,7 +9910,8 @@
       "location": "Bowling Green, KY",
       "payment": 680,
       "trim": "Tech AWD",
-      "price": 38496
+      "price": 38496,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ136805",
@@ -9378,7 +9928,8 @@
       "location": "Naperville, IL",
       "payment": 813,
       "trim": "Luxury 3 AWD",
-      "price": 45995
+      "price": 45995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ137770",
@@ -9395,7 +9946,8 @@
       "location": "Woburn, MA",
       "payment": 920,
       "trim": "Luxury 3 AWD",
-      "price": 52085
+      "price": 52085,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL3RZ124109",
@@ -9412,7 +9964,8 @@
       "location": "Lancaster, PA",
       "payment": 883,
       "trim": "Luxury 2 AWD",
-      "price": 49999
+      "price": 49999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK9RZ108346",
@@ -9429,7 +9982,8 @@
       "location": "City Of Industry, CA",
       "payment": 742,
       "trim": "Luxury 1 RWD",
-      "price": 41988
+      "price": 41988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRLXRZ100225",
@@ -9446,7 +10000,8 @@
       "location": "Colorado Springs, CO",
       "payment": 706,
       "trim": "Sport 1 AWD",
-      "price": 39985
+      "price": 39985,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ138389",
@@ -9463,7 +10018,8 @@
       "location": "Hartford, CT",
       "payment": 866,
       "trim": "Luxury 3 AWD",
-      "price": 48995
+      "price": 48995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ139570",
@@ -9480,7 +10036,8 @@
       "location": "Northbrook, IL",
       "payment": 813,
       "trim": "Luxury 3 AWD",
-      "price": 45999
+      "price": 45999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL6SZ311042",
@@ -9497,7 +10054,8 @@
       "location": "Tustin, CA",
       "payment": 1263,
       "trim": "Sport 2 AWD",
-      "price": 71695
+      "price": 71695,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL6RZ114842",
@@ -9514,7 +10072,8 @@
       "location": "Norwood, MA",
       "payment": 834,
       "trim": "Luxury 1 AWD",
-      "price": 47200
+      "price": 47200,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK4RZ102775",
@@ -9531,7 +10090,8 @@
       "location": "Indianapolis, IN",
       "payment": 738,
       "trim": "Tech RWD",
-      "price": 41750
+      "price": 41750,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ138844",
@@ -9548,7 +10108,8 @@
       "location": "Warwick, RI",
       "payment": 876,
       "trim": "Luxury 3 AWD",
-      "price": 49588
+      "price": 49588,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPWRL7RZ133586",
@@ -9565,7 +10126,8 @@
       "location": "Morrow, GA",
       "payment": 830,
       "trim": "Sport 3 AWD",
-      "price": 46992
+      "price": 46992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRK2RZ136171",
@@ -9582,7 +10144,8 @@
       "location": "Atlanta, GA",
       "payment": 874,
       "trim": "Sport 2 RWD",
-      "price": 49500
+      "price": 49500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL0RZ109622",
@@ -9599,7 +10162,8 @@
       "location": "Hamilton, OH",
       "payment": 698,
       "trim": "Luxury 1 AWD",
-      "price": 39492
+      "price": 39492,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL5RZ139539",
@@ -9616,7 +10180,8 @@
       "location": "Leominster, MA",
       "payment": 821,
       "trim": "Luxury 3 AWD",
-      "price": 46500
+      "price": 46500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL9RZ119407",
@@ -9633,7 +10198,8 @@
       "location": "Parker, CO",
       "payment": 848,
       "trim": "Luxury 3 AWD",
-      "price": 47998
+      "price": 47998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL9RZ107456",
@@ -9650,7 +10216,8 @@
       "location": "Henderson, NV",
       "payment": 775,
       "trim": "Sport 1 AWD",
-      "price": 43847
+      "price": 43847,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK8RZ136626",
@@ -9667,7 +10234,8 @@
       "location": "San Antonio, TX",
       "payment": 848,
       "trim": "Luxury 3 RWD",
-      "price": 47998
+      "price": 47998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK7PZ000223",
@@ -9684,7 +10252,8 @@
       "location": "San Diego, CA",
       "payment": 708,
       "trim": "Luxury RWD",
-      "price": 39999
+      "price": 39999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ136579",
@@ -9701,7 +10270,8 @@
       "location": "Oak Lawn, IL",
       "payment": 881,
       "trim": "Luxury 3 AWD",
-      "price": 49888
+      "price": 49888,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURL0SZ300137",
@@ -9718,7 +10288,8 @@
       "location": "Grand Rapids, MI",
       "payment": 1075,
       "trim": "Sport 1 AWD",
-      "price": 60990
+      "price": 60990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ138338",
@@ -9735,7 +10306,8 @@
       "location": "Annapolis, MD",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46990
+      "price": 46990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ136802",
@@ -9752,7 +10324,8 @@
       "location": "Leominster, MA",
       "payment": 821,
       "trim": "Luxury 3 AWD",
-      "price": 46500
+      "price": 46500,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPVRL6RZ122332",
@@ -9769,7 +10342,8 @@
       "location": "Fife, WA",
       "payment": 866,
       "trim": "Sport 2 AWD",
-      "price": 49000
+      "price": 49000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ138126",
@@ -9786,7 +10360,8 @@
       "location": "Morrow, GA",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46992
+      "price": 46992,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPNRK6SZ316212",
@@ -9803,7 +10378,8 @@
       "location": "Santa Clara, CA",
       "payment": 1067,
       "trim": "Luxury 1 RWD",
-      "price": 60555
+      "price": 60555,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK2RZ113357",
@@ -9820,7 +10396,8 @@
       "location": "Madison, TN",
       "payment": 795,
       "trim": "Luxury 3 RWD",
-      "price": 44998
+      "price": 44998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK7RZ114378",
@@ -9837,7 +10414,8 @@
       "location": "San Diego, CA",
       "payment": 760,
       "trim": "Sport 2 RWD",
-      "price": 42997
+      "price": 42997,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRL6RZ134486",
@@ -9854,7 +10432,8 @@
       "location": "Olympia, WA",
       "payment": 866,
       "trim": "Luxury 2 AWD",
-      "price": 48995
+      "price": 48995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK9SZ305289",
@@ -9871,7 +10450,8 @@
       "location": "Torrance, CA",
       "payment": 1145,
       "trim": "Luxury 2 RWD",
-      "price": 64996
+      "price": 64996,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ141155",
@@ -9888,7 +10468,8 @@
       "location": "Alexandria, VA",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46998
+      "price": 46998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ136144",
@@ -9905,7 +10486,8 @@
       "location": "Herculaneum, MO",
       "payment": 845,
       "trim": "Luxury 3 AWD",
-      "price": 47836
+      "price": 47836,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL7RZ131801",
@@ -9922,7 +10504,8 @@
       "location": "Herculaneum, MO",
       "payment": 828,
       "trim": "Luxury 3 AWD",
-      "price": 46869
+      "price": 46869,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK0RZ100497",
@@ -9939,7 +10522,8 @@
       "location": "Plymouth Meeting, PA",
       "payment": 804,
       "trim": "Sport 1 RWD",
-      "price": 45495
+      "price": 45495,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK0RZ118727",
@@ -9956,7 +10540,8 @@
       "location": "Palmyra, NJ",
       "payment": 812,
       "trim": "Luxury 2 RWD",
-      "price": 45990
+      "price": 45990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL0RZ137987",
@@ -9973,7 +10558,8 @@
       "location": "Annapolis, MD",
       "payment": 795,
       "trim": "Luxury 3 AWD",
-      "price": 44990
+      "price": 44990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK5RZ103224",
@@ -9990,7 +10576,8 @@
       "location": "Dallas, TX",
       "payment": 689,
       "trim": "Tech RWD",
-      "price": 38999
+      "price": 38999,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL8RZ135197",
@@ -10007,7 +10594,8 @@
       "location": "Clifton, NJ",
       "payment": 918,
       "trim": "Sport 1 AWD",
-      "price": 51988
+      "price": 51988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL4RZ101595",
@@ -10024,7 +10612,8 @@
       "location": "Clyde, OH",
       "payment": 865,
       "trim": "Sport 1 AWD",
-      "price": 48989
+      "price": 48989,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURLXSZ314692",
@@ -10041,7 +10630,8 @@
       "location": "Santa Clara, CA",
       "payment": 1207,
       "trim": "Sport 1 AWD",
-      "price": 68468
+      "price": 68468,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL3RZ109004",
@@ -10058,7 +10648,8 @@
       "location": "Glendale, AZ",
       "payment": 934,
       "trim": "Luxury 3 AWD",
-      "price": 52900
+      "price": 52900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL6RZ139274",
@@ -10075,7 +10666,8 @@
       "location": "Annapolis, MD",
       "payment": 830,
       "trim": "Luxury 3 AWD",
-      "price": 46990
+      "price": 46990,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPRRK3RZ119290",
@@ -10092,7 +10684,8 @@
       "location": "Clyde, OH",
       "payment": 883,
       "trim": "Luxury 2 RWD",
-      "price": 49989
+      "price": 49989,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRK0RZ136135",
@@ -10109,7 +10702,8 @@
       "location": "Fort Myers, FL",
       "payment": 830,
       "trim": "Luxury 3 RWD",
-      "price": 46995
+      "price": 46995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK7RZ109410",
@@ -10126,7 +10720,8 @@
       "location": "Pembroke Pines, FL",
       "payment": 724,
       "trim": "Sport 1 RWD",
-      "price": 41000
+      "price": 41000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ139048",
@@ -10143,7 +10738,8 @@
       "location": "Toledo, OH",
       "payment": 881,
       "trim": "Luxury 3 AWD",
-      "price": 49900
+      "price": 49900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ138817",
@@ -10160,7 +10756,8 @@
       "location": "Toledo, OH",
       "payment": 901,
       "trim": "Luxury 3 AWD",
-      "price": 51000
+      "price": 51000,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ138158",
@@ -10177,7 +10774,8 @@
       "location": "Oak Lawn, IL",
       "payment": 918,
       "trim": "Luxury 3 AWD",
-      "price": 51995
+      "price": 51995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL1RZ137819",
@@ -10194,7 +10792,8 @@
       "location": "Toledo, OH",
       "payment": 899,
       "trim": "Luxury 3 AWD",
-      "price": 50900
+      "price": 50900,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRLXRZ137897",
@@ -10211,7 +10810,8 @@
       "location": "Glendale, AZ",
       "payment": 908,
       "trim": "Luxury 3 AWD",
-      "price": 51400
+      "price": 51400,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL2RZ102106",
@@ -10228,7 +10828,8 @@
       "location": "Lancaster, PA",
       "payment": 804,
       "trim": "Luxury 1 AWD",
-      "price": 45499
+      "price": 45499,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRK6RZ103498",
@@ -10245,7 +10846,8 @@
       "location": "San Antonio, TX",
       "payment": 883,
       "trim": "Sport 1 RWD",
-      "price": 49977
+      "price": 49977,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPMRK4PZ003323",
@@ -10262,7 +10864,8 @@
       "location": "Salt Lake City, UT",
       "payment": 610,
       "trim": "Luxury RWD",
-      "price": 34496
+      "price": 34496,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL2RZ105218",
@@ -10279,7 +10882,8 @@
       "location": "Woburn, MA",
       "payment": 968,
       "trim": "Luxury 3 AWD",
-      "price": 54805
+      "price": 54805,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRL4RZ120428",
@@ -10296,7 +10900,8 @@
       "location": "Olympia, WA",
       "payment": 795,
       "trim": "Luxury 1 AWD",
-      "price": 44995
+      "price": 44995,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL6RZ116003",
@@ -10313,7 +10918,8 @@
       "location": "Long Island city , NY",
       "payment": 912,
       "trim": "Sport 1 AWD",
-      "price": 51600
+      "price": 51600,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPTRL2RZ104785",
@@ -10330,7 +10936,8 @@
       "location": "Herculaneum, MO",
       "payment": 742,
       "trim": "Sport 1 AWD",
-      "price": 41988
+      "price": 41988,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPPRK2RZ102890",
@@ -10347,7 +10954,8 @@
       "location": "Greenville, MI",
       "payment": 857,
       "trim": "Luxury 1 RWD",
-      "price": 48508
+      "price": 48508,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPSRL8RZ131757",
@@ -10364,7 +10972,8 @@
       "location": "Lexington, KY",
       "payment": 883,
       "trim": "Luxury 3 AWD",
-      "price": 49998
+      "price": 49998,
+      "created_at": "2025-10-01T20:55:44.923548"
     },
     {
       "vin": "1GYKPURKXSZ311699",
@@ -10381,7 +10990,8 @@
       "location": "Watsonville, CA",
       "payment": 987,
       "trim": "Sport 1 RWD",
-      "price": 55980
+      "price": 55980,
+      "created_at": "2025-10-01T20:55:44.923548"
     }
   ]
 }

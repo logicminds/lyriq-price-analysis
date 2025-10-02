@@ -115,10 +115,10 @@ def extract_year_number(year_str: str) -> int:
     """
     if not year_str or year_str.strip() == "":
         return 0
-    
+
     # Remove all non-numeric characters
     cleaned = re.sub(r'[^\d]', '', year_str)
-    
+
     # Convert to int
     try:
         return int(cleaned)
@@ -126,34 +126,41 @@ def extract_year_number(year_str: str) -> int:
         return 0
 
 
-def clean_record_data(record: Dict[str, Any]) -> Dict[str, Any]:
+def clean_record_data(
+    record: Dict[str, Any], created_at_timestamp: str
+) -> Dict[str, Any]:
     """
     Clean the record data by converting payment, price, mileage, and year to numbers.
-    
+    Also add created_at timestamp to each record.
+
     Args:
         record (Dict): Record to clean
-        
+        created_at_timestamp (str): Timestamp to add to each record
+
     Returns:
-        Dict: Cleaned record
+        Dict: Cleaned record with created_at timestamp
     """
     cleaned_record = record.copy()
-    
+
     # Clean payment field
     if 'payment' in cleaned_record and cleaned_record['payment']:
         cleaned_record['payment'] = extract_payment_number(cleaned_record['payment'])
-    
+
     # Clean price field
     if 'price' in cleaned_record and cleaned_record['price']:
         cleaned_record['price'] = extract_price_number(cleaned_record['price'])
-    
+
     # Clean mileage field
     if 'milege' in cleaned_record and cleaned_record['milege']:
         cleaned_record['milege'] = extract_mileage_number(cleaned_record['milege'])
-    
+
     # Clean year field
     if 'year' in cleaned_record and cleaned_record['year']:
         cleaned_record['year'] = extract_year_number(cleaned_record['year'])
-    
+
+    # Add created_at timestamp to each record
+    cleaned_record["created_at"] = created_at_timestamp
+
     return cleaned_record
 
 
@@ -218,43 +225,50 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
             csvfile.seek(0)
             sniffer = csv.Sniffer()
             delimiter = sniffer.sniff(sample).delimiter
-            
+
             reader = csv.DictReader(csvfile, delimiter=delimiter)
-            
-            # Convert field names to normalized format
-            normalized_fieldnames = [normalize_field_name(field) for field in reader.fieldnames]
-            
+
+            # Convert field names to normalized format and add created_at
+            normalized_fieldnames = [
+                normalize_field_name(field) for field in reader.fieldnames
+            ] + ["created_at"]
+
+            # Generate single timestamp for all records
+            created_at_timestamp = datetime.now().isoformat()
+
             # Read all data
             data = []
             for row in reader:
                 # Create new row with normalized field names
                 normalized_row = {}
-                for old_field, new_field in zip(reader.fieldnames, normalized_fieldnames):
+                for old_field, new_field in zip(
+                    reader.fieldnames, normalized_fieldnames[:-1]
+                ):  # Exclude created_at from field mapping
                     normalized_row[new_field] = row[old_field]
-                
+
                 # Clean the record data (convert payment, price, mileage to numbers)
-                cleaned_row = clean_record_data(normalized_row)
+                cleaned_row = clean_record_data(normalized_row, created_at_timestamp)
                 data.append(cleaned_row)
-        
+
         print(f"Read {len(data)} records from CSV file")
-        
+
         # Remove duplicates
         original_count = len(data)
         data = remove_duplicates(data, duplicate_key_fields)
         duplicates_removed = original_count - len(data)
-        
+
         if duplicates_removed > 0:
             print(f"Removed {duplicates_removed} duplicate records")
-        
+
         # Add timestamp
         timestamp = datetime.now().isoformat()
-        
+
         # Count data cleaning conversions
         payment_conversions = sum(1 for record in data if isinstance(record.get('payment'), int) and record.get('payment', 0) > 0)
         price_conversions = sum(1 for record in data if isinstance(record.get('price'), int) and record.get('price', 0) > 0)
         mileage_conversions = sum(1 for record in data if isinstance(record.get('milege'), int) and record.get('milege', 0) > 0)
         year_conversions = sum(1 for record in data if isinstance(record.get('year'), int) and record.get('year', 0) > 0)
-        
+
         # Create final JSON structure
         json_data = {
             "metadata": {
@@ -273,11 +287,11 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
             },
             "data": data
         }
-        
+
         # Write JSON file
         with open(json_file_path, 'w', encoding='utf-8') as jsonfile:
             json.dump(json_data, jsonfile, indent=2, ensure_ascii=False)
-        
+
         print(f"Successfully converted CSV to JSON: {json_file_path}")
         print(f"Total records: {len(data)}")
         print(f"Duplicates removed: {duplicates_removed}")
@@ -285,14 +299,14 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
         print(f"Price conversions: {price_conversions}")
         print(f"Mileage conversions: {mileage_conversions}")
         print(f"Year conversions: {year_conversions}")
-        
+
         return {
             "success": True,
             "total_records": len(data),
             "duplicates_removed": duplicates_removed,
             "output_file": json_file_path
         }
-        
+
     except FileNotFoundError:
         print(f"Error: CSV file '{csv_file_path}' not found")
         return {"success": False, "error": "File not found"}
