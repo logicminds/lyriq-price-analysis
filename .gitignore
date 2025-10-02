@@ -17,8 +17,6 @@ ENV/
 *~
 
 # Data files
-*.json
-*.csv
 *.sqlite
 *.db
 cargurus_api_capture_*.json
