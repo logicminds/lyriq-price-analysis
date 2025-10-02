@@ -175,12 +175,30 @@ def clean_trim_field(trim_str: str) -> str:
     return cleaned
 
 
+def is_empty_record(record: Dict[str, Any]) -> bool:
+    """
+    Check if a record is completely empty or has only empty values.
+
+    Args:
+        record (Dict): Record to check
+
+    Returns:
+        bool: True if record is empty, False otherwise
+    """
+    # Check if all values are empty strings, None, or missing
+    for key, value in record.items():
+        if value is not None and str(value).strip() != "":
+            return False
+    return True
+
+
 def clean_record_data(
     record: Dict[str, Any], created_at_timestamp: str
 ) -> Dict[str, Any]:
     """
     Clean the record data by converting payment, price, mileage, and year to numbers.
     Also convert drive_type to abbreviations and clean trim field.
+    Handle empty records, zero prices, missing mileage, and missing phone numbers.
     Add time timestamp to each record.
 
     Args:
@@ -188,25 +206,47 @@ def clean_record_data(
         created_at_timestamp (str): Timestamp to add to each record
 
     Returns:
-        Dict: Cleaned record with time timestamp
+        Dict: Cleaned record with time timestamp, or None if record should be removed
     """
+    # Check if record is completely empty - remove it
+    if is_empty_record(record):
+        return None
+
     cleaned_record = record.copy()
 
     # Clean payment field
     if 'payment' in cleaned_record and cleaned_record['payment']:
         cleaned_record['payment'] = extract_payment_number(cleaned_record['payment'])
+    else:
+        cleaned_record["payment"] = 0
 
-    # Clean price field
+    # Clean price field - handle zero prices
     if 'price' in cleaned_record and cleaned_record['price']:
-        cleaned_record['price'] = extract_price_number(cleaned_record['price'])
+        price_value = extract_price_number(cleaned_record["price"])
+        cleaned_record["price"] = price_value if price_value > 0 else 0
+    else:
+        cleaned_record["price"] = 0
 
-    # Clean mileage field
+    # Clean mileage field - handle missing mileage
     if 'milege' in cleaned_record and cleaned_record['milege']:
-        cleaned_record['milege'] = extract_mileage_number(cleaned_record['milege'])
+        mileage_value = extract_mileage_number(cleaned_record["milege"])
+        cleaned_record["milege"] = mileage_value if mileage_value > 0 else 0
+    else:
+        cleaned_record["milege"] = 0
 
     # Clean year field
     if 'year' in cleaned_record and cleaned_record['year']:
         cleaned_record['year'] = extract_year_number(cleaned_record['year'])
+    else:
+        cleaned_record["year"] = 0
+
+    # Handle missing phone numbers - set to default placeholder
+    if "request_info" in cleaned_record:
+        if (
+            not cleaned_record["request_info"]
+            or str(cleaned_record["request_info"]).strip() == ""
+        ):
+            cleaned_record["request_info"] = "(111) 111-1111"
 
     # Convert drive_type to abbreviations
     if "drive_type" in cleaned_record and cleaned_record["drive_type"]:
@@ -301,6 +341,7 @@ def convert_csv_to_json(
 
             # Read all data
             data = []
+            empty_records_removed = 0
             for row in reader:
                 # Create new row with normalized field names
                 normalized_row = {}
@@ -311,9 +352,16 @@ def convert_csv_to_json(
 
                 # Clean the record data (convert payment, price, mileage to numbers)
                 cleaned_row = clean_record_data(normalized_row, created_at_timestamp)
-                data.append(cleaned_row)
+
+                # Only add non-empty records
+                if cleaned_row is not None:
+                    data.append(cleaned_row)
+                else:
+                    empty_records_removed += 1
 
         print(f"Read {len(data)} records from CSV file")
+        if empty_records_removed > 0:
+            print(f"Removed {empty_records_removed} empty records")
 
         # Remove duplicates
         original_count = len(data)
@@ -331,7 +379,7 @@ def convert_csv_to_json(
             # Output to stdout
             json.dump(json_data, sys.stdout, indent=2, ensure_ascii=False)
             print(
-                f"\n# Conversion completed: {len(data)} records, {duplicates_removed} duplicates removed",
+                f"\n# Conversion completed: {len(data)} records, {empty_records_removed} empty records removed, {duplicates_removed} duplicates removed",
                 file=sys.stderr,
             )
         else:
@@ -341,16 +389,21 @@ def convert_csv_to_json(
 
             print(f"Successfully converted CSV to JSON: {json_file_path}")
             print(f"Total records: {len(data)}")
+            print(f"Empty records removed: {empty_records_removed}")
             print(f"Duplicates removed: {duplicates_removed}")
             print("Data cleaning applied: payment, price, mileage, year → numbers")
             print("Drive type converted: All-Wheel Drive → AWD, Rear-Wheel Drive → RWD")
             print("Trim field cleaned: removed duplicate AWD/RWD references")
+            print(
+                "Data quality fixes: empty records removed, zero prices set to 0, missing mileage set to 0, missing phone numbers set to (111) 111-1111"
+            )
 
         return {
             "success": True,
             "total_records": len(data),
+            "empty_records_removed": empty_records_removed,
             "duplicates_removed": duplicates_removed,
-            "output_file": json_file_path
+            "output_file": json_file_path,
         }
 
     except FileNotFoundError:
