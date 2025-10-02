@@ -126,12 +126,56 @@ def extract_year_number(year_str: str) -> int:
         return 0
 
 
+def convert_drive_type(drive_type_str: str) -> str:
+    """
+    Convert drive type to abbreviated format.
+
+    Examples:
+        "All-Wheel Drive" → "AWD"
+        "Rear-Wheel Drive" → "RWD"
+        "" → ""
+    """
+    if not drive_type_str or drive_type_str.strip() == "":
+        return ""
+
+    drive_type_str = drive_type_str.strip()
+
+    if "All-Wheel Drive" in drive_type_str:
+        return "AWD"
+    elif "Rear-Wheel Drive" in drive_type_str:
+        return "RWD"
+    else:
+        return drive_type_str
+
+
+def clean_trim_field(trim_str: str) -> str:
+    """
+    Remove AWD/RWD from trim field to avoid duplication with drive_type.
+
+    Examples:
+        "Tech AWD" → "Tech"
+        "Luxury 3 AWD" → "Luxury 3"
+        "Sport 1 RWD" → "Sport 1"
+        "Tech" → "Tech"
+    """
+    if not trim_str or trim_str.strip() == "":
+        return ""
+
+    # Remove AWD and RWD from the end of trim strings
+    cleaned = trim_str.strip()
+    cleaned = re.sub(r"\s+AWD$", "", cleaned)
+    cleaned = re.sub(r"\s+RWD$", "", cleaned)
+
+    return cleaned
+
+
 def clean_record_data(
     record: Dict[str, Any], created_at_timestamp: str
 ) -> Dict[str, Any]:
     """
     Clean the record data by converting payment, price, mileage, and year to numbers.
-    Also add created_at timestamp to each record.
+    Also convert drive_type to abbreviations and clean trim field.
+    Add created_at timestamp to each record.
 
     Args:
         record (Dict): Record to clean
@@ -157,6 +201,14 @@ def clean_record_data(
     # Clean year field
     if 'year' in cleaned_record and cleaned_record['year']:
         cleaned_record['year'] = extract_year_number(cleaned_record['year'])
+
+    # Convert drive_type to abbreviations
+    if "drive_type" in cleaned_record and cleaned_record["drive_type"]:
+        cleaned_record["drive_type"] = convert_drive_type(cleaned_record["drive_type"])
+
+    # Clean trim field (remove AWD/RWD to avoid duplication)
+    if "trim" in cleaned_record and cleaned_record["trim"]:
+        cleaned_record["trim"] = clean_trim_field(cleaned_record["trim"])
 
     # Add created_at timestamp to each record
     cleaned_record["created_at"] = created_at_timestamp
@@ -260,33 +312,8 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
         if duplicates_removed > 0:
             print(f"Removed {duplicates_removed} duplicate records")
 
-        # Add timestamp
-        timestamp = datetime.now().isoformat()
-
-        # Count data cleaning conversions
-        payment_conversions = sum(1 for record in data if isinstance(record.get('payment'), int) and record.get('payment', 0) > 0)
-        price_conversions = sum(1 for record in data if isinstance(record.get('price'), int) and record.get('price', 0) > 0)
-        mileage_conversions = sum(1 for record in data if isinstance(record.get('milege'), int) and record.get('milege', 0) > 0)
-        year_conversions = sum(1 for record in data if isinstance(record.get('year'), int) and record.get('year', 0) > 0)
-
-        # Create final JSON structure
-        json_data = {
-            "metadata": {
-                "source_file": os.path.basename(csv_file_path),
-                "conversion_timestamp": timestamp,
-                "total_records": len(data),
-                "duplicates_removed": duplicates_removed,
-                "field_names": normalized_fieldnames,
-                "data_cleaning": {
-                    "payment_conversions": payment_conversions,
-                    "price_conversions": price_conversions,
-                    "mileage_conversions": mileage_conversions,
-                    "year_conversions": year_conversions,
-                    "description": "Payment, price, mileage, and year fields converted to numeric values"
-                }
-            },
-            "data": data
-        }
+        # Create final JSON structure (just the data array)
+        json_data = data
 
         # Write JSON file
         with open(json_file_path, 'w', encoding='utf-8') as jsonfile:
@@ -295,10 +322,9 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
         print(f"Successfully converted CSV to JSON: {json_file_path}")
         print(f"Total records: {len(data)}")
         print(f"Duplicates removed: {duplicates_removed}")
-        print(f"Payment conversions: {payment_conversions}")
-        print(f"Price conversions: {price_conversions}")
-        print(f"Mileage conversions: {mileage_conversions}")
-        print(f"Year conversions: {year_conversions}")
+        print("Data cleaning applied: payment, price, mileage, year → numbers")
+        print("Drive type converted: All-Wheel Drive → AWD, Rear-Wheel Drive → RWD")
+        print("Trim field cleaned: removed duplicate AWD/RWD references")
 
         return {
             "success": True,
