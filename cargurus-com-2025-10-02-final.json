@@ -2,7 +2,7 @@
   {
     "vin": "1GYKPMRL4RZ102008",
     "stock": "RZ102008",
-    "milege": 10203,
+    "mileage": 10203,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -20,7 +20,7 @@
   {
     "vin": "1GYKPSRL5RZ139234",
     "stock": "C12998A",
-    "milege": 10472,
+    "mileage": 10472,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -38,7 +38,7 @@
   {
     "vin": "1GYKPURK9SZ313203",
     "stock": "SZ313203",
-    "milege": 357,
+    "mileage": 357,
     "interior_color": "",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -56,7 +56,7 @@
   {
     "vin": "1GYKPRRLXRZ121093",
     "stock": "X562048B",
-    "milege": 4366,
+    "mileage": 4366,
     "interior_color": "Sky Cool Gray w/ Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -74,7 +74,7 @@
   {
     "vin": "1GYKPSRL6RZ138397",
     "stock": "3665XX",
-    "milege": 9280,
+    "mileage": 9280,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -92,7 +92,7 @@
   {
     "vin": "1GYKPMRK3RZ105344",
     "stock": "BLDC3031",
-    "milege": 3274,
+    "mileage": 3274,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -110,7 +110,7 @@
   {
     "vin": "1GYKPPRK3RZ108522",
     "stock": "B7005",
-    "milege": 10465,
+    "mileage": 10465,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -128,7 +128,7 @@
   {
     "vin": "1GYKPTRL2RZ109968",
     "stock": "740",
-    "milege": 32049,
+    "mileage": 32049,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "ARGENT SILVER METALLIC",
     "drive_type": "AWD",
@@ -146,7 +146,7 @@
   {
     "vin": "1GYKPPRL7PZ003214",
     "stock": "26-2116EW",
-    "milege": 19330,
+    "mileage": 19330,
     "interior_color": "Noir",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "AWD",
@@ -164,7 +164,7 @@
   {
     "vin": "1GYKPURL3SZ300150",
     "stock": "U33995",
-    "milege": 1096,
+    "mileage": 1096,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -182,7 +182,7 @@
   {
     "vin": "1GYKPMRK4PZ000082",
     "stock": "B7033",
-    "milege": 36576,
+    "mileage": 36576,
     "interior_color": "Gray (Sky Cool Grey)",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -200,7 +200,7 @@
   {
     "vin": "1GYKPTRL6RZ135232",
     "stock": "P4955",
-    "milege": 1684,
+    "mileage": 1684,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -218,7 +218,7 @@
   {
     "vin": "1GYKPVRL6RZ135260",
     "stock": "Y2349",
-    "milege": 6355,
+    "mileage": 6355,
     "interior_color": "Blue",
     "exterior_color": "Gray",
     "drive_type": "AWD",
@@ -236,7 +236,7 @@
   {
     "vin": "1GYKPTRL9SZ307386",
     "stock": "E17462",
-    "milege": 7141,
+    "mileage": 7141,
     "interior_color": "Gray",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -254,7 +254,7 @@
   {
     "vin": "1GYKPPRK9RZ110162",
     "stock": "SX17897",
-    "milege": 17610,
+    "mileage": 17610,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -272,7 +272,7 @@
   {
     "vin": "1GYKPWRK0RZ136675",
     "stock": "K1573",
-    "milege": 9236,
+    "mileage": 9236,
     "interior_color": "Juniper",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -290,7 +290,7 @@
   {
     "vin": "1GYKPVRLXRZ131955",
     "stock": "GX5208",
-    "milege": 10211,
+    "mileage": 10211,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -308,7 +308,7 @@
   {
     "vin": "1GYKPTRL4RZ100169",
     "stock": "K28888",
-    "milege": 24313,
+    "mileage": 24313,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -326,7 +326,7 @@
   {
     "vin": "1GYKPRRL0RZ127095",
     "stock": "RZ127095A",
-    "milege": 3064,
+    "mileage": 3064,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -344,7 +344,7 @@
   {
     "vin": "1GYKPTRK0RZ101682",
     "stock": "JU17492",
-    "milege": 15467,
+    "mileage": 15467,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -362,7 +362,7 @@
   {
     "vin": "1GYKPPRK9RZ130623",
     "stock": "19865",
-    "milege": 3471,
+    "mileage": 3471,
     "interior_color": "Gray",
     "exterior_color": "Blue",
     "drive_type": "RWD",
@@ -380,7 +380,7 @@
   {
     "vin": "1GYKPPRK0RZ133801",
     "stock": "QBT4473A",
-    "milege": 20306,
+    "mileage": 20306,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -398,7 +398,7 @@
   {
     "vin": "1GYKPTRK4RZ105086",
     "stock": "4307",
-    "milege": 32318,
+    "mileage": 32318,
     "interior_color": "Juniper",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -416,7 +416,7 @@
   {
     "vin": "1GYKPMRL5RZ104205",
     "stock": "5377620",
-    "milege": 2297,
+    "mileage": 2297,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -434,7 +434,7 @@
   {
     "vin": "1GYKPVRL5RZ119695",
     "stock": "P6277",
-    "milege": 10829,
+    "mileage": 10829,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -452,7 +452,7 @@
   {
     "vin": "1GYKPPRL1RZ116983",
     "stock": "5P42",
-    "milege": 13369,
+    "mileage": 13369,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -470,7 +470,7 @@
   {
     "vin": "1GYKPMRL5RZ111395",
     "stock": "25N651",
-    "milege": 12090,
+    "mileage": 12090,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -488,7 +488,7 @@
   {
     "vin": "1GYKPMRK1PZ000833",
     "stock": "PZ000833P",
-    "milege": 17819,
+    "mileage": 17819,
     "interior_color": "Gray (Sky Cool Grey)",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -506,7 +506,7 @@
   {
     "vin": "1GYKPSRL8RZ136988",
     "stock": "ARZ136988",
-    "milege": 13687,
+    "mileage": 13687,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -524,7 +524,7 @@
   {
     "vin": "1GYKPWRL1SZ318433",
     "stock": "Z301849A",
-    "milege": 1507,
+    "mileage": 1507,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -542,7 +542,7 @@
   {
     "vin": "1GYKPWRK0RZ121156",
     "stock": "RZ121156T",
-    "milege": 3194,
+    "mileage": 3194,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -560,7 +560,7 @@
   {
     "vin": "1GYKPWRK2RZ136175",
     "stock": "PR6032",
-    "milege": 7664,
+    "mileage": 7664,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -578,7 +578,7 @@
   {
     "vin": "1GYKPPRK2RZ100573",
     "stock": "PS100573",
-    "milege": 22437,
+    "mileage": 22437,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -596,7 +596,7 @@
   {
     "vin": "1GYKPPRLXRZ100068",
     "stock": "100068",
-    "milege": 7359,
+    "mileage": 7359,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -614,7 +614,7 @@
   {
     "vin": "1GYKPPRL8RZ100408",
     "stock": "100408",
-    "milege": 3151,
+    "mileage": 3151,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -632,7 +632,7 @@
   {
     "vin": "1GYKPSRL9RZ140483",
     "stock": "AN0905A",
-    "milege": 12221,
+    "mileage": 12221,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -650,7 +650,7 @@
   {
     "vin": "1GYKPVRL9RZ137181",
     "stock": "P17602",
-    "milege": 6005,
+    "mileage": 6005,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -668,7 +668,7 @@
   {
     "vin": "1GYKPVRL0RZ138834",
     "stock": "P15600",
-    "milege": 4813,
+    "mileage": 4813,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -686,7 +686,7 @@
   {
     "vin": "1GYKPTRL5RZ140650",
     "stock": "FP0650",
-    "milege": 3147,
+    "mileage": 3147,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -704,7 +704,7 @@
   {
     "vin": "1GYKPTRLXRZ105327",
     "stock": "134139",
-    "milege": 12786,
+    "mileage": 12786,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -722,7 +722,7 @@
   {
     "vin": "1GYKPVRL2RZ118195",
     "stock": "P118195",
-    "milege": 6589,
+    "mileage": 6589,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -740,7 +740,7 @@
   {
     "vin": "1GYKPSRL8RZ116790",
     "stock": "G2377A",
-    "milege": 16958,
+    "mileage": 16958,
     "interior_color": "Gray",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -758,7 +758,7 @@
   {
     "vin": "1GYKPTRL4SZ300832",
     "stock": "00832B",
-    "milege": 4336,
+    "mileage": 4336,
     "interior_color": "Juniper With Sky Gray Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -776,7 +776,7 @@
   {
     "vin": "1GYKPRRK8RZ112321",
     "stock": "54433A",
-    "milege": 689,
+    "mileage": 689,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -794,7 +794,7 @@
   {
     "vin": "1GYKPTRK1RZ134982",
     "stock": "LV453",
-    "milege": 4784,
+    "mileage": 4784,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -812,7 +812,7 @@
   {
     "vin": "1GYKPMRK8PZ000103",
     "stock": "103",
-    "milege": 34814,
+    "mileage": 34814,
     "interior_color": "Gray",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -830,7 +830,7 @@
   {
     "vin": "1GYKPPRL0RZ102136",
     "stock": "TL104354A",
-    "milege": 6440,
+    "mileage": 6440,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -848,7 +848,7 @@
   {
     "vin": "1GYKPPRK9RZ100506",
     "stock": "23336",
-    "milege": 25869,
+    "mileage": 25869,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -866,7 +866,7 @@
   {
     "vin": "1GYKPWRL4RZ123971",
     "stock": "PR6035",
-    "milege": 14236,
+    "mileage": 14236,
     "interior_color": "Sky Cool Gray With Santorini Blue Accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -884,7 +884,7 @@
   {
     "vin": "1GYKPSRL4RZ135711",
     "stock": "135711",
-    "milege": 6589,
+    "mileage": 6589,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -902,7 +902,7 @@
   {
     "vin": "1GYKPSRL3RZ136882",
     "stock": "7758620",
-    "milege": 8078,
+    "mileage": 8078,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -920,7 +920,7 @@
   {
     "vin": "1GYKPPRL8RZ105852",
     "stock": "P07307A",
-    "milege": 10004,
+    "mileage": 10004,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -938,7 +938,7 @@
   {
     "vin": "1GYKPMRL2RZ103223",
     "stock": "LLU2960",
-    "milege": 20472,
+    "mileage": 20472,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -956,7 +956,7 @@
   {
     "vin": "1GYKPSRL2RZ138302",
     "stock": "RZ138302",
-    "milege": 5110,
+    "mileage": 5110,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -974,7 +974,7 @@
   {
     "vin": "1GYKPMRKXPZ002550",
     "stock": "Z002550U",
-    "milege": 32284,
+    "mileage": 32284,
     "interior_color": "Noir",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -992,7 +992,7 @@
   {
     "vin": "1GYKPTRK4RZ105086",
     "stock": "4307",
-    "milege": 32318,
+    "mileage": 32318,
     "interior_color": "Juniper",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -1010,7 +1010,7 @@
   {
     "vin": "1GYKPSRK9RZ136957",
     "stock": "P136957",
-    "milege": 5783,
+    "mileage": 5783,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -1028,7 +1028,7 @@
   {
     "vin": "1GYKPTRL2RZ136510",
     "stock": "25H696",
-    "milege": 4719,
+    "mileage": 4719,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -1046,7 +1046,7 @@
   {
     "vin": "1GYKPMRK8PZ001316",
     "stock": "54434A",
-    "milege": 10064,
+    "mileage": 10064,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -1064,7 +1064,7 @@
   {
     "vin": "1GYKPSRL4RZ139967",
     "stock": "TC0480",
-    "milege": 5236,
+    "mileage": 5236,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -1082,7 +1082,7 @@
   {
     "vin": "1GYKPSRL0RZ136368",
     "stock": "A10566",
-    "milege": 11816,
+    "mileage": 11816,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -1100,7 +1100,7 @@
   {
     "vin": "1GYKPMRK8RZ115836",
     "stock": "L31548",
-    "milege": 3912,
+    "mileage": 3912,
     "interior_color": "Noir",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -1118,7 +1118,7 @@
   {
     "vin": "1GYKPTRK9RZ111160",
     "stock": "P111160",
-    "milege": 6201,
+    "mileage": 6201,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -1136,7 +1136,7 @@
   {
     "vin": "1GYKPPRKXRZ130503",
     "stock": "U01869",
-    "milege": 11390,
+    "mileage": 11390,
     "interior_color": "Blue",
     "exterior_color": "Green",
     "drive_type": "RWD",
@@ -1154,7 +1154,7 @@
   {
     "vin": "1GYKPMRK3PZ000073",
     "stock": "PR5625",
-    "milege": 34621,
+    "mileage": 34621,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Gray (Satin Steel)",
     "drive_type": "RWD",
@@ -1172,7 +1172,7 @@
   {
     "vin": "1GYKPMRL4RZ102008",
     "stock": "RZ102008",
-    "milege": 10203,
+    "mileage": 10203,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1190,7 +1190,7 @@
   {
     "vin": "1GYKPYRL6SZ302966",
     "stock": "P6611",
-    "milege": 9869,
+    "mileage": 9869,
     "interior_color": "Sky Cool Gray With Santorini Blue Accents, Intelux",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1208,7 +1208,7 @@
   {
     "vin": "1GYKPSRL1RZ139084",
     "stock": "P0587",
-    "milege": 10562,
+    "mileage": 10562,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1226,7 +1226,7 @@
   {
     "vin": "1GYKPPRL7RZ132167",
     "stock": "C5795RS",
-    "milege": 7328,
+    "mileage": 7328,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -1244,7 +1244,7 @@
   {
     "vin": "1GYKPPRL1RZ102176",
     "stock": "7758960",
-    "milege": 22158,
+    "mileage": 22158,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -1262,7 +1262,7 @@
   {
     "vin": "1GYKPSRL5RZ139802",
     "stock": "139802",
-    "milege": 9009,
+    "mileage": 9009,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -1280,7 +1280,7 @@
   {
     "vin": "1GYKPPRK7RZ115456",
     "stock": "IRZ115456",
-    "milege": 2583,
+    "mileage": 2583,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -1298,7 +1298,7 @@
   {
     "vin": "1GYKPTRKXRZ107537",
     "stock": "GC7019A",
-    "milege": 6833,
+    "mileage": 6833,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -1316,7 +1316,7 @@
   {
     "vin": "1GYKPMRL0RZ104452",
     "stock": "U219-288",
-    "milege": 12257,
+    "mileage": 12257,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1334,7 +1334,7 @@
   {
     "vin": "1GYKPSRL4RZ110128",
     "stock": "U5930",
-    "milege": 24154,
+    "mileage": 24154,
     "interior_color": "Sky Cool Gray w/Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -1352,7 +1352,7 @@
   {
     "vin": "1GYKPTRK3RZ130271",
     "stock": "I130271",
-    "milege": 32194,
+    "mileage": 32194,
     "interior_color": "Gray",
     "exterior_color": "Red",
     "drive_type": "RWD",
@@ -1370,7 +1370,7 @@
   {
     "vin": "1GYKPRRL8RZ112019",
     "stock": "PIM0291A",
-    "milege": 15584,
+    "mileage": 15584,
     "interior_color": "Sky Cool Gray w/ Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -1388,7 +1388,7 @@
   {
     "vin": "1GYKPTRK6RZ101668",
     "stock": "CT00689A",
-    "milege": 45298,
+    "mileage": 45298,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -1406,7 +1406,7 @@
   {
     "vin": "1GYKPSRL5RZ138309",
     "stock": "RZ138309",
-    "milege": 12008,
+    "mileage": 12008,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1424,7 +1424,7 @@
   {
     "vin": "1GYKPYRL1SZ307850",
     "stock": "SZ307850",
-    "milege": 2299,
+    "mileage": 2299,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1442,7 +1442,7 @@
   {
     "vin": "1GYKPSRL5RZ138293",
     "stock": "RZ138293",
-    "milege": 6865,
+    "mileage": 6865,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1460,7 +1460,7 @@
   {
     "vin": "1GYKPMRK6RZ120310",
     "stock": "C20310P",
-    "milege": 18697,
+    "mileage": 18697,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -1478,7 +1478,7 @@
   {
     "vin": "1GYKPRRL3RZ123476",
     "stock": "RZ123476B",
-    "milege": 2606,
+    "mileage": 2606,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1496,7 +1496,7 @@
   {
     "vin": "1GYKPVRL0RZ119880",
     "stock": "C16876A",
-    "milege": 16464,
+    "mileage": 16464,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -1514,7 +1514,7 @@
   {
     "vin": "1GYKPSRL4RZ141170",
     "stock": "7759150",
-    "milege": 4553,
+    "mileage": 4553,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -1532,7 +1532,7 @@
   {
     "vin": "1GYKPMRL9RZ126367",
     "stock": "GM10979",
-    "milege": 19451,
+    "mileage": 19451,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -1550,7 +1550,7 @@
   {
     "vin": "1GYKPPRL3PZ003386",
     "stock": "PM003386",
-    "milege": 12834,
+    "mileage": 12834,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1568,7 +1568,7 @@
   {
     "vin": "1GYKPURK7SZ300627",
     "stock": "MNI250724A",
-    "milege": 13913,
+    "mileage": 13913,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "RWD",
@@ -1586,7 +1586,7 @@
   {
     "vin": "1GYKPNRK2SZ306308",
     "stock": "KR64615",
-    "milege": 456,
+    "mileage": 456,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -1604,7 +1604,7 @@
   {
     "vin": "1GYKPSRL3RZ137885",
     "stock": "WPU6129",
-    "milege": 13505,
+    "mileage": 13505,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1622,7 +1622,7 @@
   {
     "vin": "1GYKPRRKXRZ136670",
     "stock": "PR5523",
-    "milege": 16846,
+    "mileage": 16846,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Stellar Black",
     "drive_type": "RWD",
@@ -1640,7 +1640,7 @@
   {
     "vin": "1GYKPWRL7RZ129263",
     "stock": "U600961A",
-    "milege": 7392,
+    "mileage": 7392,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1658,7 +1658,7 @@
   {
     "vin": "1GYKPSRL3RZ136395",
     "stock": "RZ136395",
-    "milege": 6453,
+    "mileage": 6453,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1676,7 +1676,7 @@
   {
     "vin": "1GYKPPRL8RZ138981",
     "stock": "Z138981",
-    "milege": 10490,
+    "mileage": 10490,
     "interior_color": "Gray",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -1694,7 +1694,7 @@
   {
     "vin": "1GYKPSRL6RZ138920",
     "stock": "P47435",
-    "milege": 12727,
+    "mileage": 12727,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1712,7 +1712,7 @@
   {
     "vin": "1GYKPTRL2SZ301266",
     "stock": "6477",
-    "milege": 13210,
+    "mileage": 13210,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -1730,7 +1730,7 @@
   {
     "vin": "1GYKPSRL2RZ137134",
     "stock": "AL9349",
-    "milege": 11564,
+    "mileage": 11564,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -1748,7 +1748,7 @@
   {
     "vin": "1GYKPRRK1RZ106649",
     "stock": "5387676A",
-    "milege": 11496,
+    "mileage": 11496,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -1766,7 +1766,7 @@
   {
     "vin": "1GYKPSRK3RZ132581",
     "stock": "RZ132581",
-    "milege": 7800,
+    "mileage": 7800,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -1784,7 +1784,7 @@
   {
     "vin": "1GYKPWRL7RZ119106",
     "stock": "7RZ119106",
-    "milege": 8070,
+    "mileage": 8070,
     "interior_color": "",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -1802,7 +1802,7 @@
   {
     "vin": "1GYKPSRL8RZ137719",
     "stock": "RZ137719",
-    "milege": 8885,
+    "mileage": 8885,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1820,7 +1820,7 @@
   {
     "vin": "1GYKPTRK6RZ108734",
     "stock": "L31642",
-    "milege": 10022,
+    "mileage": 10022,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -1838,7 +1838,7 @@
   {
     "vin": "1GYKPTRL0SZ305543",
     "stock": "CP305543",
-    "milege": 1550,
+    "mileage": 1550,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -1856,7 +1856,7 @@
   {
     "vin": "1GYKPTRK6RZ100343",
     "stock": "SX17999",
-    "milege": 27764,
+    "mileage": 27764,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -1874,7 +1874,7 @@
   {
     "vin": "1GYKPSRL5RZ137855",
     "stock": "P47479",
-    "milege": 12927,
+    "mileage": 12927,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -1892,7 +1892,7 @@
   {
     "vin": "1GYKPMRL2RZ120586",
     "stock": "RZ120586",
-    "milege": 23324,
+    "mileage": 23324,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -1910,7 +1910,7 @@
   {
     "vin": "1GYKPTRKXRZ100572",
     "stock": "CD15532",
-    "milege": 13992,
+    "mileage": 13992,
     "interior_color": "Noir with Santorini Blue accen",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -1928,7 +1928,7 @@
   {
     "vin": "1GYKPSRL9RZ138376",
     "stock": "C13001A",
-    "milege": 13034,
+    "mileage": 13034,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -1946,7 +1946,7 @@
   {
     "vin": "1GYKPTRL3RZ104066",
     "stock": "7759050",
-    "milege": 9154,
+    "mileage": 9154,
     "interior_color": "Gray",
     "exterior_color": "Blue",
     "drive_type": "AWD",
@@ -1964,7 +1964,7 @@
   {
     "vin": "1GYKPTRK2RZ106415",
     "stock": "RZ106415",
-    "milege": 8222,
+    "mileage": 8222,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -1982,7 +1982,7 @@
   {
     "vin": "1GYKPPRL6RZ101010",
     "stock": "701155A",
-    "milege": 14861,
+    "mileage": 14861,
     "interior_color": "Sky Cool Gray with Santorini Blue accents, Intelux",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2000,7 +2000,7 @@
   {
     "vin": "1GYKPSRL7RZ137971",
     "stock": "P211809",
-    "milege": 7863,
+    "mileage": 7863,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2018,7 +2018,7 @@
   {
     "vin": "1GYKPMRK5PZ000267",
     "stock": "P10102",
-    "milege": 30325,
+    "mileage": 30325,
     "interior_color": "",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -2036,7 +2036,7 @@
   {
     "vin": "1GYKPSRL7RZ138716",
     "stock": "P0586",
-    "milege": 8465,
+    "mileage": 8465,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -2054,7 +2054,7 @@
   {
     "vin": "1GYKPPRL3RZ109694",
     "stock": "B9299A",
-    "milege": 6176,
+    "mileage": 6176,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -2072,7 +2072,7 @@
   {
     "vin": "1GYKPPRK1RZ105814",
     "stock": "PT5985",
-    "milege": 21562,
+    "mileage": 21562,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -2090,7 +2090,7 @@
   {
     "vin": "1GYKPPRK3RZ105426",
     "stock": "C260155A",
-    "milege": 6436,
+    "mileage": 6436,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -2108,7 +2108,7 @@
   {
     "vin": "1GYKPWRL8RZ130633",
     "stock": "36438",
-    "milege": 12509,
+    "mileage": 12509,
     "interior_color": "Oxford Stone with Garnet accents, Full Leather sea",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -2126,7 +2126,7 @@
   {
     "vin": "1GYKPTRL1RZ108259",
     "stock": "UC1329T",
-    "milege": 10324,
+    "mileage": 10324,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -2144,7 +2144,7 @@
   {
     "vin": "1GYKPSRL0RZ135706",
     "stock": "PRH1563",
-    "milege": 10615,
+    "mileage": 10615,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -2162,7 +2162,7 @@
   {
     "vin": "1GYKPTRK1RZ107233",
     "stock": "Z107233T",
-    "milege": 3973,
+    "mileage": 3973,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -2180,7 +2180,7 @@
   {
     "vin": "1GYKPSRL3RZ136350",
     "stock": "P0585",
-    "milege": 10533,
+    "mileage": 10533,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -2198,7 +2198,7 @@
   {
     "vin": "1GYKPTRK4RZ101538",
     "stock": "SA048752A",
-    "milege": 19672,
+    "mileage": 19672,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -2216,7 +2216,7 @@
   {
     "vin": "1GYKPPRL8RZ117399",
     "stock": "D4635",
-    "milege": 16220,
+    "mileage": 16220,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2234,7 +2234,7 @@
   {
     "vin": "1GYKPSRL2RZ131771",
     "stock": "PRZ131771",
-    "milege": 8007,
+    "mileage": 8007,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2252,7 +2252,7 @@
   {
     "vin": "1GYKPURL0SZ316208",
     "stock": "SZ316208",
-    "milege": 1490,
+    "mileage": 1490,
     "interior_color": "",
     "exterior_color": "Blue",
     "drive_type": "AWD",
@@ -2270,7 +2270,7 @@
   {
     "vin": "1GYKPSRL3RZ137448",
     "stock": "11U02690",
-    "milege": 11357,
+    "mileage": 11357,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -2288,7 +2288,7 @@
   {
     "vin": "1GYKPMRL5RZ134658",
     "stock": "P1451",
-    "milege": 1947,
+    "mileage": 1947,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -2306,7 +2306,7 @@
   {
     "vin": "1GYKPWRL8SZ306506",
     "stock": "25N656",
-    "milege": 6170,
+    "mileage": 6170,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2324,7 +2324,7 @@
   {
     "vin": "1GYKPPRK4RZ102776",
     "stock": "ZZ102776",
-    "milege": 17854,
+    "mileage": 17854,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -2342,7 +2342,7 @@
   {
     "vin": "1GYKPPRK5RZ102494",
     "stock": "BU11595",
-    "milege": 7523,
+    "mileage": 7523,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -2360,7 +2360,7 @@
   {
     "vin": "1GYKPMRKXRZ102134",
     "stock": "RZ102134",
-    "milege": 4755,
+    "mileage": 4755,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -2378,7 +2378,7 @@
   {
     "vin": "1GYKPTRK2RZ108357",
     "stock": "A10557",
-    "milege": 15274,
+    "mileage": 15274,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -2396,7 +2396,7 @@
   {
     "vin": "1GYKPPRK3RZ111047",
     "stock": "12403",
-    "milege": 10680,
+    "mileage": 10680,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -2414,7 +2414,7 @@
   {
     "vin": "1GYKPSRL9RZ137745",
     "stock": "PR6036",
-    "milege": 12213,
+    "mileage": 12213,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -2432,7 +2432,7 @@
   {
     "vin": "1GYKPPRKXRZ131361",
     "stock": "131361G",
-    "milege": 3941,
+    "mileage": 3941,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -2450,7 +2450,7 @@
   {
     "vin": "1GYKPMRK7RZ109073",
     "stock": "RZ109073",
-    "milege": 10992,
+    "mileage": 10992,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -2468,7 +2468,7 @@
   {
     "vin": "1GYKPYRLXSZ301058",
     "stock": "P4130",
-    "milege": 4957,
+    "mileage": 4957,
     "interior_color": "Oxford Stone with Garnet accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -2486,7 +2486,7 @@
   {
     "vin": "1GYKPSRL2RZ139045",
     "stock": "11U02691",
-    "milege": 9202,
+    "mileage": 9202,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2504,7 +2504,7 @@
   {
     "vin": "1GYKPURL0SZ308223",
     "stock": "KR64863",
-    "milege": 364,
+    "mileage": 364,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -2522,7 +2522,7 @@
   {
     "vin": "1GYKPPRK8RZ122724",
     "stock": "5460",
-    "milege": 8495,
+    "mileage": 8495,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -2540,7 +2540,7 @@
   {
     "vin": "1GYKPRRK5SZ317522",
     "stock": "67522-L",
-    "milege": 1366,
+    "mileage": 1366,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -2558,7 +2558,7 @@
   {
     "vin": "1GYKPWRK9RZ105358",
     "stock": "RZ105358PP",
-    "milege": 13011,
+    "mileage": 13011,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -2576,7 +2576,7 @@
   {
     "vin": "1GYKPMRK9RZ133357",
     "stock": "4402",
-    "milege": 12482,
+    "mileage": 12482,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -2594,7 +2594,7 @@
   {
     "vin": "1GYKPTRK3RZ133896",
     "stock": "PRZ133896",
-    "milege": 4677,
+    "mileage": 4677,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -2612,7 +2612,7 @@
   {
     "vin": "1GYKPTRL5RZ104795",
     "stock": "V7452",
-    "milege": 19320,
+    "mileage": 19320,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -2630,7 +2630,7 @@
   {
     "vin": "1GYKPPRK0RZ110146",
     "stock": "Z705663A",
-    "milege": 15542,
+    "mileage": 15542,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -2648,7 +2648,7 @@
   {
     "vin": "1GYKPWRK0RZ114207",
     "stock": "25-1732",
-    "milege": 14362,
+    "mileage": 14362,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -2666,7 +2666,7 @@
   {
     "vin": "1GYKPSRL4RZ137149",
     "stock": "C13000A",
-    "milege": 10540,
+    "mileage": 10540,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2684,7 +2684,7 @@
   {
     "vin": "1GYKPTRL3RZ109011",
     "stock": "RZ109011A",
-    "milege": 34221,
+    "mileage": 34221,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -2702,7 +2702,7 @@
   {
     "vin": "1GYKPPRL3RZ101126",
     "stock": "M1041",
-    "milege": 15189,
+    "mileage": 15189,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -2720,7 +2720,7 @@
   {
     "vin": "1GYKPMRK1RZ109814",
     "stock": "MH10599",
-    "milege": 28753,
+    "mileage": 28753,
     "interior_color": "Noir H9f",
     "exterior_color": "Radiant Red Tintcoat Gnt",
     "drive_type": "RWD",
@@ -2738,7 +2738,7 @@
   {
     "vin": "1GYKPPRL1RZ102081",
     "stock": "AP1840",
-    "milege": 33606,
+    "mileage": 33606,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -2756,7 +2756,7 @@
   {
     "vin": "1GYKPPRL3RZ101126",
     "stock": "M1041",
-    "milege": 15189,
+    "mileage": 15189,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -2774,7 +2774,7 @@
   {
     "vin": "1GYKPWRL0RZ105161",
     "stock": "RZ105161B",
-    "milege": 6858,
+    "mileage": 6858,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -2792,7 +2792,7 @@
   {
     "vin": "1GYKPMRK2PZ002624",
     "stock": "C25113A",
-    "milege": 19380,
+    "mileage": 19380,
     "interior_color": "",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -2810,7 +2810,7 @@
   {
     "vin": "1GYKPPRL1PZ002673",
     "stock": "6172A",
-    "milege": 24331,
+    "mileage": 24331,
     "interior_color": "Noir",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "AWD",
@@ -2828,7 +2828,7 @@
   {
     "vin": "1GYKPSRK3RZ126635",
     "stock": "FP6635",
-    "milege": 8383,
+    "mileage": 8383,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -2846,7 +2846,7 @@
   {
     "vin": "1GYKPPRL2RZ105751",
     "stock": "PG4103",
-    "milege": 17841,
+    "mileage": 17841,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -2864,7 +2864,7 @@
   {
     "vin": "1GYKPTRL6RZ101341",
     "stock": "PG4105",
-    "milege": 22549,
+    "mileage": 22549,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -2882,7 +2882,7 @@
   {
     "vin": "1GYKPWRL6RZ123745",
     "stock": "LLU3011",
-    "milege": 10259,
+    "mileage": 10259,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -2900,7 +2900,7 @@
   {
     "vin": "1GYKPWRL7RZ138626",
     "stock": "ECC2173",
-    "milege": 4403,
+    "mileage": 4403,
     "interior_color": "",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -2918,7 +2918,7 @@
   {
     "vin": "1GYKPPRL7RZ104305",
     "stock": "VP2345",
-    "milege": 12360,
+    "mileage": 12360,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -2936,7 +2936,7 @@
   {
     "vin": "1GYKPTRLXRZ102458",
     "stock": "RZ102458",
-    "milege": 5824,
+    "mileage": 5824,
     "interior_color": "Sky Cool Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -2954,7 +2954,7 @@
   {
     "vin": "1GYKPPRK3RZ131556",
     "stock": "P7557",
-    "milege": 4807,
+    "mileage": 4807,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -2972,7 +2972,7 @@
   {
     "vin": "1GYKPTRK0RZ107594",
     "stock": "RZ107594",
-    "milege": 5184,
+    "mileage": 5184,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "RWD",
@@ -2990,7 +2990,7 @@
   {
     "vin": "1GYKPTRK0RZ109040",
     "stock": "Z317479A",
-    "milege": 37242,
+    "mileage": 37242,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -3008,7 +3008,7 @@
   {
     "vin": "1GYKPTRL8RZ101809",
     "stock": "LLU2885",
-    "milege": 8129,
+    "mileage": 8129,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3026,7 +3026,7 @@
   {
     "vin": "1GYKPSRLXRZ136863",
     "stock": "4792",
-    "milege": 12105,
+    "mileage": 12105,
     "interior_color": "Blue",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3044,7 +3044,7 @@
   {
     "vin": "1GYKPNRK2SZ311654",
     "stock": "C26131A",
-    "milege": 7350,
+    "mileage": 7350,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -3062,7 +3062,7 @@
   {
     "vin": "1GYKPMRK0PZ001391",
     "stock": "GC042810A",
-    "milege": 20965,
+    "mileage": 20965,
     "interior_color": "Gray (Sky Grey)",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -3080,7 +3080,7 @@
   {
     "vin": "1GYKPRRL2RZ113327",
     "stock": "PH1463",
-    "milege": 13806,
+    "mileage": 13806,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -3098,7 +3098,7 @@
   {
     "vin": "1GYKPTRK9RZ100613",
     "stock": "Z100613",
-    "milege": 5517,
+    "mileage": 5517,
     "interior_color": "",
     "exterior_color": "Blue",
     "drive_type": "RWD",
@@ -3116,7 +3116,7 @@
   {
     "vin": "1GYKPPRK6RZ115934",
     "stock": "SZ317595A",
-    "milege": 10464,
+    "mileage": 10464,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -3134,7 +3134,7 @@
   {
     "vin": "1GYKPSRL8RZ138904",
     "stock": "PTA138904",
-    "milege": 8369,
+    "mileage": 8369,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3152,7 +3152,7 @@
   {
     "vin": "1GYKPWRL7RZ119106",
     "stock": "7RZ119106",
-    "milege": 8070,
+    "mileage": 8070,
     "interior_color": "",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -3170,7 +3170,7 @@
   {
     "vin": "1GYKPNRKXSZ310963",
     "stock": "60963-L",
-    "milege": 1274,
+    "mileage": 1274,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -3188,7 +3188,7 @@
   {
     "vin": "1GYKPSRL0RZ136855",
     "stock": "P010146",
-    "milege": 10890,
+    "mileage": 10890,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3206,7 +3206,7 @@
   {
     "vin": "1GYKPURL9SZ309953",
     "stock": "K64894A",
-    "milege": 4858,
+    "mileage": 4858,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -3224,7 +3224,7 @@
   {
     "vin": "1GYKPSRL5RZ137967",
     "stock": "CP7126",
-    "milege": 10422,
+    "mileage": 10422,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -3242,7 +3242,7 @@
   {
     "vin": "1GYKPWRL6RZ126192",
     "stock": "P35798",
-    "milege": 10432,
+    "mileage": 10432,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -3260,7 +3260,7 @@
   {
     "vin": "1GYKPMRK1RZ100031",
     "stock": "BLDC3052",
-    "milege": 7411,
+    "mileage": 7411,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -3278,7 +3278,7 @@
   {
     "vin": "1GYKPRRL4SZ313857",
     "stock": "PJR251077B",
-    "milege": 2440,
+    "mileage": 2440,
     "interior_color": "Gray",
     "exterior_color": "Green",
     "drive_type": "AWD",
@@ -3296,7 +3296,7 @@
   {
     "vin": "1GYKPWRL6RZ122305",
     "stock": "31560",
-    "milege": 14429,
+    "mileage": 14429,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -3314,7 +3314,7 @@
   {
     "vin": "1GYKPWRL4RZ126854",
     "stock": "23871T",
-    "milege": 7535,
+    "mileage": 7535,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -3332,7 +3332,7 @@
   {
     "vin": "1GYKPSRL7RZ138361",
     "stock": "MH10645",
-    "milege": 5880,
+    "mileage": 5880,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3350,7 +3350,7 @@
   {
     "vin": "1GYKPPRL4RZ105413",
     "stock": "U2875",
-    "milege": 11591,
+    "mileage": 11591,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -3368,7 +3368,7 @@
   {
     "vin": "1GYKPPRL2RZ103644",
     "stock": "3644",
-    "milege": 18900,
+    "mileage": 18900,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -3386,7 +3386,7 @@
   {
     "vin": "1GYKPMRK3RZ107479",
     "stock": "RZ107479",
-    "milege": 17826,
+    "mileage": 17826,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -3404,7 +3404,7 @@
   {
     "vin": "1GYKPSRL2RZ135724",
     "stock": "P8187",
-    "milege": 7178,
+    "mileage": 7178,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -3422,7 +3422,7 @@
   {
     "vin": "1GYKPTRL4RZ110863",
     "stock": "000L3735",
-    "milege": 5054,
+    "mileage": 5054,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3440,7 +3440,7 @@
   {
     "vin": "1GYKPTRK4RZ115729",
     "stock": "CT01846A",
-    "milege": 15240,
+    "mileage": 15240,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -3458,7 +3458,7 @@
   {
     "vin": "1GYKPMRK5PZ000785",
     "stock": "6950B",
-    "milege": 13867,
+    "mileage": 13867,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -3476,7 +3476,7 @@
   {
     "vin": "1GYKPPRL2RZ104440",
     "stock": "104440",
-    "milege": 4657,
+    "mileage": 4657,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -3494,7 +3494,7 @@
   {
     "vin": "1GYKPSRL4RZ139158",
     "stock": "PT139158",
-    "milege": 8081,
+    "mileage": 8081,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3512,7 +3512,7 @@
   {
     "vin": "1GYKPRRL4RZ130291",
     "stock": "R385130B",
-    "milege": 30119,
+    "mileage": 30119,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -3530,7 +3530,7 @@
   {
     "vin": "1GYKPSRL3RZ137384",
     "stock": "PT137384",
-    "milege": 13415,
+    "mileage": 13415,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -3548,7 +3548,7 @@
   {
     "vin": "1GYKPWRK8RZ119638",
     "stock": "P6619",
-    "milege": 2895,
+    "mileage": 2895,
     "interior_color": "Noir With Santorini Blue Accents, Inteluxe Seat Tr",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -3566,7 +3566,7 @@
   {
     "vin": "1GYKPPRK4RZ103393",
     "stock": "KWMP240321",
-    "milege": 10299,
+    "mileage": 10299,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Blue",
     "drive_type": "RWD",
@@ -3584,7 +3584,7 @@
   {
     "vin": "1GYKPSRL3RZ140348",
     "stock": "SP0324",
-    "milege": 13564,
+    "mileage": 13564,
     "interior_color": "",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -3602,7 +3602,7 @@
   {
     "vin": "1GYKPMRK0RZ134753",
     "stock": "134753",
-    "milege": 7319,
+    "mileage": 7319,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -3620,7 +3620,7 @@
   {
     "vin": "1GYKPPRLXRZ115184",
     "stock": "UA38395A",
-    "milege": 14283,
+    "mileage": 14283,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -3638,7 +3638,7 @@
   {
     "vin": "1GYKPSRL5RZ139069",
     "stock": "16490",
-    "milege": 12869,
+    "mileage": 12869,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -3656,7 +3656,7 @@
   {
     "vin": "1GYKPSRL5RZ137838",
     "stock": "A10638",
-    "milege": 11799,
+    "mileage": 11799,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -3674,7 +3674,7 @@
   {
     "vin": "1GYKPPRL8RZ115913",
     "stock": "OP7073",
-    "milege": 7665,
+    "mileage": 7665,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -3692,7 +3692,7 @@
   {
     "vin": "1GYKPTRK1RZ100069",
     "stock": "N10531",
-    "milege": 20831,
+    "mileage": 20831,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -3710,7 +3710,7 @@
   {
     "vin": "1GYKPSRL2RZ138395",
     "stock": "16491",
-    "milege": 11912,
+    "mileage": 11912,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -3728,7 +3728,7 @@
   {
     "vin": "1GYKPPRL1RZ111976",
     "stock": "111976",
-    "milege": 2580,
+    "mileage": 2580,
     "interior_color": "Gray",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -3746,7 +3746,7 @@
   {
     "vin": "1GYKPPRL5RZ105159",
     "stock": "LLU3009",
-    "milege": 33091,
+    "mileage": 33091,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -3764,7 +3764,7 @@
   {
     "vin": "1GYKPTRK7RZ119693",
     "stock": "24-19693",
-    "milege": 3305,
+    "mileage": 3305,
     "interior_color": "Black",
     "exterior_color": "Purple",
     "drive_type": "RWD",
@@ -3782,7 +3782,7 @@
   {
     "vin": "1GYKPNRK8SZ302747",
     "stock": "W5T702295A",
-    "milege": 852,
+    "mileage": 852,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Celestial Metallic",
     "drive_type": "RWD",
@@ -3800,7 +3800,7 @@
   {
     "vin": "1GYKPSRL1RZ136850",
     "stock": "29275",
-    "milege": 11048,
+    "mileage": 11048,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3818,7 +3818,7 @@
   {
     "vin": "1GYKPMRK1RZ112311",
     "stock": "SM36124",
-    "milege": 2175,
+    "mileage": 2175,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -3836,7 +3836,7 @@
   {
     "vin": "1GYKPWRK8RZ136164",
     "stock": "K1579",
-    "milege": 12258,
+    "mileage": 12258,
     "interior_color": "Oxford Stone",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -3854,7 +3854,7 @@
   {
     "vin": "1GYKPRRK0RZ113589",
     "stock": "RU3338",
-    "milege": 13744,
+    "mileage": 13744,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -3872,7 +3872,7 @@
   {
     "vin": "1GYKPSRL8RZ141169",
     "stock": "FP1169",
-    "milege": 9148,
+    "mileage": 9148,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -3890,7 +3890,7 @@
   {
     "vin": "1GYKPPRK7RZ109835",
     "stock": "P9186",
-    "milege": 7499,
+    "mileage": 7499,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -3908,7 +3908,7 @@
   {
     "vin": "1GYKPSRL0RZ137973",
     "stock": "W137973",
-    "milege": 11504,
+    "mileage": 11504,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red",
     "drive_type": "AWD",
@@ -3926,7 +3926,7 @@
   {
     "vin": "1GYKPURK7SZ300627",
     "stock": "MNI250724A",
-    "milege": 13913,
+    "mileage": 13913,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "RWD",
@@ -3944,7 +3944,7 @@
   {
     "vin": "1GYKPMRK0PZ001391",
     "stock": "GC042810A",
-    "milege": 20965,
+    "mileage": 20965,
     "interior_color": "Gray (Sky Grey)",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -3962,7 +3962,7 @@
   {
     "vin": "1GYKPMRK2RZ101799",
     "stock": "T101799",
-    "milege": 16531,
+    "mileage": 16531,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -3980,7 +3980,7 @@
   {
     "vin": "1GYKPSRL8RZ132214",
     "stock": "7494P",
-    "milege": 6637,
+    "mileage": 6637,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -3998,7 +3998,7 @@
   {
     "vin": "1GYKPTRL5SZ305571",
     "stock": "PR5990",
-    "milege": 10500,
+    "mileage": 10500,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -4016,7 +4016,7 @@
   {
     "vin": "1GYKPTRL9RZ114567",
     "stock": "U102329A",
-    "milege": 12336,
+    "mileage": 12336,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -4034,7 +4034,7 @@
   {
     "vin": "1GYKPPRKXRZ105178",
     "stock": "105178B",
-    "milege": 16282,
+    "mileage": 16282,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -4052,7 +4052,7 @@
   {
     "vin": "1GYKPSRL6RZ139887",
     "stock": "7759130",
-    "milege": 11628,
+    "mileage": 11628,
     "interior_color": "",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -4070,7 +4070,7 @@
   {
     "vin": "1GYKPTRL1SZ309844",
     "stock": "PR6016",
-    "milege": 8842,
+    "mileage": 8842,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -4088,7 +4088,7 @@
   {
     "vin": "1GYKPNRK5SZ306870",
     "stock": "SZ306870",
-    "milege": 333,
+    "mileage": 333,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -4106,7 +4106,7 @@
   {
     "vin": "1GYKPTRL2RZ114474",
     "stock": "RZ114474",
-    "milege": 33248,
+    "mileage": 33248,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -4124,7 +4124,7 @@
   {
     "vin": "1GYKPRRK5SZ300798",
     "stock": "PSC0798",
-    "milege": 6476,
+    "mileage": 6476,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -4142,7 +4142,7 @@
   {
     "vin": "1GYKPTRK1RZ134982",
     "stock": "LV453",
-    "milege": 4784,
+    "mileage": 4784,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -4160,7 +4160,7 @@
   {
     "vin": "1GYKPPRK1RZ107000",
     "stock": "12UC01005",
-    "milege": 7875,
+    "mileage": 7875,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -4178,7 +4178,7 @@
   {
     "vin": "1GYKPTRK2RZ109606",
     "stock": "RZ109606",
-    "milege": 12598,
+    "mileage": 12598,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -4196,7 +4196,7 @@
   {
     "vin": "1GYKPPRK0RZ106548",
     "stock": "V7549",
-    "milege": 3865,
+    "mileage": 3865,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -4214,7 +4214,7 @@
   {
     "vin": "1GYKPPRL0RZ110169",
     "stock": "38907",
-    "milege": 9559,
+    "mileage": 9559,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Green",
     "drive_type": "AWD",
@@ -4232,7 +4232,7 @@
   {
     "vin": "1GYKPMRL6RZ108201",
     "stock": "7759100",
-    "milege": 18653,
+    "mileage": 18653,
     "interior_color": "",
     "exterior_color": "Blue",
     "drive_type": "AWD",
@@ -4250,7 +4250,7 @@
   {
     "vin": "1GYKPSRK9RZ129586",
     "stock": "2543D",
-    "milege": 3924,
+    "mileage": 3924,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -4268,7 +4268,7 @@
   {
     "vin": "1GYKPWRL7RZ138707",
     "stock": "C13021A",
-    "milege": 9897,
+    "mileage": 9897,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -4286,7 +4286,7 @@
   {
     "vin": "1GYKPPRK6RZ101001",
     "stock": "RZ101001B",
-    "milege": 14742,
+    "mileage": 14742,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -4304,7 +4304,7 @@
   {
     "vin": "1GYKPPRK4RZ102857",
     "stock": "C703050A",
-    "milege": 38073,
+    "mileage": 38073,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -4322,7 +4322,7 @@
   {
     "vin": "1GYKPSRL6RZ138884",
     "stock": "RZ138884C",
-    "milege": 7579,
+    "mileage": 7579,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -4340,7 +4340,7 @@
   {
     "vin": "1GYKPMRK9RZ133357",
     "stock": "4402",
-    "milege": 12482,
+    "mileage": 12482,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -4358,7 +4358,7 @@
   {
     "vin": "1GYKPRRK3RZ126689",
     "stock": "PTA126689",
-    "milege": 3102,
+    "mileage": 3102,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -4376,7 +4376,7 @@
   {
     "vin": "1GYKPVRL0RZ122892",
     "stock": "A50707",
-    "milege": 19282,
+    "mileage": 19282,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -4394,7 +4394,7 @@
   {
     "vin": "1GYKPTRL5RZ109432",
     "stock": "7117",
-    "milege": 17688,
+    "mileage": 17688,
     "interior_color": "Gray",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -4412,7 +4412,7 @@
   {
     "vin": "1GYKPNRK6SZ302181",
     "stock": "K1578",
-    "milege": 5533,
+    "mileage": 5533,
     "interior_color": "Noir",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -4430,7 +4430,7 @@
   {
     "vin": "1GYKPTRL7RZ108220",
     "stock": "P4184",
-    "milege": 10007,
+    "mileage": 10007,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -4448,7 +4448,7 @@
   {
     "vin": "1GYKPSRLXRZ137138",
     "stock": "RZ137138C",
-    "milege": 7541,
+    "mileage": 7541,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -4466,7 +4466,7 @@
   {
     "vin": "1GYKPMRL9RZ107155",
     "stock": "54586A",
-    "milege": 20231,
+    "mileage": 20231,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -4484,7 +4484,7 @@
   {
     "vin": "1GYKPSRL1RZ137898",
     "stock": "137898",
-    "milege": 9615,
+    "mileage": 9615,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -4502,7 +4502,7 @@
   {
     "vin": "1GYKPTRK2RZ106415",
     "stock": "RZ106415",
-    "milege": 8222,
+    "mileage": 8222,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -4520,7 +4520,7 @@
   {
     "vin": "1GYKPTRK4RZ103192",
     "stock": "27766825",
-    "milege": 46393,
+    "mileage": 46393,
     "interior_color": "Gray",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -4538,7 +4538,7 @@
   {
     "vin": "1GYKPMRK4RZ108320",
     "stock": "PT5639",
-    "milege": 23170,
+    "mileage": 23170,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver",
     "drive_type": "RWD",
@@ -4556,7 +4556,7 @@
   {
     "vin": "1GYKPVRK2RZ113683",
     "stock": "12999B",
-    "milege": 26714,
+    "mileage": 26714,
     "interior_color": "Noir With Santorini Blue Accents Inteluxe Seat Tri",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -4574,7 +4574,7 @@
   {
     "vin": "1GYKPRRL5RZ121633",
     "stock": "121633",
-    "milege": 12390,
+    "mileage": 12390,
     "interior_color": "Sky Cool Gray w/ Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -4592,7 +4592,7 @@
   {
     "vin": "1GYKPTRLXRZ100693",
     "stock": "LLU2967",
-    "milege": 26605,
+    "mileage": 26605,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -4610,7 +4610,7 @@
   {
     "vin": "1GYKPPRL3RZ101322",
     "stock": "PM30960",
-    "milege": 41035,
+    "mileage": 41035,
     "interior_color": "Gray",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -4628,7 +4628,7 @@
   {
     "vin": "1GYKPSRK8RZ136710",
     "stock": "P7684",
-    "milege": 3714,
+    "mileage": 3714,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "RWD",
@@ -4646,7 +4646,7 @@
   {
     "vin": "1GYKPSRL2RZ139594",
     "stock": "P34875",
-    "milege": 6026,
+    "mileage": 6026,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -4664,7 +4664,7 @@
   {
     "vin": "1GYKPNRK6SZ308286",
     "stock": "KR64644",
-    "milege": 999,
+    "mileage": 999,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -4682,7 +4682,7 @@
   {
     "vin": "1GYKPSRL4RZ139533",
     "stock": "P9075",
-    "milege": 14434,
+    "mileage": 14434,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -4700,7 +4700,7 @@
   {
     "vin": "1GYKPPRL6RZ107518",
     "stock": "U01796",
-    "milege": 19407,
+    "mileage": 19407,
     "interior_color": "Gray",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -4718,7 +4718,7 @@
   {
     "vin": "1GYKPMRKXRZ102134",
     "stock": "RZ102134",
-    "milege": 4755,
+    "mileage": 4755,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -4736,7 +4736,7 @@
   {
     "vin": "1GYKPVRK1RZ111715",
     "stock": "LV505",
-    "milege": 1335,
+    "mileage": 1335,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -4754,7 +4754,7 @@
   {
     "vin": "1GYKPPRK4RZ103720",
     "stock": "C70248A",
-    "milege": 26510,
+    "mileage": 26510,
     "interior_color": "Gray",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -4772,7 +4772,7 @@
   {
     "vin": "1GYKPTRL7RZ101039",
     "stock": "LLU2919",
-    "milege": 30379,
+    "mileage": 30379,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -4790,7 +4790,7 @@
   {
     "vin": "1GYKPTRL7RZ103759",
     "stock": "LLU2855",
-    "milege": 15864,
+    "mileage": 15864,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -4808,7 +4808,7 @@
   {
     "vin": "1GYKPTRK1RZ116496",
     "stock": "116496",
-    "milege": 4248,
+    "mileage": 4248,
     "interior_color": "Noir w/ Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -4826,7 +4826,7 @@
   {
     "vin": "1GYKPWRK7RZ117329",
     "stock": "64077",
-    "milege": 8148,
+    "mileage": 8148,
     "interior_color": "Oxford Stone with Garnet accents, Full Leather sea",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -4844,7 +4844,7 @@
   {
     "vin": "1GYKPSRL4RZ103955",
     "stock": "13426",
-    "milege": 1426,
+    "mileage": 1426,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -4862,7 +4862,7 @@
   {
     "vin": "1GYKPSRL2RZ137943",
     "stock": "C706C",
-    "milege": 4266,
+    "mileage": 4266,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -4880,7 +4880,7 @@
   {
     "vin": "1GYKPRRL6SZ306022",
     "stock": "340673A",
-    "milege": 2754,
+    "mileage": 2754,
     "interior_color": "",
     "exterior_color": "White",
     "drive_type": "AWD",
@@ -4898,7 +4898,7 @@
   {
     "vin": "1GYKPSRL1RZ137903",
     "stock": "P7685",
-    "milege": 5426,
+    "mileage": 5426,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Silver Metallic",
     "drive_type": "AWD",
@@ -4916,7 +4916,7 @@
   {
     "vin": "1GYKPSRL8RZ137137",
     "stock": "GM10969",
-    "milege": 12531,
+    "mileage": 12531,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -4934,7 +4934,7 @@
   {
     "vin": "1GYKPTRL5SZ303805",
     "stock": "K1576",
-    "milege": 7870,
+    "mileage": 7870,
     "interior_color": "Noir",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -4952,7 +4952,7 @@
   {
     "vin": "1GYKPPRK5RZ105461",
     "stock": "25H1001A",
-    "milege": 16299,
+    "mileage": 16299,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -4970,7 +4970,7 @@
   {
     "vin": "1GYKPSRL9RZ141083",
     "stock": "5388962",
-    "milege": 6916,
+    "mileage": 6916,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -4988,7 +4988,7 @@
   {
     "vin": "1GYKPRRL7SZ310127",
     "stock": "E501975L",
-    "milege": 3068,
+    "mileage": 3068,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -5006,7 +5006,7 @@
   {
     "vin": "1GYKPRRL7RZ115252",
     "stock": "63473",
-    "milege": 1358,
+    "mileage": 1358,
     "interior_color": "",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -5024,7 +5024,7 @@
   {
     "vin": "1GYKPVRL8RZ122199",
     "stock": "A257071",
-    "milege": 11505,
+    "mileage": 11505,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -5042,7 +5042,7 @@
   {
     "vin": "1GYKPTRKXRZ101513",
     "stock": "P10302",
-    "milege": 7578,
+    "mileage": 7578,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -5060,7 +5060,7 @@
   {
     "vin": "1GYKPPRL3RZ104723",
     "stock": "7758980",
-    "milege": 17155,
+    "mileage": 17155,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -5078,7 +5078,7 @@
   {
     "vin": "1GYKPSRL0RZ133499",
     "stock": "RZ133499C",
-    "milege": 9291,
+    "mileage": 9291,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -5096,7 +5096,7 @@
   {
     "vin": "1GYKPTRK2RZ109542",
     "stock": "625187A",
-    "milege": 24918,
+    "mileage": 24918,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -5114,7 +5114,7 @@
   {
     "vin": "1GYKPSRL4RZ139046",
     "stock": "PR6034",
-    "milege": 10943,
+    "mileage": 10943,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -5132,7 +5132,7 @@
   {
     "vin": "1GYKPSRL6RZ137329",
     "stock": "31539",
-    "milege": 12472,
+    "mileage": 12472,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -5150,7 +5150,7 @@
   {
     "vin": "1GYKPTRL6RZ108211",
     "stock": "260069A",
-    "milege": 17904,
+    "mileage": 17904,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -5168,7 +5168,7 @@
   {
     "vin": "1GYKPPRK1RZ132835",
     "stock": "SA1014",
-    "milege": 5969,
+    "mileage": 5969,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -5186,7 +5186,7 @@
   {
     "vin": "1GYKPMRK6PZ001878",
     "stock": "273360A",
-    "milege": 26572,
+    "mileage": 26572,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -5204,7 +5204,7 @@
   {
     "vin": "1GYKPSRL7RZ137369",
     "stock": "P12661",
-    "milege": 8784,
+    "mileage": 8784,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -5222,7 +5222,7 @@
   {
     "vin": "1GYKPWRL4RZ118902",
     "stock": "12564",
-    "milege": 4688,
+    "mileage": 4688,
     "interior_color": "Gray",
     "exterior_color": "Green",
     "drive_type": "AWD",
@@ -5240,7 +5240,7 @@
   {
     "vin": "1GYKPTRK7RZ115725",
     "stock": "125069",
-    "milege": 21516,
+    "mileage": 21516,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -5258,7 +5258,7 @@
   {
     "vin": "1GYKPPRL9PZ002470",
     "stock": "PZ002470",
-    "milege": 15859,
+    "mileage": 15859,
     "interior_color": "Gray",
     "exterior_color": "Gray",
     "drive_type": "AWD",
@@ -5276,7 +5276,7 @@
   {
     "vin": "1GYKPMRK4RZ130642",
     "stock": "C1260091",
-    "milege": 10770,
+    "mileage": 10770,
     "interior_color": "NOIR",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -5294,7 +5294,7 @@
   {
     "vin": "1GYKPRRK0RZ107033",
     "stock": "P107615A",
-    "milege": 20071,
+    "mileage": 20071,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -5312,7 +5312,7 @@
   {
     "vin": "1GYKPSRLXRZ141125",
     "stock": "16497",
-    "milege": 13091,
+    "mileage": 13091,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -5330,7 +5330,7 @@
   {
     "vin": "1GYKPSRK1RZ121417",
     "stock": "MC42447",
-    "milege": 4315,
+    "mileage": 4315,
     "interior_color": "Juniper With Sky Gray Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -5348,7 +5348,7 @@
   {
     "vin": "1GYKPPRL2RZ104437",
     "stock": "P9029",
-    "milege": 6933,
+    "mileage": 6933,
     "interior_color": "",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -5366,7 +5366,7 @@
   {
     "vin": "1GYKPTRL6RZ122688",
     "stock": "T6879",
-    "milege": 11384,
+    "mileage": 11384,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -5384,7 +5384,7 @@
   {
     "vin": "1GYKPSRL3RZ136798",
     "stock": "PTA136798",
-    "milege": 17894,
+    "mileage": 17894,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -5402,7 +5402,7 @@
   {
     "vin": "1GYKPPRK3RZ101506",
     "stock": "RZ101506",
-    "milege": 6384,
+    "mileage": 6384,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -5420,7 +5420,7 @@
   {
     "vin": "1GYKPSRL3RZ131701",
     "stock": "RZ131701",
-    "milege": 8447,
+    "mileage": 8447,
     "interior_color": "Juniper",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -5438,7 +5438,7 @@
   {
     "vin": "1GYKPTRK3RZ106519",
     "stock": "380486B",
-    "milege": 13758,
+    "mileage": 13758,
     "interior_color": "Gray",
     "exterior_color": "Red",
     "drive_type": "RWD",
@@ -5456,7 +5456,7 @@
   {
     "vin": "1GYKPSRL6RZ137749",
     "stock": "7759120",
-    "milege": 8622,
+    "mileage": 8622,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -5474,7 +5474,7 @@
   {
     "vin": "1GYKPVRK6RZ120863",
     "stock": "2SZ130205A",
-    "milege": 2493,
+    "mileage": 2493,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -5492,7 +5492,7 @@
   {
     "vin": "1GYKPSRK4RZ123209",
     "stock": "AU123209",
-    "milege": 13135,
+    "mileage": 13135,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "RWD",
@@ -5510,7 +5510,7 @@
   {
     "vin": "1GYKPPRK3RZ131556",
     "stock": "P7557",
-    "milege": 4807,
+    "mileage": 4807,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -5528,7 +5528,7 @@
   {
     "vin": "1GYKPWRK7RZ108405",
     "stock": "C70028A",
-    "milege": 15442,
+    "mileage": 15442,
     "interior_color": "Gray",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -5546,7 +5546,7 @@
   {
     "vin": "1GYKPTRK7RZ114526",
     "stock": "9704",
-    "milege": 2534,
+    "mileage": 2534,
     "interior_color": "Noir w/ Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -5564,7 +5564,7 @@
   {
     "vin": "1GYKPTRK3RZ109209",
     "stock": "RZ109209",
-    "milege": 7258,
+    "mileage": 7258,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -5582,7 +5582,7 @@
   {
     "vin": "1GYKPTRK1RZ109404",
     "stock": "109404",
-    "milege": 19579,
+    "mileage": 19579,
     "interior_color": "Black",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -5600,7 +5600,7 @@
   {
     "vin": "1GYKPPRL7RZ109150",
     "stock": "HM3046",
-    "milege": 8814,
+    "mileage": 8814,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -5618,7 +5618,7 @@
   {
     "vin": "1GYKPMRK9RZ100472",
     "stock": "100472",
-    "milege": 19847,
+    "mileage": 19847,
     "interior_color": "Black",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -5636,7 +5636,7 @@
   {
     "vin": "1GYKPSRL1RZ136847",
     "stock": "CTA560",
-    "milege": 11208,
+    "mileage": 11208,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -5654,7 +5654,7 @@
   {
     "vin": "1GYKPTRK0RZ106509",
     "stock": "TZ124206A",
-    "milege": 19100,
+    "mileage": 19100,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -5672,7 +5672,7 @@
   {
     "vin": "1GYKPPRL4RZ100812",
     "stock": "KWMP240322",
-    "milege": 12791,
+    "mileage": 12791,
     "interior_color": "Gray",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -5690,7 +5690,7 @@
   {
     "vin": "1GYKPSRK9RZ107068",
     "stock": "RZ107068A",
-    "milege": 25818,
+    "mileage": 25818,
     "interior_color": "Juniper",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -5708,7 +5708,7 @@
   {
     "vin": "1GYKPPRL5RZ102567",
     "stock": "22C1594P",
-    "milege": 19991,
+    "mileage": 19991,
     "interior_color": "Gray",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -5726,7 +5726,7 @@
   {
     "vin": "1GYKPRRK6RZ136598",
     "stock": "5389258",
-    "milege": 11662,
+    "mileage": 11662,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -5744,7 +5744,7 @@
   {
     "vin": "1GYKPNRK7SZ308409",
     "stock": "L250424",
-    "milege": 5180,
+    "mileage": 5180,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -5762,7 +5762,7 @@
   {
     "vin": "1GYKPMRK1RZ103317",
     "stock": "RZ103317",
-    "milege": 10491,
+    "mileage": 10491,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -5780,7 +5780,7 @@
   {
     "vin": "1GYKPPRL6RZ102755",
     "stock": "102755",
-    "milege": 29714,
+    "mileage": 29714,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -5798,7 +5798,7 @@
   {
     "vin": "1GYKPTRL4RZ109244",
     "stock": "LLU2908",
-    "milege": 20852,
+    "mileage": 20852,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -5816,7 +5816,7 @@
   {
     "vin": "1GYKPPRL5RZ100656",
     "stock": "U3026",
-    "milege": 23529,
+    "mileage": 23529,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -5834,7 +5834,7 @@
   {
     "vin": "1GYKPSRL8RZ138739",
     "stock": "9964",
-    "milege": 12325,
+    "mileage": 12325,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -5852,7 +5852,7 @@
   {
     "vin": "1GYKPYRLXSZ301755",
     "stock": "55175D",
-    "milege": 6194,
+    "mileage": 6194,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -5870,7 +5870,7 @@
   {
     "vin": "1GYKPSRL5RZ139184",
     "stock": "13425",
-    "milege": 6861,
+    "mileage": 6861,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -5888,7 +5888,7 @@
   {
     "vin": "1GYKPSRL0RZ135706",
     "stock": "PRH1563",
-    "milege": 10615,
+    "mileage": 10615,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -5906,7 +5906,7 @@
   {
     "vin": "1GYKPTRK9RZ101731",
     "stock": "3758P",
-    "milege": 20942,
+    "mileage": 20942,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -5924,7 +5924,7 @@
   {
     "vin": "1GYKPTRL7SZ302106",
     "stock": "5915",
-    "milege": 9544,
+    "mileage": 9544,
     "interior_color": "Gray",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -5942,7 +5942,7 @@
   {
     "vin": "1GYKPRRL7SZ310550",
     "stock": "UT310550",
-    "milege": 5370,
+    "mileage": 5370,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -5960,7 +5960,7 @@
   {
     "vin": "1GYKPPRL4PZ002876",
     "stock": "KFCP230126",
-    "milege": 40020,
+    "mileage": 40020,
     "interior_color": "",
     "exterior_color": "Gray",
     "drive_type": "AWD",
@@ -5978,7 +5978,7 @@
   {
     "vin": "1GYKPTRL2SZ300926",
     "stock": "U14949",
-    "milege": 6833,
+    "mileage": 6833,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -5996,7 +5996,7 @@
   {
     "vin": "1GYKPVRK0RZ118168",
     "stock": "118168",
-    "milege": 10967,
+    "mileage": 10967,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -6014,7 +6014,7 @@
   {
     "vin": "1GYKPWRL6RZ105326",
     "stock": "5389249",
-    "milege": 5226,
+    "mileage": 5226,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6032,7 +6032,7 @@
   {
     "vin": "1GYKPMRK3RZ101858",
     "stock": "54584A",
-    "milege": 21100,
+    "mileage": 21100,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -6050,7 +6050,7 @@
   {
     "vin": "1GYKPWRL2RZ132474",
     "stock": "5389560",
-    "milege": 7009,
+    "mileage": 7009,
     "interior_color": "Juniper with Sky Cool Gray accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6068,7 +6068,7 @@
   {
     "vin": "1GYKPWRLXSZ305955",
     "stock": "CP2307",
-    "milege": 9451,
+    "mileage": 9451,
     "interior_color": "Sky Cool Gray W/ Santorini Blue Accents (h7e)",
     "exterior_color": "Opulent Blue Metallic (gtr)",
     "drive_type": "AWD",
@@ -6086,7 +6086,7 @@
   {
     "vin": "1GYKPPRL4RZ108165",
     "stock": "STK108165",
-    "milege": 8965,
+    "mileage": 8965,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -6104,7 +6104,7 @@
   {
     "vin": "1GYKPPRKXRZ102250",
     "stock": "FP2030",
-    "milege": 23477,
+    "mileage": 23477,
     "interior_color": "",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -6122,7 +6122,7 @@
   {
     "vin": "1GYKPWRL1RZ117478",
     "stock": "X117478",
-    "milege": 9981,
+    "mileage": 9981,
     "interior_color": "Oxford Stone",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -6140,7 +6140,7 @@
   {
     "vin": "1GYKPSRL5RZ138908",
     "stock": "PA38908",
-    "milege": 11658,
+    "mileage": 11658,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -6158,7 +6158,7 @@
   {
     "vin": "1GYKPPRK5RZ143885",
     "stock": "RZ143885",
-    "milege": 5788,
+    "mileage": 5788,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -6176,7 +6176,7 @@
   {
     "vin": "1GYKPWRK8RZ119638",
     "stock": "P6619",
-    "milege": 2895,
+    "mileage": 2895,
     "interior_color": "Noir With Santorini Blue Accents, Inteluxe Seat Tr",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -6194,7 +6194,7 @@
   {
     "vin": "1GYKPWRK1SZ310338",
     "stock": "E502037L",
-    "milege": 1710,
+    "mileage": 1710,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -6212,7 +6212,7 @@
   {
     "vin": "1GYKPSRL6RZ139291",
     "stock": "I31979",
-    "milege": 12973,
+    "mileage": 12973,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -6230,7 +6230,7 @@
   {
     "vin": "1GYKPSRL4RZ137961",
     "stock": "5389254",
-    "milege": 9726,
+    "mileage": 9726,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -6248,7 +6248,7 @@
   {
     "vin": "1GYKPYRL5SZ306801",
     "stock": "P6643",
-    "milege": 5366,
+    "mileage": 5366,
     "interior_color": "Juniper With Sky Cool Gray Accents, Full Leather S",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6266,7 +6266,7 @@
   {
     "vin": "1GYKPSRLXRZ138886",
     "stock": "P3362",
-    "milege": 12176,
+    "mileage": 12176,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -6284,7 +6284,7 @@
   {
     "vin": "1GYKPPRK4RZ100770",
     "stock": "Z309225A",
-    "milege": 26979,
+    "mileage": 26979,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -6302,7 +6302,7 @@
   {
     "vin": "1GYKPTRK3RZ132389",
     "stock": "5TA106P",
-    "milege": 9522,
+    "mileage": 9522,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -6320,7 +6320,7 @@
   {
     "vin": "1GYKPMRK5RZ141391",
     "stock": "RZ141391",
-    "milege": 10339,
+    "mileage": 10339,
     "interior_color": "Noir",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -6338,7 +6338,7 @@
   {
     "vin": "1GYKPRRK6RZ136665",
     "stock": "5389252",
-    "milege": 9476,
+    "mileage": 9476,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -6356,7 +6356,7 @@
   {
     "vin": "1GYKPPRL3RZ108237",
     "stock": "PG628",
-    "milege": 10453,
+    "mileage": 10453,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -6374,7 +6374,7 @@
   {
     "vin": "1GYKPWRK1RZ127838",
     "stock": "127838",
-    "milege": 13480,
+    "mileage": 13480,
     "interior_color": "Noir w/ Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -6392,7 +6392,7 @@
   {
     "vin": "1GYKPPRLXRZ105299",
     "stock": "PTA105299",
-    "milege": 16924,
+    "mileage": 16924,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -6410,7 +6410,7 @@
   {
     "vin": "1GYKPTRL0RZ101674",
     "stock": "C1067",
-    "milege": 23101,
+    "mileage": 23101,
     "interior_color": "Black",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -6428,7 +6428,7 @@
   {
     "vin": "1GYKPMRK6PZ001511",
     "stock": "1511",
-    "milege": 22326,
+    "mileage": 22326,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -6446,7 +6446,7 @@
   {
     "vin": "1GYKPSRL1RZ139263",
     "stock": "P0588",
-    "milege": 16938,
+    "mileage": 16938,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -6464,7 +6464,7 @@
   {
     "vin": "1GYKPPRL0PZ003040",
     "stock": "WG260047A",
-    "milege": 43450,
+    "mileage": 43450,
     "interior_color": "Noir",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "AWD",
@@ -6482,7 +6482,7 @@
   {
     "vin": "1GYKPMRK5PZ000060",
     "stock": "5389261",
-    "milege": 28618,
+    "mileage": 28618,
     "interior_color": "Gray (Sky Cool Grey)",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -6500,7 +6500,7 @@
   {
     "vin": "1GYKPWRL2RZ132314",
     "stock": "P6639",
-    "milege": 8418,
+    "mileage": 8418,
     "interior_color": "Juniper With Sky Cool Gray Accents, Full Leather S",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6518,7 +6518,7 @@
   {
     "vin": "1GYKPSRL4RZ136129",
     "stock": "M1002",
-    "milege": 10141,
+    "mileage": 10141,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -6536,7 +6536,7 @@
   {
     "vin": "1GYKPYRL6SZ302966",
     "stock": "P6611",
-    "milege": 9869,
+    "mileage": 9869,
     "interior_color": "Sky Cool Gray With Santorini Blue Accents, Intelux",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6554,7 +6554,7 @@
   {
     "vin": "1GYKPTRK0RZ110415",
     "stock": "P9965",
-    "milege": 6091,
+    "mileage": 6091,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -6572,7 +6572,7 @@
   {
     "vin": "1GYKPPRK1RZ132866",
     "stock": "5389557",
-    "milege": 6933,
+    "mileage": 6933,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -6590,7 +6590,7 @@
   {
     "vin": "1GYKPTRL0SZ302125",
     "stock": "55331D",
-    "milege": 8462,
+    "mileage": 8462,
     "interior_color": "Noir",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -6608,7 +6608,7 @@
   {
     "vin": "1GYKPSRL3RZ140446",
     "stock": "5388960",
-    "milege": 6397,
+    "mileage": 6397,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -6626,7 +6626,7 @@
   {
     "vin": "1GYKPURL4SZ305647",
     "stock": "R96148",
-    "milege": 2380,
+    "mileage": 2380,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6644,7 +6644,7 @@
   {
     "vin": "1GYKPMRK3RZ105313",
     "stock": "T105313",
-    "milege": 26029,
+    "mileage": 26029,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -6662,7 +6662,7 @@
   {
     "vin": "1GYKPSRL9RZ139141",
     "stock": "RZ139141",
-    "milege": 7402,
+    "mileage": 7402,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -6680,7 +6680,7 @@
   {
     "vin": "1GYKPPRL0RZ130177",
     "stock": "7759110",
-    "milege": 11726,
+    "mileage": 11726,
     "interior_color": "",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -6698,7 +6698,7 @@
   {
     "vin": "1GYKPTRK2SZ305518",
     "stock": "64080",
-    "milege": 10135,
+    "mileage": 10135,
     "interior_color": "Gray",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -6716,7 +6716,7 @@
   {
     "vin": "1GYKPVRK0RZ120714",
     "stock": "18095B",
-    "milege": 339,
+    "mileage": 339,
     "interior_color": "NOIR W/SANTORINI BLUE ACCENTS",
     "exterior_color": "Black",
     "drive_type": "RWD",
@@ -6734,7 +6734,7 @@
   {
     "vin": "1GYKPMRK5RZ110190",
     "stock": "RZ110190",
-    "milege": 20874,
+    "mileage": 20874,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -6752,7 +6752,7 @@
   {
     "vin": "1GYKPNRL6SZ313027",
     "stock": "CS2680",
-    "milege": 905,
+    "mileage": 905,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -6770,7 +6770,7 @@
   {
     "vin": "1GYKPSRL4RZ137863",
     "stock": "3041",
-    "milege": 12053,
+    "mileage": 12053,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -6788,7 +6788,7 @@
   {
     "vin": "1GYKPWRK7SZ314247",
     "stock": "E502543L",
-    "milege": 1362,
+    "mileage": 1362,
     "interior_color": "Sky Cool Gray with Santorini Blue accents, Intelux",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -6806,7 +6806,7 @@
   {
     "vin": "1GYKPTRL0SZ305574",
     "stock": "P3631",
-    "milege": 9286,
+    "mileage": 9286,
     "interior_color": "Sky Gray W Santorini",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6824,7 +6824,7 @@
   {
     "vin": "1GYKPTRK6RZ123220",
     "stock": "123220",
-    "milege": 17940,
+    "mileage": 17940,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -6842,7 +6842,7 @@
   {
     "vin": "1GYKPPRL5RZ100849",
     "stock": "6L2060U",
-    "milege": 26485,
+    "mileage": 26485,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -6860,7 +6860,7 @@
   {
     "vin": "1GYKPSRL8RZ116840",
     "stock": "P11115",
-    "milege": 7672,
+    "mileage": 7672,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -6878,7 +6878,7 @@
   {
     "vin": "1GYKPSRL7RZ136416",
     "stock": "PA36416",
-    "milege": 7490,
+    "mileage": 7490,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6896,7 +6896,7 @@
   {
     "vin": "1GYKPSRL6RZ110809",
     "stock": "5388973",
-    "milege": 9493,
+    "mileage": 9493,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -6914,7 +6914,7 @@
   {
     "vin": "1GYKPWRL2RZ105064",
     "stock": "P6637",
-    "milege": 9085,
+    "mileage": 9085,
     "interior_color": "Noir With Santorini Blue Accents, Inteluxe Seat Tr",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6932,7 +6932,7 @@
   {
     "vin": "1GYKPSRLXRZ104639",
     "stock": "GM10971",
-    "milege": 1909,
+    "mileage": 1909,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6950,7 +6950,7 @@
   {
     "vin": "1GYKPSRL9RZ140287",
     "stock": "27899798",
-    "milege": 13035,
+    "mileage": 13035,
     "interior_color": "Black",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -6968,7 +6968,7 @@
   {
     "vin": "1GYKPWRL1SZ316486",
     "stock": "E502844L",
-    "milege": 2090,
+    "mileage": 2090,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -6986,7 +6986,7 @@
   {
     "vin": "1GYKPSRL8RZ138319",
     "stock": "138319P",
-    "milege": 13797,
+    "mileage": 13797,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -7004,7 +7004,7 @@
   {
     "vin": "1GYKPSRL6RZ141137",
     "stock": "7550P",
-    "milege": 6519,
+    "mileage": 6519,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -7022,7 +7022,7 @@
   {
     "vin": "1GYKPPRL4RZ100938",
     "stock": "LLU2886",
-    "milege": 25670,
+    "mileage": 25670,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -7040,7 +7040,7 @@
   {
     "vin": "1GYKPTRL5RZ120821",
     "stock": "20821A",
-    "milege": 204,
+    "mileage": 204,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -7058,7 +7058,7 @@
   {
     "vin": "1GYKPTRLXSZ310250",
     "stock": "A310250",
-    "milege": 2224,
+    "mileage": 2224,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -7076,7 +7076,7 @@
   {
     "vin": "1GYKPTRL1SZ300934",
     "stock": "U14961",
-    "milege": 6582,
+    "mileage": 6582,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -7094,7 +7094,7 @@
   {
     "vin": "1GYKPTRL1RZ130570",
     "stock": "RZ130570",
-    "milege": 20363,
+    "mileage": 20363,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -7112,7 +7112,7 @@
   {
     "vin": "1GYKPURL7SZ300667",
     "stock": "B300667A",
-    "milege": 2982,
+    "mileage": 2982,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -7130,7 +7130,7 @@
   {
     "vin": "1GYKPSRLXRZ139150",
     "stock": "27759635",
-    "milege": 13421,
+    "mileage": 13421,
     "interior_color": "Black",
     "exterior_color": "Gray",
     "drive_type": "AWD",
@@ -7148,7 +7148,7 @@
   {
     "vin": "1GYKPPRL2PZ003251",
     "stock": "P2512",
-    "milege": 11496,
+    "mileage": 11496,
     "interior_color": "Noir",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "AWD",
@@ -7166,7 +7166,7 @@
   {
     "vin": "1GYKPVRL8RZ123725",
     "stock": "PU1166A",
-    "milege": 18269,
+    "mileage": 18269,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -7184,7 +7184,7 @@
   {
     "vin": "1GYKPRRL4RZ114270",
     "stock": "27806247",
-    "milege": 9828,
+    "mileage": 9828,
     "interior_color": "Gray",
     "exterior_color": "Blue",
     "drive_type": "AWD",
@@ -7202,7 +7202,7 @@
   {
     "vin": "1GYKPSRLXRZ135681",
     "stock": "27759437",
-    "milege": 6925,
+    "mileage": 6925,
     "interior_color": "Black",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -7220,7 +7220,7 @@
   {
     "vin": "1GYKPVRL1RZ125476",
     "stock": "RZ125476T",
-    "milege": 8489,
+    "mileage": 8489,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -7238,7 +7238,7 @@
   {
     "vin": "1GYKPTRL6RZ104188",
     "stock": "P3365",
-    "milege": 20536,
+    "mileage": 20536,
     "interior_color": "Gray",
     "exterior_color": "White",
     "drive_type": "AWD",
@@ -7256,7 +7256,7 @@
   {
     "vin": "1GYKPPRL7RZ108483",
     "stock": "108483",
-    "milege": 14019,
+    "mileage": 14019,
     "interior_color": "Black",
     "exterior_color": "White",
     "drive_type": "AWD",
@@ -7274,7 +7274,7 @@
   {
     "vin": "1GYKPTRL2RZ105905",
     "stock": "PRT53365",
-    "milege": 12137,
+    "mileage": 12137,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -7292,7 +7292,7 @@
   {
     "vin": "1GYKPSRL2RZ131785",
     "stock": "P2996",
-    "milege": 13362,
+    "mileage": 13362,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7310,7 +7310,7 @@
   {
     "vin": "1GYKPTRL6SZ300945",
     "stock": "48284",
-    "milege": 3022,
+    "mileage": 3022,
     "interior_color": "Juniper W Sky Gray Accent",
     "exterior_color": "Emerald",
     "drive_type": "AWD",
@@ -7328,7 +7328,7 @@
   {
     "vin": "1GYKPTRLXSZ302133",
     "stock": "P1498",
-    "milege": 7384,
+    "mileage": 7384,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -7346,7 +7346,7 @@
   {
     "vin": "1GYKPNRK9SZ315555",
     "stock": "SZ315555",
-    "milege": 758,
+    "mileage": 758,
     "interior_color": "",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -7364,7 +7364,7 @@
   {
     "vin": "1GYKPURK9SZ313203",
     "stock": "SZ313203",
-    "milege": 357,
+    "mileage": 357,
     "interior_color": "",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -7382,7 +7382,7 @@
   {
     "vin": "1GYKPTRL0RZ104610",
     "stock": "ES1686",
-    "milege": 9864,
+    "mileage": 9864,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7400,7 +7400,7 @@
   {
     "vin": "1GYKPNRK1SZ315422",
     "stock": "LY5104",
-    "milege": 377,
+    "mileage": 377,
     "interior_color": "H7D Noir Santorini Blue",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -7418,7 +7418,7 @@
   {
     "vin": "1GYKPTRL1RZ108309",
     "stock": "452411",
-    "milege": 18238,
+    "mileage": 18238,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -7436,7 +7436,7 @@
   {
     "vin": "1GYKPNRK1SZ317994",
     "stock": "LY5118",
-    "milege": 260,
+    "mileage": 260,
     "interior_color": "H7D Noir Santorini Blue",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -7454,7 +7454,7 @@
   {
     "vin": "1GYKPSRK2RZ113567",
     "stock": "1151",
-    "milege": 13599,
+    "mileage": 13599,
     "interior_color": "Black NOIR W/ SANTORINI BLUE ACCENTS Vi",
     "exterior_color": "Red (Burgundy)",
     "drive_type": "RWD",
@@ -7472,7 +7472,7 @@
   {
     "vin": "1GYKPSRL6RZ139050",
     "stock": "12570",
-    "milege": 14086,
+    "mileage": 14086,
     "interior_color": "NOIR W/SANTORINI BLUE ACC",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -7490,7 +7490,7 @@
   {
     "vin": "1GYKPSRL5RZ135667",
     "stock": "27899692",
-    "milege": 9121,
+    "mileage": 9121,
     "interior_color": "Black",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -7508,7 +7508,7 @@
   {
     "vin": "1GYKPNRK3SZ317687",
     "stock": "LY5115",
-    "milege": 337,
+    "mileage": 337,
     "interior_color": "H7D Noir Santorini Blue",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -7526,7 +7526,7 @@
   {
     "vin": "1GYKPWRLXSZ300142",
     "stock": "X5560A",
-    "milege": 11387,
+    "mileage": 11387,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7544,7 +7544,7 @@
   {
     "vin": "1GYKPNRK6SZ317991",
     "stock": "LY5120",
-    "milege": 280,
+    "mileage": 280,
     "interior_color": "H7D Noir Santorini Blue",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -7562,7 +7562,7 @@
   {
     "vin": "1GYKPVRL3RZ123518",
     "stock": "J43265A",
-    "milege": 9361,
+    "mileage": 9361,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7580,7 +7580,7 @@
   {
     "vin": "1GYKPNRK2SZ306258",
     "stock": "TA306258",
-    "milege": 4687,
+    "mileage": 4687,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -7598,7 +7598,7 @@
   {
     "vin": "1GYKPPRL7RZ141029",
     "stock": "H25P582",
-    "milege": 11147,
+    "mileage": 11147,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -7616,7 +7616,7 @@
   {
     "vin": "1GYKPPRL7RZ104613",
     "stock": "CP27094",
-    "milege": 10584,
+    "mileage": 10584,
     "interior_color": "Sky Cool Gray with Santorini Blue accents, Intelux",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -7634,7 +7634,7 @@
   {
     "vin": "1GYKPPRL5RZ110569",
     "stock": "PRT53550",
-    "milege": 18646,
+    "mileage": 18646,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -7652,7 +7652,7 @@
   {
     "vin": "1GYKPTRL8RZ100773",
     "stock": "WI708306A",
-    "milege": 7445,
+    "mileage": 7445,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -7670,7 +7670,7 @@
   {
     "vin": "1GYKPNRK9SZ316480",
     "stock": "SZ316480L",
-    "milege": 348,
+    "mileage": 348,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "Red",
     "drive_type": "RWD",
@@ -7688,7 +7688,7 @@
   {
     "vin": "1GYKPPRKXRZ136351",
     "stock": "Z136351",
-    "milege": 12596,
+    "mileage": 12596,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -7706,7 +7706,7 @@
   {
     "vin": "1GYKPURK9SZ317591",
     "stock": "SZ317591L",
-    "milege": 310,
+    "mileage": 310,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -7724,7 +7724,7 @@
   {
     "vin": "1GYKPNRL9SZ304306",
     "stock": "B304306A",
-    "milege": 2000,
+    "mileage": 2000,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7742,7 +7742,7 @@
   {
     "vin": "1GYKPURK6SZ317998",
     "stock": "SZ317998",
-    "milege": 208,
+    "mileage": 208,
     "interior_color": "",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -7760,7 +7760,7 @@
   {
     "vin": "1GYKPRRL0SZ304301",
     "stock": "B304301A",
-    "milege": 2000,
+    "mileage": 2000,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7778,7 +7778,7 @@
   {
     "vin": "1GYKPNRL4SZ300681",
     "stock": "B300681B",
-    "milege": 2000,
+    "mileage": 2000,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7796,7 +7796,7 @@
   {
     "vin": "1GYKPSRK7RZ136200",
     "stock": "203901P",
-    "milege": 8232,
+    "mileage": 8232,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "RWD",
@@ -7814,7 +7814,7 @@
   {
     "vin": "1GYKPTRL2SZ305463",
     "stock": "E17457",
-    "milege": 6275,
+    "mileage": 6275,
     "interior_color": "Gray",
     "exterior_color": "White",
     "drive_type": "AWD",
@@ -7832,7 +7832,7 @@
   {
     "vin": "1GYKPPRL1RZ100265",
     "stock": "25460D",
-    "milege": 27749,
+    "mileage": 27749,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -7850,7 +7850,7 @@
   {
     "vin": "1GYKPTRL7RZ107455",
     "stock": "G260029A",
-    "milege": 25236,
+    "mileage": 25236,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -7868,7 +7868,7 @@
   {
     "vin": "1GYKPWRK6RZ123140",
     "stock": "P5610",
-    "milege": 15672,
+    "mileage": 15672,
     "interior_color": "",
     "exterior_color": "Green",
     "drive_type": "RWD",
@@ -7886,7 +7886,7 @@
   {
     "vin": "1GYKPWRL6RZ130808",
     "stock": "P5608",
-    "milege": 6086,
+    "mileage": 6086,
     "interior_color": "",
     "exterior_color": "Gray",
     "drive_type": "AWD",
@@ -7904,7 +7904,7 @@
   {
     "vin": "1GYKPTRL0SZ301623",
     "stock": "E17459",
-    "milege": 11169,
+    "mileage": 11169,
     "interior_color": "Gray",
     "exterior_color": "Gray",
     "drive_type": "AWD",
@@ -7922,7 +7922,7 @@
   {
     "vin": "1GYKPWRK7RZ140710",
     "stock": "J40710",
-    "milege": 5390,
+    "mileage": 5390,
     "interior_color": "",
     "exterior_color": "NIMBUS METALLIC",
     "drive_type": "RWD",
@@ -7940,7 +7940,7 @@
   {
     "vin": "1GYKPWRK7RZ116455",
     "stock": "PRZ116455",
-    "milege": 5216,
+    "mileage": 5216,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -7958,7 +7958,7 @@
   {
     "vin": "1GYKPMRL7RZ131745",
     "stock": "27802448",
-    "milege": 14781,
+    "mileage": 14781,
     "interior_color": "Black",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -7976,7 +7976,7 @@
   {
     "vin": "1GYKPRRK6RZ128081",
     "stock": "PA28081",
-    "milege": 10820,
+    "mileage": 10820,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -7994,7 +7994,7 @@
   {
     "vin": "1GYKPMRL6RZ107467",
     "stock": "B502051",
-    "milege": 25928,
+    "mileage": 25928,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -8012,7 +8012,7 @@
   {
     "vin": "1GYKPPRL8RZ109934",
     "stock": "P6497",
-    "milege": 19376,
+    "mileage": 19376,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -8030,7 +8030,7 @@
   {
     "vin": "1GYKPSRL4RZ136454",
     "stock": "P5609",
-    "milege": 8286,
+    "mileage": 8286,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -8048,7 +8048,7 @@
   {
     "vin": "1GYKPWRL5RZ111652",
     "stock": "26005A",
-    "milege": 12775,
+    "mileage": 12775,
     "interior_color": "OXFORD STONE W/GARNET ACCENTS",
     "exterior_color": "White",
     "drive_type": "AWD",
@@ -8066,7 +8066,7 @@
   {
     "vin": "1GYKPRRK1RZ123046",
     "stock": "89948A",
-    "milege": 34886,
+    "mileage": 34886,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Celestial Metallic",
     "drive_type": "RWD",
@@ -8084,7 +8084,7 @@
   {
     "vin": "1GYKPMRKXRZ123551",
     "stock": "BK9598",
-    "milege": 16221,
+    "mileage": 16221,
     "interior_color": "Black",
     "exterior_color": "White",
     "drive_type": "RWD",
@@ -8102,7 +8102,7 @@
   {
     "vin": "1GYKPSRL2RZ137800",
     "stock": "A2514",
-    "milege": 7478,
+    "mileage": 7478,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -8120,7 +8120,7 @@
   {
     "vin": "1GYKPSRLXRZ136104",
     "stock": "A2507",
-    "milege": 6343,
+    "mileage": 6343,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -8138,7 +8138,7 @@
   {
     "vin": "1GYKPMRK2PZ002123",
     "stock": "BP002123L",
-    "milege": 6113,
+    "mileage": 6113,
     "interior_color": "",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -8156,7 +8156,7 @@
   {
     "vin": "1GYKPSRL7RZ138277",
     "stock": "P35630",
-    "milege": 7949,
+    "mileage": 7949,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -8174,7 +8174,7 @@
   {
     "vin": "1GYKPSRK7RZ136195",
     "stock": "19179",
-    "milege": 3721,
+    "mileage": 3721,
     "interior_color": "",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -8192,7 +8192,7 @@
   {
     "vin": "1GYKPTRL0RZ100962",
     "stock": "54L1163P",
-    "milege": 17985,
+    "mileage": 17985,
     "interior_color": "Gray",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -8210,7 +8210,7 @@
   {
     "vin": "1GYKPSRK3RZ127669",
     "stock": "U047845A",
-    "milege": 10154,
+    "mileage": 10154,
     "interior_color": "Juniper With Sky Gray Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -8228,7 +8228,7 @@
   {
     "vin": "1GYKPSRL6RZ139128",
     "stock": "PA39128",
-    "milege": 15525,
+    "mileage": 15525,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -8246,7 +8246,7 @@
   {
     "vin": "1GYKPPRL7RZ106846",
     "stock": "CP27095",
-    "milege": 13275,
+    "mileage": 13275,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -8264,7 +8264,7 @@
   {
     "vin": "1GYKPRRL1RZ132998",
     "stock": "BP132998",
-    "milege": 6347,
+    "mileage": 6347,
     "interior_color": "",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -8282,7 +8282,7 @@
   {
     "vin": "1GYKPSRL2RZ137926",
     "stock": "P9161",
-    "milege": 10471,
+    "mileage": 10471,
     "interior_color": "",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -8300,7 +8300,7 @@
   {
     "vin": "1GYKPURL9SZ306115",
     "stock": "L189",
-    "milege": 1296,
+    "mileage": 1296,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -8318,7 +8318,7 @@
   {
     "vin": "1GYKPTRK9RZ103169",
     "stock": "17520A",
-    "milege": 27590,
+    "mileage": 27590,
     "interior_color": "Sky Cool Gray w/Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -8336,7 +8336,7 @@
   {
     "vin": "1GYKPWRL1SZ313751",
     "stock": "RCT26509",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Black (Backen Blk With Santorini)",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8354,7 +8354,7 @@
   {
     "vin": "1GYKPPRK8RZ102943",
     "stock": "2943",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -8372,7 +8372,7 @@
   {
     "vin": "1GYKPSRL6RZ136486",
     "stock": "RZ136486",
-    "milege": 123456,
+    "mileage": 123456,
     "interior_color": "",
     "exterior_color": "",
     "drive_type": "AWD",
@@ -8390,7 +8390,7 @@
   {
     "vin": "1GYKPURL1SZ315486",
     "stock": "54548ST",
-    "milege": 1327,
+    "mileage": 1327,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Silver Metallic",
     "drive_type": "AWD",
@@ -8408,7 +8408,7 @@
   {
     "vin": "1GYKPURL9SZ310603",
     "stock": "LK00844",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir W/Santorini Blue Acc",
     "exterior_color": "Blue",
     "drive_type": "AWD",
@@ -8426,7 +8426,7 @@
   {
     "vin": "1GYKPURKXSZ317518",
     "stock": "PR5634",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver",
     "drive_type": "RWD",
@@ -8444,7 +8444,7 @@
   {
     "vin": "1GYKPURK9SZ300189",
     "stock": "PR5580",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -8462,7 +8462,7 @@
   {
     "vin": "1GYKPNRK8SZ317149",
     "stock": "LK00879",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Sky Gray W Santorini",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -8480,7 +8480,7 @@
   {
     "vin": "1GYKPURL8SZ305053",
     "stock": "DS16994X",
-    "milege": 5038,
+    "mileage": 5038,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -8498,7 +8498,7 @@
   {
     "vin": "1GYKPNRL1SZ306745",
     "stock": "SZ306745U",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -8516,7 +8516,7 @@
   {
     "vin": "1GYKPNRL6SZ312816",
     "stock": "LK00876",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir With Santori",
     "exterior_color": "Silver Metallic",
     "drive_type": "AWD",
@@ -8534,7 +8534,7 @@
   {
     "vin": "1GYKPURLXSZ311386",
     "stock": "LK00850",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir W/Santorini Blue Acc",
     "exterior_color": "Radiant Red",
     "drive_type": "AWD",
@@ -8552,7 +8552,7 @@
   {
     "vin": "1GYKPURL9SZ310505",
     "stock": "DS17226X",
-    "milege": 734,
+    "mileage": 734,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -8570,7 +8570,7 @@
   {
     "vin": "1GYKPWRL6SZ318332",
     "stock": "RCT26701",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Sky Gray W Santorini Blue",
     "exterior_color": "Radiant Red",
     "drive_type": "AWD",
@@ -8588,7 +8588,7 @@
   {
     "vin": "1GYKPRRL8SZ307401",
     "stock": "7401",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -8606,7 +8606,7 @@
   {
     "vin": "1GYKPNRL4SZ310076",
     "stock": "RCT26491",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8624,7 +8624,7 @@
   {
     "vin": "1GYKPNRL8SZ310064",
     "stock": "RCT26132",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8642,7 +8642,7 @@
   {
     "vin": "1GYKPURL1SZ311163",
     "stock": "RCT26134",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8660,7 +8660,7 @@
   {
     "vin": "1GYKPURK8SZ309157",
     "stock": "LY5127",
-    "milege": 122,
+    "mileage": 122,
     "interior_color": "Noir Santorini",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -8678,7 +8678,7 @@
   {
     "vin": "1GYKPTRL6SZ310438",
     "stock": "36447",
-    "milege": 129,
+    "mileage": 129,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -8696,7 +8696,7 @@
   {
     "vin": "1GYKPWRL7RZ124967",
     "stock": "260031A1",
-    "milege": 7469,
+    "mileage": 7469,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -8714,7 +8714,7 @@
   {
     "vin": "1GYKPRRL0SZ308218",
     "stock": "RCT26463",
-    "milege": 103,
+    "mileage": 103,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8732,7 +8732,7 @@
   {
     "vin": "1GYKPNRL5SZ308028",
     "stock": "RCT26457",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8750,7 +8750,7 @@
   {
     "vin": "1GYKPNRL9SZ307139",
     "stock": "RCT26420",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -8768,7 +8768,7 @@
   {
     "vin": "1GYKPURL0SZ309517",
     "stock": "309517C01",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -8786,7 +8786,7 @@
   {
     "vin": "1GYKPNRL6SZ315828",
     "stock": "RCT26554",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir W/Santorini Blue Accents",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8804,7 +8804,7 @@
   {
     "vin": "1GYKPURK4SZ317787",
     "stock": "SZ317787L",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "Blue",
     "drive_type": "RWD",
@@ -8822,7 +8822,7 @@
   {
     "vin": "1GYKPURK8SZ317873",
     "stock": "SZ317873L",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -8840,7 +8840,7 @@
   {
     "vin": "1GYKPURK5SZ315272",
     "stock": "SZ315272L",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -8858,7 +8858,7 @@
   {
     "vin": "1GYKPURK5SZ310945",
     "stock": "SZ310945",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -8876,7 +8876,7 @@
   {
     "vin": "1GYKPRRL1SZ313783",
     "stock": "RCT26218",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Black (Backen Blk With Santorini)",
     "exterior_color": "Black Metallic",
     "drive_type": "AWD",
@@ -8894,7 +8894,7 @@
   {
     "vin": "1GYKPURKXSZ313842",
     "stock": "L216",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "Black",
     "drive_type": "RWD",
@@ -8912,7 +8912,7 @@
   {
     "vin": "1GYKPWRL3SZ313508",
     "stock": "RCT26220",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Sky Gry With Santori",
     "exterior_color": "Crystal White",
     "drive_type": "AWD",
@@ -8930,7 +8930,7 @@
   {
     "vin": "1GYXPZRL8TZ600139",
     "stock": "T08544A",
-    "milege": 1845,
+    "mileage": 1845,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -8948,7 +8948,7 @@
   {
     "vin": "1GYKPURK5SZ316969",
     "stock": "L217",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "NOIR W/ SANTORINI BLUE",
     "exterior_color": "Black",
     "drive_type": "RWD",
@@ -8966,7 +8966,7 @@
   {
     "vin": "1GYKPNRL9SZ303088",
     "stock": "B303088B",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -8984,7 +8984,7 @@
   {
     "vin": "1GYKPURK7SZ311496",
     "stock": "C2634L",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir With Santorini Blu A",
     "exterior_color": "Black",
     "drive_type": "RWD",
@@ -9002,7 +9002,7 @@
   {
     "vin": "1GYKPURL9SZ315753",
     "stock": "DS17617X",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -9020,7 +9020,7 @@
   {
     "vin": "1GYKPRRL2RZ129799",
     "stock": "P12486",
-    "milege": 11267,
+    "mileage": 11267,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -9038,7 +9038,7 @@
   {
     "vin": "1GYKPWRK2RZ108263",
     "stock": "P6656",
-    "milege": 11468,
+    "mileage": 11468,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -9056,7 +9056,7 @@
   {
     "vin": "1GYKPSRL0RZ137794",
     "stock": "C709C",
-    "milege": 7283,
+    "mileage": 7283,
     "interior_color": "",
     "exterior_color": "Blue",
     "drive_type": "AWD",
@@ -9074,7 +9074,7 @@
   {
     "vin": "1GYKPSRL7RZ138327",
     "stock": "C710C",
-    "milege": 7273,
+    "mileage": 7273,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -9092,7 +9092,7 @@
   {
     "vin": "1GYKPMRK2RZ100975",
     "stock": "T100975",
-    "milege": 15185,
+    "mileage": 15185,
     "interior_color": "Noir",
     "exterior_color": "Silver",
     "drive_type": "RWD",
@@ -9110,7 +9110,7 @@
   {
     "vin": "1GYKPTRL9RZ120854",
     "stock": "G6025A",
-    "milege": 29463,
+    "mileage": 29463,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -9128,7 +9128,7 @@
   {
     "vin": "1GYKPWRL7SZ310496",
     "stock": "DS17228X",
-    "milege": 0,
+    "mileage": 0,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -9146,7 +9146,7 @@
   {
     "vin": "1GYKPPRLXPZ000730",
     "stock": "000730E",
-    "milege": 1985,
+    "mileage": 1985,
     "interior_color": "Gray (Sky Grey)",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -9164,7 +9164,7 @@
   {
     "vin": "1GYKPRRKXRZ130111",
     "stock": "CTA561",
-    "milege": 20628,
+    "mileage": 20628,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -9182,7 +9182,7 @@
   {
     "vin": "1GYKPNRLXSZ308123",
     "stock": "3169A",
-    "milege": 3916,
+    "mileage": 3916,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Gray",
     "drive_type": "AWD",
@@ -9200,7 +9200,7 @@
   {
     "vin": "1GYKPURLXSZ308763",
     "stock": "AU1320",
-    "milege": 1054,
+    "mileage": 1054,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -9218,7 +9218,7 @@
   {
     "vin": "1GYKPNRK2SZ310956",
     "stock": "C10956P",
-    "milege": 419,
+    "mileage": 419,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -9236,7 +9236,7 @@
   {
     "vin": "1GYKPURK2SZ307730",
     "stock": "Z703875A",
-    "milege": 4368,
+    "mileage": 4368,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -9254,7 +9254,7 @@
   {
     "vin": "1GYKPTRK8RZ111392",
     "stock": "RZ111392",
-    "milege": 1600,
+    "mileage": 1600,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -9272,7 +9272,7 @@
   {
     "vin": "1GYKPTRL4SZ308896",
     "stock": "20674",
-    "milege": 5726,
+    "mileage": 5726,
     "interior_color": "Oxford Stone With Garnet Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -9290,7 +9290,7 @@
   {
     "vin": "1GYKPMRL3RZ108754",
     "stock": "P1469",
-    "milege": 9069,
+    "mileage": 9069,
     "interior_color": "Black",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -9308,7 +9308,7 @@
   {
     "vin": "1GYKPWRK7RZ135524",
     "stock": "2241147L",
-    "milege": 9695,
+    "mileage": 9695,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -9326,7 +9326,7 @@
   {
     "vin": "1GYKPSRL1RZ125170",
     "stock": "UC1359L",
-    "milege": 1541,
+    "mileage": 1541,
     "interior_color": "Sky Cool Gray w/Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -9344,7 +9344,7 @@
   {
     "vin": "1GYKPPRL9RZ115001",
     "stock": "18918",
-    "milege": 23481,
+    "mileage": 23481,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -9362,7 +9362,7 @@
   {
     "vin": "1GYKPMRK8PZ002479",
     "stock": "T002479",
-    "milege": 28683,
+    "mileage": 28683,
     "interior_color": "Noir",
     "exterior_color": "Gray (Satin Steel Metallic)",
     "drive_type": "RWD",
@@ -9380,7 +9380,7 @@
   {
     "vin": "1GYKPPRK3RZ101795",
     "stock": "26T4445A",
-    "milege": 27853,
+    "mileage": 27853,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -9398,7 +9398,7 @@
   {
     "vin": "1GYKPPRL5RZ106098",
     "stock": "P2039",
-    "milege": 4314,
+    "mileage": 4314,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -9416,7 +9416,7 @@
   {
     "vin": "1GYKPWRK2RZ127671",
     "stock": "MU9257",
-    "milege": 14490,
+    "mileage": 14490,
     "interior_color": "Juniper w/Sky Cool Gray Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -9434,7 +9434,7 @@
   {
     "vin": "1GYKPSRL8RZ119480",
     "stock": "B250106",
-    "milege": 8873,
+    "mileage": 8873,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -9452,7 +9452,7 @@
   {
     "vin": "1GYKPSRL8RZ137316",
     "stock": "T7367",
-    "milege": 9376,
+    "mileage": 9376,
     "interior_color": "Blue",
     "exterior_color": "White",
     "drive_type": "AWD",
@@ -9470,7 +9470,7 @@
   {
     "vin": "1GYKPPRK3RZ102218",
     "stock": "C25O374A",
-    "milege": 15701,
+    "mileage": 15701,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -9488,7 +9488,7 @@
   {
     "vin": "1GYKPSRL7RZ138201",
     "stock": "PR5624",
-    "milege": 13195,
+    "mileage": 13195,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black",
     "drive_type": "AWD",
@@ -9506,7 +9506,7 @@
   {
     "vin": "1GYKPTRK7RZ109052",
     "stock": "C26Q029A",
-    "milege": 20079,
+    "mileage": 20079,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -9524,7 +9524,7 @@
   {
     "vin": "1GYKPPRL2RZ109024",
     "stock": "U33634",
-    "milege": 6416,
+    "mileage": 6416,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -9542,7 +9542,7 @@
   {
     "vin": "1GYKPTRK5RZ109406",
     "stock": "24CAD1118U",
-    "milege": 31155,
+    "mileage": 31155,
     "interior_color": "Black",
     "exterior_color": "Red",
     "drive_type": "RWD",
@@ -9560,7 +9560,7 @@
   {
     "vin": "1GYKPSRL4RZ139614",
     "stock": "T7366",
-    "milege": 8849,
+    "mileage": 8849,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -9578,7 +9578,7 @@
   {
     "vin": "1GYKPPRL0RZ115503",
     "stock": "LLU2961",
-    "milege": 6161,
+    "mileage": 6161,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -9596,7 +9596,7 @@
   {
     "vin": "1GYKPPRL9RZ102569",
     "stock": "P6756",
-    "milege": 9215,
+    "mileage": 9215,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -9614,7 +9614,7 @@
   {
     "vin": "1GYKPNRK9SZ308105",
     "stock": "KR64634",
-    "milege": 1539,
+    "mileage": 1539,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -9632,7 +9632,7 @@
   {
     "vin": "1GYKPPRK8RZ101131",
     "stock": "C260141A",
-    "milege": 22053,
+    "mileage": 22053,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -9650,7 +9650,7 @@
   {
     "vin": "1GYKPSRL4RZ141184",
     "stock": "PP4195",
-    "milege": 13051,
+    "mileage": 13051,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -9668,7 +9668,7 @@
   {
     "vin": "1GYKPNRL8SZ301090",
     "stock": "26238A",
-    "milege": 8420,
+    "mileage": 8420,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -9686,7 +9686,7 @@
   {
     "vin": "1GYKPWRK0RZ112912",
     "stock": "P112912B",
-    "milege": 16457,
+    "mileage": 16457,
     "interior_color": "Oxford Stone w/Garnet Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -9704,7 +9704,7 @@
   {
     "vin": "1GYKPPRL8RZ109027",
     "stock": "3T3090P",
-    "milege": 17066,
+    "mileage": 17066,
     "interior_color": "",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -9722,7 +9722,7 @@
   {
     "vin": "1GYKPTRK4RZ109526",
     "stock": "RZ109526",
-    "milege": 27889,
+    "mileage": 27889,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "RWD",
@@ -9740,7 +9740,7 @@
   {
     "vin": "1GYKPPRKXRZ100319",
     "stock": "TZ301129A",
-    "milege": 49613,
+    "mileage": 49613,
     "interior_color": "Sky Cool Gray",
     "exterior_color": "Argent Silver",
     "drive_type": "RWD",
@@ -9758,7 +9758,7 @@
   {
     "vin": "1GYKPSRL8RZ135744",
     "stock": "T7359",
-    "milege": 8793,
+    "mileage": 8793,
     "interior_color": "Blue",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -9776,7 +9776,7 @@
   {
     "vin": "1GYKPMRL9RZ105079",
     "stock": "RZ105079",
-    "milege": 9641,
+    "mileage": 9641,
     "interior_color": "Noir",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -9794,7 +9794,7 @@
   {
     "vin": "1GYKPTRK8RZ101459",
     "stock": "UT3646",
-    "milege": 15165,
+    "mileage": 15165,
     "interior_color": "Gray",
     "exterior_color": "White",
     "drive_type": "RWD",
@@ -9812,7 +9812,7 @@
   {
     "vin": "1GYKPMRK4PZ000034",
     "stock": "71241JM",
-    "milege": 22126,
+    "mileage": 22126,
     "interior_color": "Gray",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -9830,7 +9830,7 @@
   {
     "vin": "1GYKPSRL5RZ138245",
     "stock": "PR5622",
-    "milege": 13567,
+    "mileage": 13567,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -9848,7 +9848,7 @@
   {
     "vin": "1GYKPTRL5RZ101475",
     "stock": "7588T",
-    "milege": 18682,
+    "mileage": 18682,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -9866,7 +9866,7 @@
   {
     "vin": "1GYKPTRL5RZ103257",
     "stock": "P65340",
-    "milege": 4653,
+    "mileage": 4653,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -9884,7 +9884,7 @@
   {
     "vin": "1GYKPPRK7RZ108488",
     "stock": "108488",
-    "milege": 16688,
+    "mileage": 16688,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -9902,7 +9902,7 @@
   {
     "vin": "1GYKPMRK0RZ109285",
     "stock": "24060179",
-    "milege": 7070,
+    "mileage": 7070,
     "interior_color": "Black",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -9920,7 +9920,7 @@
   {
     "vin": "1GYKPTRKXRZ101673",
     "stock": "101673",
-    "milege": 5901,
+    "mileage": 5901,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -9938,7 +9938,7 @@
   {
     "vin": "1GYKPWRL8SZ313228",
     "stock": "225C074L",
-    "milege": 1701,
+    "mileage": 1701,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -9956,7 +9956,7 @@
   {
     "vin": "1GYKPMRL5RZ138452",
     "stock": "21520",
-    "milege": 14855,
+    "mileage": 14855,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -9974,7 +9974,7 @@
   {
     "vin": "1GYKPPRL4RZ131056",
     "stock": "71189AB",
-    "milege": 10726,
+    "mileage": 10726,
     "interior_color": "Gray",
     "exterior_color": "Blue",
     "drive_type": "AWD",
@@ -9992,7 +9992,7 @@
   {
     "vin": "1GYKPMRK5RZ122453",
     "stock": "B260071A",
-    "milege": 3755,
+    "mileage": 3755,
     "interior_color": "Noir",
     "exterior_color": "Celestial Metallic",
     "drive_type": "RWD",
@@ -10010,7 +10010,7 @@
   {
     "vin": "1GYKPPRK7RZ115571",
     "stock": "R115571",
-    "milege": 6652,
+    "mileage": 6652,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "RWD",
@@ -10028,7 +10028,7 @@
   {
     "vin": "1GYKPVRK1RZ113884",
     "stock": "V7570",
-    "milege": 18657,
+    "mileage": 18657,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -10046,7 +10046,7 @@
   {
     "vin": "1GYKPURK7SZ303558",
     "stock": "2E60910A",
-    "milege": 8762,
+    "mileage": 8762,
     "interior_color": "",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -10064,7 +10064,7 @@
   {
     "vin": "1GYKPTRK4RZ111115",
     "stock": "RZ111115",
-    "milege": 30731,
+    "mileage": 30731,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -10082,7 +10082,7 @@
   {
     "vin": "1GYKPTRK2RZ103417",
     "stock": "U8830",
-    "milege": 17740,
+    "mileage": 17740,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -10100,7 +10100,7 @@
   {
     "vin": "1GYKPURL7SZ307084",
     "stock": "L250398",
-    "milege": 5143,
+    "mileage": 5143,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -10118,7 +10118,7 @@
   {
     "vin": "1GYKPMRL8RZ103369",
     "stock": "C25581A",
-    "milege": 15129,
+    "mileage": 15129,
     "interior_color": "Noir",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -10136,7 +10136,7 @@
   {
     "vin": "1GYKPSRL7RZ136805",
     "stock": "TM7811",
-    "milege": 12510,
+    "mileage": 12510,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10154,7 +10154,7 @@
   {
     "vin": "1GYKPSRL8RZ137770",
     "stock": "P4167",
-    "milege": 4813,
+    "mileage": 4813,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -10172,7 +10172,7 @@
   {
     "vin": "1GYKPRRL3RZ124109",
     "stock": "10104",
-    "milege": 11647,
+    "mileage": 11647,
     "interior_color": "Sky Cool Gray With Santorini Blue Accents Inteluxe",
     "exterior_color": "Celestial Metallic",
     "drive_type": "AWD",
@@ -10190,7 +10190,7 @@
   {
     "vin": "1GYKPPRK9RZ108346",
     "stock": "20922N",
-    "milege": 27065,
+    "mileage": 27065,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -10208,7 +10208,7 @@
   {
     "vin": "1GYKPTRLXRZ100225",
     "stock": "UC100225",
-    "milege": 28372,
+    "mileage": 28372,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -10226,7 +10226,7 @@
   {
     "vin": "1GYKPSRL7RZ138389",
     "stock": "C701C",
-    "milege": 6988,
+    "mileage": 6988,
     "interior_color": "",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -10244,7 +10244,7 @@
   {
     "vin": "1GYKPSRLXRZ139570",
     "stock": "P13083",
-    "milege": 13717,
+    "mileage": 13717,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10262,7 +10262,7 @@
   {
     "vin": "1GYKPWRL6SZ311042",
     "stock": "L250557",
-    "milege": 4446,
+    "mileage": 4446,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -10280,7 +10280,7 @@
   {
     "vin": "1GYKPPRL6RZ114842",
     "stock": "P3610",
-    "milege": 11452,
+    "mileage": 11452,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10298,7 +10298,7 @@
   {
     "vin": "1GYKPMRK4RZ102775",
     "stock": "P1254",
-    "milege": 5207,
+    "mileage": 5207,
     "interior_color": "Noir",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -10316,7 +10316,7 @@
   {
     "vin": "1GYKPSRL5RZ138844",
     "stock": "CP27079",
-    "milege": 11106,
+    "mileage": 11106,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -10334,7 +10334,7 @@
   {
     "vin": "1GYKPWRL7RZ133586",
     "stock": "P6644",
-    "milege": 19495,
+    "mileage": 19495,
     "interior_color": "Sky Cool Gray With Santorini Blue Accents, Intelux",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -10352,7 +10352,7 @@
   {
     "vin": "1GYKPVRK2RZ136171",
     "stock": "ECC2165",
-    "milege": 5371,
+    "mileage": 5371,
     "interior_color": "",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -10370,7 +10370,7 @@
   {
     "vin": "1GYKPPRL0RZ109622",
     "stock": "2384",
-    "milege": 21975,
+    "mileage": 21975,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Nimbus Metallic",
     "drive_type": "AWD",
@@ -10388,7 +10388,7 @@
   {
     "vin": "1GYKPSRL5RZ139539",
     "stock": "3045",
-    "milege": 12876,
+    "mileage": 12876,
     "interior_color": "",
     "exterior_color": "Red",
     "drive_type": "AWD",
@@ -10406,7 +10406,7 @@
   {
     "vin": "1GYKPSRL9RZ119407",
     "stock": "27638342",
-    "milege": 9165,
+    "mileage": 9165,
     "interior_color": "Black",
     "exterior_color": "Black",
     "drive_type": "AWD",
@@ -10424,7 +10424,7 @@
   {
     "vin": "1GYKPTRL9RZ107456",
     "stock": "P6494",
-    "milege": 23505,
+    "mileage": 23505,
     "interior_color": "Noir",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10442,7 +10442,7 @@
   {
     "vin": "1GYKPSRK8RZ136626",
     "stock": "5388970",
-    "milege": 8975,
+    "mileage": 8975,
     "interior_color": "Juniper with Sky Cool Gray accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "RWD",
@@ -10460,7 +10460,7 @@
   {
     "vin": "1GYKPMRK7PZ000223",
     "stock": "223",
-    "milege": 31023,
+    "mileage": 31023,
     "interior_color": "",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -10478,7 +10478,7 @@
   {
     "vin": "1GYKPSRL2RZ136579",
     "stock": "P10499",
-    "milege": 8895,
+    "mileage": 8895,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -10496,7 +10496,7 @@
   {
     "vin": "1GYKPURL0SZ300137",
     "stock": "39-S25",
-    "milege": 4234,
+    "mileage": 4234,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -10514,7 +10514,7 @@
   {
     "vin": "1GYKPSRL1RZ138338",
     "stock": "PA38338",
-    "milege": 12234,
+    "mileage": 12234,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -10532,7 +10532,7 @@
   {
     "vin": "1GYKPSRL1RZ136802",
     "stock": "3040",
-    "milege": 12469,
+    "mileage": 12469,
     "interior_color": "",
     "exterior_color": "Silver",
     "drive_type": "AWD",
@@ -10550,7 +10550,7 @@
   {
     "vin": "1GYKPVRL6RZ122332",
     "stock": "C2137A",
-    "milege": 21798,
+    "mileage": 21798,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Emerald Lake Metallic",
     "drive_type": "AWD",
@@ -10568,7 +10568,7 @@
   {
     "vin": "1GYKPSRL8RZ138126",
     "stock": "P6638",
-    "milege": 11240,
+    "mileage": 11240,
     "interior_color": "Noir With Santorini Blue Accents, Inteluxe Seat Tr",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -10586,7 +10586,7 @@
   {
     "vin": "1GYKPNRK6SZ316212",
     "stock": "DR316212",
-    "milege": 485,
+    "mileage": 485,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -10604,7 +10604,7 @@
   {
     "vin": "1GYKPSRK2RZ113357",
     "stock": "27722528",
-    "milege": 18531,
+    "mileage": 18531,
     "interior_color": "Black",
     "exterior_color": "White",
     "drive_type": "RWD",
@@ -10622,7 +10622,7 @@
   {
     "vin": "1GYKPTRK7RZ114378",
     "stock": "16734",
-    "milege": 25035,
+    "mileage": 25035,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
@@ -10640,7 +10640,7 @@
   {
     "vin": "1GYKPRRL6RZ134486",
     "stock": "96209A",
-    "milege": 7381,
+    "mileage": 7381,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -10658,7 +10658,7 @@
   {
     "vin": "1GYKPRRK9SZ305289",
     "stock": "P5590C",
-    "milege": 2367,
+    "mileage": 2367,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -10676,7 +10676,7 @@
   {
     "vin": "1GYKPSRL8RZ141155",
     "stock": "CP6137",
-    "milege": 9597,
+    "mileage": 9597,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -10694,7 +10694,7 @@
   {
     "vin": "1GYKPSRL0RZ136144",
     "stock": "257771",
-    "milege": 8003,
+    "mileage": 8003,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -10712,7 +10712,7 @@
   {
     "vin": "1GYKPSRL7RZ131801",
     "stock": "257786",
-    "milege": 9792,
+    "mileage": 9792,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10730,7 +10730,7 @@
   {
     "vin": "1GYKPTRK0RZ100497",
     "stock": "ECU2689",
-    "milege": 7856,
+    "mileage": 7856,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -10748,7 +10748,7 @@
   {
     "vin": "1GYKPRRK0RZ118727",
     "stock": "71240JM",
-    "milege": 6724,
+    "mileage": 6724,
     "interior_color": "Gray",
     "exterior_color": "Gray",
     "drive_type": "RWD",
@@ -10766,7 +10766,7 @@
   {
     "vin": "1GYKPSRL0RZ137987",
     "stock": "PA37987",
-    "milege": 15764,
+    "mileage": 15764,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -10784,7 +10784,7 @@
   {
     "vin": "1GYKPMRK5RZ103224",
     "stock": "OSC7568",
-    "milege": 21257,
+    "mileage": 21257,
     "interior_color": "Noir",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "RWD",
@@ -10802,7 +10802,7 @@
   {
     "vin": "1GYKPTRL8RZ135197",
     "stock": "F2279",
-    "milege": 1177,
+    "mileage": 1177,
     "interior_color": "Sky Cool Gray with Santorini Blue accents - H7E",
     "exterior_color": "Stellar Black Metallic - GB8",
     "drive_type": "AWD",
@@ -10820,7 +10820,7 @@
   {
     "vin": "1GYKPTRL4RZ101595",
     "stock": "CP2289",
-    "milege": 13641,
+    "mileage": 13641,
     "interior_color": "Sky Cool Gray W/ Santorini Blue Accents (h7e)",
     "exterior_color": "Crystal White Tricoat (g1w)",
     "drive_type": "AWD",
@@ -10838,7 +10838,7 @@
   {
     "vin": "1GYKPURLXSZ314692",
     "stock": "DR314692",
-    "milege": 1259,
+    "mileage": 1259,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -10856,7 +10856,7 @@
   {
     "vin": "1GYKPSRL3RZ109004",
     "stock": "36440",
-    "milege": 4080,
+    "mileage": 4080,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10874,7 +10874,7 @@
   {
     "vin": "1GYKPSRL6RZ139274",
     "stock": "PA39274",
-    "milege": 12255,
+    "mileage": 12255,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10892,7 +10892,7 @@
   {
     "vin": "1GYKPRRK3RZ119290",
     "stock": "CP2277",
-    "milege": 4532,
+    "mileage": 4532,
     "interior_color": "Noir W/ Santorini Blue Accents (h7d)",
     "exterior_color": "Stellar Black Metallic (gb8)",
     "drive_type": "RWD",
@@ -10910,7 +10910,7 @@
   {
     "vin": "1GYKPSRK0RZ136135",
     "stock": "10259",
-    "milege": 11500,
+    "mileage": 11500,
     "interior_color": "Oxford Stone with Garnet accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -10928,7 +10928,7 @@
   {
     "vin": "1GYKPTRK7RZ109410",
     "stock": "C708065A",
-    "milege": 26197,
+    "mileage": 26197,
     "interior_color": "Noir With Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "RWD",
@@ -10946,7 +10946,7 @@
   {
     "vin": "1GYKPSRL8RZ139048",
     "stock": "XC14799",
-    "milege": 12243,
+    "mileage": 12243,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -10964,7 +10964,7 @@
   {
     "vin": "1GYKPSRL2RZ138817",
     "stock": "XC14778",
-    "milege": 8382,
+    "mileage": 8382,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Radiant Red Tintcoat",
     "drive_type": "AWD",
@@ -10982,7 +10982,7 @@
   {
     "vin": "1GYKPSRLXRZ138158",
     "stock": "P10497",
-    "milege": 1770,
+    "mileage": 1770,
     "interior_color": "Noir with Santorini Blue accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -11000,7 +11000,7 @@
   {
     "vin": "1GYKPSRL1RZ137819",
     "stock": "XC14798",
-    "milege": 12831,
+    "mileage": 12831,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Opulent Blue Metallic",
     "drive_type": "AWD",
@@ -11018,7 +11018,7 @@
   {
     "vin": "1GYKPSRLXRZ137897",
     "stock": "36448",
-    "milege": 13587,
+    "mileage": 13587,
     "interior_color": "Noir with Santorini Blue accents, Inteluxe seat tr",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -11036,7 +11036,7 @@
   {
     "vin": "1GYKPPRL2RZ102106",
     "stock": "25716A",
-    "milege": 22099,
+    "mileage": 22099,
     "interior_color": "Sky Cool Gray With Santorini Blue Accents Inteluxe",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -11054,7 +11054,7 @@
   {
     "vin": "1GYKPTRK6RZ103498",
     "stock": "4310",
-    "milege": 3713,
+    "mileage": 3713,
     "interior_color": "",
     "exterior_color": "White",
     "drive_type": "RWD",
@@ -11072,7 +11072,7 @@
   {
     "vin": "1GYKPMRK4PZ003323",
     "stock": "96170",
-    "milege": 87825,
+    "mileage": 87825,
     "interior_color": "Black",
     "exterior_color": "Black",
     "drive_type": "RWD",
@@ -11090,7 +11090,7 @@
   {
     "vin": "1GYKPSRL2RZ105218",
     "stock": "P4203",
-    "milege": 1673,
+    "mileage": 1673,
     "interior_color": "Juniper with Sky Cool Gray accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -11108,7 +11108,7 @@
   {
     "vin": "1GYKPPRL4RZ120428",
     "stock": "12812A",
-    "milege": 15563,
+    "mileage": 15563,
     "interior_color": "Sky Cool Gray with Santorini Blue accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -11126,7 +11126,7 @@
   {
     "vin": "1GYKPTRL6RZ116003",
     "stock": "UC1346L",
-    "milege": 4131,
+    "mileage": 4131,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "AWD",
@@ -11144,7 +11144,7 @@
   {
     "vin": "1GYKPTRL2RZ104785",
     "stock": "2541161",
-    "milege": 28890,
+    "mileage": 28890,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "AWD",
@@ -11162,7 +11162,7 @@
   {
     "vin": "1GYKPPRK2RZ102890",
     "stock": "F4713A",
-    "milege": 11610,
+    "mileage": 11610,
     "interior_color": "Sky Gray With Santorini Blue Accents",
     "exterior_color": "Argent Silver Metallic",
     "drive_type": "RWD",
@@ -11180,7 +11180,7 @@
   {
     "vin": "1GYKPSRL8RZ131757",
     "stock": "6174P",
-    "milege": 5982,
+    "mileage": 5982,
     "interior_color": "Sky Cool Gray w/Santorini Blue Accents",
     "exterior_color": "Stellar Black Metallic",
     "drive_type": "AWD",
@@ -11198,7 +11198,7 @@
   {
     "vin": "1GYKPURKXSZ311699",
     "stock": "TSZ311699",
-    "milege": 9000,
+    "mileage": 9000,
     "interior_color": "Noir w/Santorini Blue Accents",
     "exterior_color": "Crystal White Tricoat",
     "drive_type": "RWD",
