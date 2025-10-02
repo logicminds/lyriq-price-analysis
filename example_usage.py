@@ -16,14 +16,20 @@ def example_command_line_usage():
     """Example of using the converter from command line."""
     print("=== Command Line Usage Examples ===")
     print()
-    print("Basic conversion:")
+    print("Basic conversion (outputs to stdout):")
+    print("python csv_to_json_converter.py input.csv")
+    print()
+    print("Output to file:")
     print("python csv_to_json_converter.py input.csv output.json")
     print()
+    print("Force stdout output:")
+    print("python csv_to_json_converter.py input.csv output.json --stdout")
+    print()
     print("With duplicate detection on specific fields:")
-    print("python csv_to_json_converter.py input.csv output.json --duplicate-keys vin stock")
+    print("python csv_to_json_converter.py input.csv --duplicate-keys vin stock")
     print()
     print("With custom encoding:")
-    print("python csv_to_json_converter.py input.csv output.json --encoding utf-8")
+    print("python csv_to_json_converter.py input.csv --encoding utf-8")
     print()
 
 

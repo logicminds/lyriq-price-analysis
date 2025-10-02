@@ -10,7 +10,13 @@ This script converts CSV files to JSON format with the following transformations
 - Handles various CSV formats and edge cases
 
 Usage:
-    python csv_to_json_converter.py input.csv output.json
+    python csv_to_json_converter.py input.csv [output.json] [options]
+
+    # Examples:
+    python csv_to_json_converter.py data.csv                    # Outputs to stdout
+    python csv_to_json_converter.py data.csv output.json        # Outputs to file
+    python csv_to_json_converter.py data.csv --stdout           # Force stdout output
+    python csv_to_json_converter.py data.csv --duplicate-keys vin stock
 
 Author: Generated for lyriq-price project
 """
@@ -175,14 +181,14 @@ def clean_record_data(
     """
     Clean the record data by converting payment, price, mileage, and year to numbers.
     Also convert drive_type to abbreviations and clean trim field.
-    Add created_at timestamp to each record.
+    Add time timestamp to each record.
 
     Args:
         record (Dict): Record to clean
         created_at_timestamp (str): Timestamp to add to each record
 
     Returns:
-        Dict: Cleaned record with created_at timestamp
+        Dict: Cleaned record with time timestamp
     """
     cleaned_record = record.copy()
 
@@ -210,8 +216,8 @@ def clean_record_data(
     if "trim" in cleaned_record and cleaned_record["trim"]:
         cleaned_record["trim"] = clean_trim_field(cleaned_record["trim"])
 
-    # Add created_at timestamp to each record
-    cleaned_record["created_at"] = created_at_timestamp
+    # Add time timestamp to each record
+    cleaned_record["time"] = created_at_timestamp
 
     return cleaned_record
 
@@ -229,14 +235,14 @@ def remove_duplicates(data: List[Dict[str, Any]], key_fields: List[str] = None) 
     """
     if not data:
         return data
-    
+
     if key_fields is None:
         # Use all fields for duplicate detection
         key_fields = list(data[0].keys())
-    
+
     seen = set()
     unique_data = []
-    
+
     for record in data:
         # Create a key based on the specified fields
         key_parts = []
@@ -246,26 +252,31 @@ def remove_duplicates(data: List[Dict[str, Any]], key_fields: List[str] = None) 
             else:
                 key_parts.append('')
         key = '|'.join(key_parts)
-        
+
         if key not in seen:
             seen.add(key)
             unique_data.append(record)
-    
+
     return unique_data
 
 
-def convert_csv_to_json(csv_file_path: str, json_file_path: str, 
-                       duplicate_key_fields: List[str] = None,
-                       encoding: str = 'utf-8') -> Dict[str, Any]:
+def convert_csv_to_json(
+    csv_file_path: str,
+    json_file_path: str = None,
+    duplicate_key_fields: List[str] = None,
+    encoding: str = "utf-8",
+    output_to_stdout: bool = False,
+) -> Dict[str, Any]:
     """
     Convert CSV file to JSON format with normalization and deduplication.
-    
+
     Args:
         csv_file_path (str): Path to input CSV file
-        json_file_path (str): Path to output JSON file
+        json_file_path (str): Path to output JSON file (None for stdout)
         duplicate_key_fields (List[str]): Fields to use for duplicate detection
         encoding (str): File encoding to use
-        
+        output_to_stdout (bool): Force output to stdout
+
     Returns:
         Dict: Summary of conversion process
     """
@@ -280,10 +291,10 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
 
             reader = csv.DictReader(csvfile, delimiter=delimiter)
 
-            # Convert field names to normalized format and add created_at
+            # Convert field names to normalized format and add time
             normalized_fieldnames = [
                 normalize_field_name(field) for field in reader.fieldnames
-            ] + ["created_at"]
+            ] + ["time"]
 
             # Generate single timestamp for all records
             created_at_timestamp = datetime.now().isoformat()
@@ -295,7 +306,7 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
                 normalized_row = {}
                 for old_field, new_field in zip(
                     reader.fieldnames, normalized_fieldnames[:-1]
-                ):  # Exclude created_at from field mapping
+                ):  # Exclude time from field mapping
                     normalized_row[new_field] = row[old_field]
 
                 # Clean the record data (convert payment, price, mileage to numbers)
@@ -315,16 +326,25 @@ def convert_csv_to_json(csv_file_path: str, json_file_path: str,
         # Create final JSON structure (just the data array)
         json_data = data
 
-        # Write JSON file
-        with open(json_file_path, 'w', encoding='utf-8') as jsonfile:
-            json.dump(json_data, jsonfile, indent=2, ensure_ascii=False)
+        # Determine output destination
+        if output_to_stdout or json_file_path is None:
+            # Output to stdout
+            json.dump(json_data, sys.stdout, indent=2, ensure_ascii=False)
+            print(
+                f"\n# Conversion completed: {len(data)} records, {duplicates_removed} duplicates removed",
+                file=sys.stderr,
+            )
+        else:
+            # Write to file
+            with open(json_file_path, "w", encoding="utf-8") as jsonfile:
+                json.dump(json_data, jsonfile, indent=2, ensure_ascii=False)
 
-        print(f"Successfully converted CSV to JSON: {json_file_path}")
-        print(f"Total records: {len(data)}")
-        print(f"Duplicates removed: {duplicates_removed}")
-        print("Data cleaning applied: payment, price, mileage, year → numbers")
-        print("Drive type converted: All-Wheel Drive → AWD, Rear-Wheel Drive → RWD")
-        print("Trim field cleaned: removed duplicate AWD/RWD references")
+            print(f"Successfully converted CSV to JSON: {json_file_path}")
+            print(f"Total records: {len(data)}")
+            print(f"Duplicates removed: {duplicates_removed}")
+            print("Data cleaning applied: payment, price, mileage, year → numbers")
+            print("Drive type converted: All-Wheel Drive → AWD, Rear-Wheel Drive → RWD")
+            print("Trim field cleaned: removed duplicate AWD/RWD references")
 
         return {
             "success": True,
@@ -347,27 +367,40 @@ def main():
         description="Convert CSV file to JSON format with field normalization and deduplication"
     )
     parser.add_argument("input_csv", help="Path to input CSV file")
-    parser.add_argument("output_json", help="Path to output JSON file")
+    parser.add_argument(
+        "output_json",
+        nargs="?",
+        help="Path to output JSON file (if not specified, outputs to stdout)",
+    )
     parser.add_argument("--duplicate-keys", nargs="+", 
                        help="Field names to use for duplicate detection (default: all fields)")
     parser.add_argument("--encoding", default="utf-8", 
                        help="File encoding (default: utf-8)")
-    
+    parser.add_argument(
+        "--stdout",
+        action="store_true",
+        help="Force output to stdout (overrides output file)",
+    )
+
     args = parser.parse_args()
-    
+
     # Check if input file exists
     if not os.path.exists(args.input_csv):
         print(f"Error: Input file '{args.input_csv}' does not exist")
         sys.exit(1)
-    
+
+    # Determine output behavior
+    output_to_stdout = args.stdout or args.output_json is None
+
     # Perform conversion
     result = convert_csv_to_json(
-        args.input_csv, 
-        args.output_json, 
+        args.input_csv,
+        args.output_json,
         args.duplicate_keys,
-        args.encoding
+        args.encoding,
+        output_to_stdout,
     )
-    
+
     if result["success"]:
         print("Conversion completed successfully!")
         sys.exit(0)
