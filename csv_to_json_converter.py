@@ -256,6 +256,10 @@ def clean_record_data(
     if "trim" in cleaned_record and cleaned_record["trim"]:
         cleaned_record["trim"] = clean_trim_field(cleaned_record["trim"])
 
+    # Handle LYRIQ-V model - set trim to V-Series
+    if "model" in cleaned_record and cleaned_record["model"] == "LYRIQ-V":
+        cleaned_record["trim"] = "V-Series"
+
     # Add time timestamp to each record
     cleaned_record["time"] = created_at_timestamp
 
