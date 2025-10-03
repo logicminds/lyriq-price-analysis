@@ -53,13 +53,13 @@ The JSON output includes:
     "conversion_timestamp": "2025-10-01T20:18:04.781887",
     "total_records": 609,
     "duplicates_removed": 144,
-    "field_names": ["vin", "stock", "milege", ...]
+    "field_names": ["vin", "stock", "mileage", ...]
   },
   "data": [
     {
       "vin": "1GYKPMRL4RZ102008",
       "stock": "RZ102008",
-      "milege": "10,203",
+      "mileage": "10,203",
       ...
     }
   ]

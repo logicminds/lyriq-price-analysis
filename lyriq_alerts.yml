@@ -1,0 +1,145 @@
+# LYRIQ Vehicle Data Alerting Rules for Prometheus
+
+groups:
+  - name: lyriq_inventory_alerts
+    rules:
+      - alert: LowInventory
+        expr: lyriq_vehicles_total < 100
+        for: 5m
+        labels:
+          severity: critical
+          service: lyriq-inventory
+        annotations:
+          summary: "LYRIQ inventory is critically low"
+          description: "Total LYRIQ vehicles available is {{ $value }}, which is below the threshold of 100"
+          runbook_url: "https://docs.example.com/runbooks/low-inventory"
+
+      - alert: HighInventory
+        expr: lyriq_vehicles_total > 1000
+        for: 10m
+        labels:
+          severity: warning
+          service: lyriq-inventory
+        annotations:
+          summary: "LYRIQ inventory is unusually high"
+          description: "Total LYRIQ vehicles available is {{ $value }}, which is above normal levels"
+
+  - name: lyriq_price_alerts
+    rules:
+      - alert: HighAveragePrice
+        expr: lyriq_price_average > 55000
+        for: 15m
+        labels:
+          severity: warning
+          service: lyriq-pricing
+        annotations:
+          summary: "Average LYRIQ price is above $55,000"
+          description: "Average LYRIQ price is ${{ $value | humanize }} which may indicate market changes"
+
+      - alert: LowAveragePrice
+        expr: lyriq_price_average < 35000
+        for: 15m
+        labels:
+          severity: info
+          service: lyriq-pricing
+        annotations:
+          summary: "Average LYRIQ price is below $35,000"
+          description: "Average LYRIQ price is ${{ $value | humanize }} which may indicate good deals available"
+
+      - alert: PriceVolatility
+        expr: (lyriq_price_max - lyriq_price_min) / lyriq_price_average > 0.5
+        for: 10m
+        labels:
+          severity: warning
+          service: lyriq-pricing
+        annotations:
+          summary: "High price volatility detected"
+          description: "Price range is {{ $value | humanizePercentage }} of average price"
+
+  - name: lyriq_mileage_alerts
+    rules:
+      - alert: HighAverageMileage
+        expr: lyriq_mileage_average > 25000
+        for: 20m
+        labels:
+          severity: warning
+          service: lyriq-inventory
+        annotations:
+          summary: "Average mileage is high"
+          description: "Average LYRIQ mileage is {{ $value | humanize }} miles"
+
+      - alert: LowMileageVehicles
+        expr: lyriq_vehicles_by_mileage_range{range="under_10k"} < 50
+        for: 30m
+        labels:
+          severity: info
+          service: lyriq-inventory
+        annotations:
+          summary: "Low mileage vehicles are scarce"
+          description: "Only {{ $value }} vehicles with under 10k miles available"
+
+  - name: lyriq_geographic_alerts
+    rules:
+      - alert: GeographicConcentration
+        expr: topk(1, lyriq_vehicles_by_state) / lyriq_vehicles_total > 0.3
+        for: 15m
+        labels:
+          severity: info
+          service: lyriq-geographic
+        annotations:
+          summary: "High geographic concentration"
+          description: "{{ $labels.state }} has {{ $value | humanizePercentage }} of total inventory"
+
+      - alert: NewMarketEntry
+        expr: increase(lyriq_vehicles_by_state[1h]) > 5
+        for: 0m
+        labels:
+          severity: info
+          service: lyriq-geographic
+        annotations:
+          summary: "New vehicles entered market in {{ $labels.state }}"
+          description: "{{ $value }} new vehicles added to {{ $labels.state }} in the last hour"
+
+  - name: lyriq_trim_alerts
+    rules:
+      - alert: TrimAvailability
+        expr: lyriq_vehicles_by_trim{trim="luxury_3"} < 10
+        for: 30m
+        labels:
+          severity: warning
+          service: lyriq-inventory
+        annotations:
+          summary: "Luxury 3 trim availability is low"
+          description: "Only {{ $value }} Luxury 3 vehicles available"
+
+      - alert: VSeriesAvailability
+        expr: lyriq_vehicles_by_trim{trim="v_series"} < 5
+        for: 30m
+        labels:
+          severity: warning
+          service: lyriq-inventory
+        annotations:
+          summary: "V-Series availability is critically low"
+          description: "Only {{ $value }} V-Series vehicles available"
+
+  - name: lyriq_payment_alerts
+    rules:
+      - alert: HighPaymentThreshold
+        expr: lyriq_payment_average > 1000
+        for: 20m
+        labels:
+          severity: warning
+          service: lyriq-financing
+        annotations:
+          summary: "Average monthly payment is high"
+          description: "Average monthly payment is ${{ $value | humanize }}"
+
+      - alert: PaymentRangeTooWide
+        expr: (lyriq_payment_max - lyriq_payment_min) > 1000
+        for: 15m
+        labels:
+          severity: info
+          service: lyriq-financing
+        annotations:
+          summary: "Wide payment range detected"
+          description: "Payment range spans ${{ $value | humanize }}"

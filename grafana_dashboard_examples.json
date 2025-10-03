@@ -1,0 +1,154 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "LYRIQ Vehicle Inventory Dashboard",
+    "tags": ["lyriq", "inventory", "vehicles"],
+    "style": "dark",
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Total Vehicles",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "lyriq_vehicles_total",
+            "legendFormat": "Total Vehicles"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "red", "value": 0},
+                {"color": "yellow", "value": 100},
+                {"color": "green", "value": 500}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Average Price",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "lyriq_price_average",
+            "legendFormat": "Average Price"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "currencyUSD",
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": 0},
+                {"color": "yellow", "value": 45000},
+                {"color": "red", "value": 55000}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Vehicles by Year",
+        "type": "barchart",
+        "targets": [
+          {
+            "expr": "lyriq_vehicles_by_year",
+            "legendFormat": "{{year}}"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "Vehicles by Trim",
+        "type": "piechart",
+        "targets": [
+          {
+            "expr": "lyriq_vehicles_by_trim",
+            "legendFormat": "{{trim}}"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Price Distribution",
+        "type": "barchart",
+        "targets": [
+          {
+            "expr": "lyriq_vehicles_by_price_range",
+            "legendFormat": "{{range}}"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            }
+          }
+        }
+      },
+      {
+        "id": 6,
+        "title": "Geographic Distribution",
+        "type": "table",
+        "targets": [
+          {
+            "expr": "topk(10, lyriq_vehicles_by_state)",
+            "legendFormat": "{{state}}"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "custom": {
+              "displayMode": "list"
+            }
+          }
+        }
+      },
+      {
+        "id": 7,
+        "title": "Mileage Distribution",
+        "type": "barchart",
+        "targets": [
+          {
+            "expr": "lyriq_vehicles_by_mileage_range",
+            "legendFormat": "{{range}}"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Drive Type Distribution",
+        "type": "piechart",
+        "targets": [
+          {
+            "expr": "lyriq_vehicles_by_drive_type",
+            "legendFormat": "{{drive_type}}"
+          }
+        ]
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "5m"
+  }
+}

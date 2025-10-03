@@ -228,11 +228,11 @@ def clean_record_data(
         cleaned_record["price"] = 0
 
     # Clean mileage field - handle missing mileage
-    if 'milege' in cleaned_record and cleaned_record['milege']:
-        mileage_value = extract_mileage_number(cleaned_record["milege"])
-        cleaned_record["milege"] = mileage_value if mileage_value > 0 else 0
+    if "mileage" in cleaned_record and cleaned_record["mileage"]:
+        mileage_value = extract_mileage_number(cleaned_record["mileage"])
+        cleaned_record["mileage"] = mileage_value if mileage_value > 0 else 0
     else:
-        cleaned_record["milege"] = 0
+        cleaned_record["mileage"] = 0
 
     # Clean year field
     if 'year' in cleaned_record and cleaned_record['year']:

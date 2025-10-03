@@ -1,0 +1,33 @@
+# Prometheus configuration for LYRIQ vehicle metrics
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  # - "lyriq_alerts.yml"
+
+scrape_configs:
+  # Main LYRIQ dataset metrics
+  - job_name: 'lyriq-vehicles'
+    static_configs:
+      - targets: ['localhost:8080']
+    metrics_path: '/metrics'
+    scrape_interval: 5m
+    scrape_timeout: 10s
+    
+  # New entries metrics (if running on different port)
+  - job_name: 'lyriq-new-entries'
+    static_configs:
+      - targets: ['localhost:8081']
+    metrics_path: '/metrics'
+    scrape_interval: 15m
+    scrape_timeout: 10s
+    # Only scrape if the target is available
+    honor_labels: true
+
+  # File-based metrics (alternative approach)
+  - job_name: 'lyriq-file-metrics'
+    file_sd_configs:
+      - files:
+          - 'lyriq_metrics.prom'
+    scrape_interval: 10m

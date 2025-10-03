@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadillac Lyriq Comprehensive Market Analysis Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ffffff;
+            margin: 0;
+            padding: 10px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #ffd700;
+            margin-bottom: 10px;
+            font-size: clamp(1.5em, 4vw, 2.5em);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #b0b0b0;
+            margin-bottom: 20px;
+            font-size: clamp(0.9em, 2.5vw, 1.2em);
+            padding: 0 10px;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+            padding: 10px;
+        }
+        
+        /* Mobile-first responsive grid */
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        /* Tablet breakpoint */
+        @media (min-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+            
+            .chart-container {
+                height: 500px;
+                padding: 15px;
+            }
+            
+            .analysis-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+                margin-top: 25px;
+            }
+        }
+        
+        /* Desktop breakpoint */
+        @media (min-width: 1024px) {
+            .container {
+                padding: 30px;
+            }
+            
+            .chart-container {
+                height: 650px;
+                padding: 20px;
+            }
+            
+            .analysis-grid {
+                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                gap: 30px;
+                margin-top: 30px;
+            }
+        }
+        
+        .analysis-card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        
+        @media (min-width: 768px) {
+            .analysis-card {
+                padding: 20px;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .analysis-card {
+                padding: 25px;
+            }
+        }
+        
+        .analysis-card h3 {
+            color: #ffd700;
+            margin-top: 0;
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 10px;
+            font-size: clamp(1em, 3vw, 1.2em);
+        }
+        
+        .analysis-card h4 {
+            color: #ffd700;
+            margin: 15px 0 10px 0;
+            font-size: clamp(0.9em, 2.5vw, 1em);
+        }
+        
+        .feature-impact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .feature-impact:last-child {
+            border-bottom: none;
+        }
+        
+        /* Mobile-specific adjustments for feature impacts */
+        @media (max-width: 767px) {
+            .feature-impact {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+            
+            .feature-impact span:last-child {
+                align-self: flex-end;
+            }
+        }
+        
+        .price-highlight {
+            color: #4CAF50;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        
+        .price-decline {
+            color: #f44336;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        
+        .price-stable {
+            color: #ffd700;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        
+        .trim-summary {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 12px;
+            margin: 10px 0;
+            border-left: 4px solid #ffd700;
+            font-size: clamp(0.8em, 2vw, 0.9em);
+        }
+        
+        @media (min-width: 768px) {
+            .trim-summary {
+                padding: 15px;
+            }
+        }
+        
+        .key-insights {
+            grid-column: 1 / -1;
+            background: rgba(255, 215, 0, 0.1);
+            border: 2px solid #ffd700;
+        }
+        
+        .projection-badge {
+            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+            color: #000;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-left: 10px;
+            white-space: nowrap;
+        }
+        
+        .historical-data {
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .projected-data {
+            border-left: 4px solid #ff9800;
+        }
+        
+        /* Controls styling */
+        .controls-container {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: end;
+            justify-content: center;
+        }
+        
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-width: 200px;
+        }
+        
+        .control-group label {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: clamp(0.9em, 2.5vw, 1em);
+        }
+        
+        .control-group select {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            border-radius: 8px;
+            color: #ffffff;
+            padding: 10px;
+            font-size: clamp(0.8em, 2vw, 0.9em);
+            min-height: 120px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        
+        .control-group select:focus {
+            border-color: #ffd700;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+        }
+        
+        .control-group select option {
+            background: #1a1a2e;
+            color: #ffffff;
+            padding: 5px;
+        }
+        
+        .control-group select option:checked {
+            background: #ffd700;
+            color: #000000;
+            font-weight: bold;
+        }
+        
+        .control-btn {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            color: #000000;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 15px;
+            font-weight: bold;
+            font-size: clamp(0.8em, 2vw, 0.9em);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 0 5px;
+        }
+        
+        .control-btn:hover {
+            background: linear-gradient(135deg, #ffed4e, #ffd700);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+        }
+        
+        .control-btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Checkbox styling */
+        .control-group label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            color: #ffd700;
+            font-weight: bold;
+            font-size: clamp(0.9em, 2.5vw, 1em);
+        }
+        
+        .control-group input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #ffd700;
+            cursor: pointer;
+        }
+        
+        .checkbox-label {
+            user-select: none;
+        }
+        
+        /* Mobile responsive controls */
+        @media (max-width: 768px) {
+            .controls-container {
+                flex-direction: column;
+                align-items: stretch;
+                padding: 15px;
+                gap: 15px;
+            }
+            
+            .control-group {
+                min-width: auto;
+            }
+            
+            .control-group select {
+                min-height: 100px;
+            }
+            
+            .control-group:last-child {
+                flex-direction: row;
+                justify-content: center;
+                gap: 10px;
+            }
+            
+            .control-btn {
+                flex: 1;
+                margin: 0;
+            }
+        }
+        
+        /* Chart responsiveness adjustments */
+        @media (max-width: 767px) {
+            .chart-container {
+                height: 300px;
+                overflow-x: auto;
+            }
+        }
+        
+        /* Prevent horizontal scrolling */
+        .analysis-card, .trim-summary {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        
+        /* Ensure text doesn't overflow on very small screens */
+        @media (max-width: 320px) {
+            .container {
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            .analysis-card {
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            .feature-impact {
+                font-size: 0.85em;
+            }
+        }
+        
+        /* Improve touch targets for mobile */
+        @media (max-width: 767px) {
+            .analysis-card {
+                margin-bottom: 15px;
+            }
+            
+            .feature-impact {
+                min-height: 44px;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadillac Lyriq Comprehensive Market Analysis</h1>
+        <p class="subtitle">Real-time Market Data with Interactive Filtering and Geographic Analysis</p>
+        
+        <!-- Interactive Controls -->
+        <div class="controls-container">
+            <div class="control-group">
+                <label for="yearSelect">Select Year(s):</label>
+                <select id="yearSelect" multiple>
+                    <option value="2024" selected>2024</option>
+                    <option value="2025" selected>2025</option>
+                    <option value="2026">2026</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="trimSelect">Select Trim(s):</label>
+                <select id="trimSelect" multiple>
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+            <div class="control-group">
+                <label>
+                    <input type="checkbox" id="awdCheckbox" checked>
+                    <span class="checkbox-label">Include AWD variants</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <button id="selectAllTrims" class="control-btn">Select All Trims</button>
+                <button id="clearAllTrims" class="control-btn">Clear All Trims</button>
+            </div>
+        </div>
+        
+        <!-- Price Trends Chart -->
+        <div class="chart-container">
+            <canvas id="priceChart"></canvas>
+        </div>
+        
+        <!-- Geographic Distribution Chart -->
+        <div class="chart-container">
+            <canvas id="locationChart"></canvas>
+        </div>
+        
+        <!-- Trim Distribution Chart -->
+        <div class="chart-container">
+            <canvas id="trimDistributionChart"></canvas>
+        </div>
+        
+        <!-- Analysis Cards -->
+        <div class="analysis-grid">
+            <div class="analysis-card key-insights">
+                <h3>🔮 Market Analysis Summary</h3>
+                <div class="trim-summary projected-data">
+                    <strong>Data Source:</strong> Real-time CarGurus market data with 623 vehicle listings
+                </div>
+                <div class="trim-summary projected-data">
+                    <strong>Geographic Coverage:</strong> 40 states with California leading at 82 vehicles
+                </div>
+                <div class="trim-summary projected-data">
+                    <strong>Price Range:</strong> $38,982 - $53,484 average by state
+                </div>
+                <div class="trim-summary projected-data">
+                    <strong>Trim Diversity:</strong> 9 unique trim levels across all markets
+                </div>
+            </div>
+            
+            <div class="analysis-card">
+                <h3>📈 Geographic Market Analysis</h3>
+                <div class="trim-summary historical-data">
+                    <strong>Top Markets by Volume:</strong> California (82), Texas (62), Florida (52)
+                </div>
+                <div class="trim-summary historical-data">
+                    <strong>Premium Markets:</strong> Maryland ($50,799), Massachusetts ($49,590), New York ($49,441)
+                </div>
+                <div class="trim-summary historical-data">
+                    <strong>Value Markets:</strong> Louisiana ($39,664), Kansas ($38,982), Oklahoma ($39,908)
+                </div>
+                <div class="trim-summary historical-data">
+                    <strong>Regional Preferences:</strong> West Coast favors Sport trims, East Coast prefers Luxury models
+                </div>
+            </div>
+            
+            <div class="analysis-card">
+                <h3>🎯 Trim Distribution Insights</h3>
+                <div class="trim-summary">
+                    <strong>Most Popular Trims:</strong> Sport 1 dominates California (28 vehicles), Luxury 3 leads in Ohio (18)
+                </div>
+                <div class="trim-summary">
+                    <strong>Regional Trim Preferences:</strong> California favors Sport 1 (34%), Texas prefers Luxury 3 (26%)
+                </div>
+                <div class="trim-summary">
+                    <strong>V-Series Availability:</strong> Exclusive to Virginia (1 vehicle) - premium $69,882 price point
+                </div>
+                <div class="trim-summary">
+                    <strong>Tech Trim Distribution:</strong> Concentrated in California (4), Texas (4), and Florida (5)
+                </div>
+            </div>
+            
+            <div class="analysis-card">
+                <h3>💰 Market Value Analysis</h3>
+                <div class="feature-impact">
+                    <span>California Average</span>
+                    <span class="price-highlight">$53,484</span>
+                </div>
+                <div class="feature-impact">
+                    <span>Texas Average</span>
+                    <span class="price-stable">$44,142</span>
+                </div>
+                <div class="feature-impact">
+                    <span>Florida Average</span>
+                    <span class="price-stable">$42,474</span>
+                </div>
+                <div class="feature-impact">
+                    <span>Ohio Average</span>
+                    <span class="price-stable">$44,577</span>
+                </div>
+                <div class="feature-impact">
+                    <span>Illinois Average</span>
+                    <span class="price-stable">$45,617</span>
+                </div>
+            </div>
+            
+            <div class="analysis-card">
+                <h3>⚡ Key Market Insights</h3>
+                <div class="feature-impact">
+                    <span>Total Inventory</span>
+                    <span class="price-highlight">623 vehicles</span>
+                </div>
+                <div class="feature-impact">
+                    <span>States Covered</span>
+                    <span class="price-highlight">40 states</span>
+                </div>
+                <div class="feature-impact">
+                    <span>Unique Trims</span>
+                    <span class="price-highlight">9 trim levels</span>
+                </div>
+                <div class="feature-impact">
+                    <span>Data Freshness</span>
+                    <span class="price-highlight">Current as of 10-01-25</span>
+                </div>
+            </div>
+            
+            <div class="analysis-card">
+                <h3>🔍 Market Dynamics</h3>
+                <div class="trim-summary">
+                    <strong>Inventory Distribution:</strong> California leads with 13.2% of total market inventory
+                </div>
+                <div class="trim-summary">
+                    <strong>Price Variation:</strong> 37% price difference between highest and lowest average prices
+                </div>
+                <div class="trim-summary">
+                    <strong>Trim Concentration:</strong> Sport 1 most popular overall, Luxury 3 strong in Midwest
+                </div>
+                <div class="trim-summary">
+                    <strong>Market Maturation:</strong> Tech trims finding price floor as value proposition recognized
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables for data and charts
+        let dashboardData = null;
+        let priceChart = null;
+        let locationChart = null;
+        let trimDistributionChart = null;
+        
+        // Extended price data for the price trends chart
+        const extendedPriceData = {
+            'Tech RWD': [53903, 53482, 53154, 52899, 52700, 52545, 52425, 52331, 52258, 52201, 52156, 52122, 52095, 51028, 53142, 53122, 53103, 53611, 53592, 53574, 52362],
+            'Tech AWD': [56663, 56185, 55812, 55522, 55296, 55120, 54983, 54876, 54793, 54728, 54678, 54638, 54608, 53390, 55548, 55527, 55507, 56030, 56009, 55988, 54880],
+            'Luxury 1 RWD': [57675, 56503, 55631, 55014, 54607, 54375, 54286, 54311, 54426, 54612, 54854, 55139, 46581, 45584, 47402, 47271, 47143, 47686, 47558, 47432, 46088],
+            'Luxury 1 AWD': [60435, 59170, 58196, 57462, 56921, 56537, 56279, 56120, 56041, 56024, 56054, 56123, 49569, 48502, 50451, 50310, 50171, 50743, 50606, 50471, 49094],
+            'Luxury 2 RWD': [59055, 57846, 56925, 56244, 55758, 55431, 55233, 55137, 55124, 55176, 55280, 55425, 48075, 47048, 48938, 48805, 48673, 49224, 49095, 48967, 47591],
+            'Luxury 2 AWD': [61815, 60518, 59511, 58745, 58175, 57763, 57481, 57302, 57203, 57167, 57184, 57244, 51063, 49966, 52012, 51869, 51728, 52314, 52175, 52038, 50597],
+            'Luxury 3 RWD': [60899, 59416, 58288, 57446, 56841, 56433, 56191, 56088, 56103, 56216, 56413, 56677, 45792, 44404, 46221, 46059, 45900, 46425, 46268, 46113, 44905],
+            'Luxury 3 AWD': [63659, 62087, 60854, 59895, 59164, 58625, 58244, 57995, 57861, 57826, 57865, 57974, 48780, 47341, 49276, 49104, 48935, 49495, 49328, 49163, 47898],
+            'Sport 1 RWD': [58135, 56967, 56087, 55442, 54988, 54688, 54512, 54433, 54433, 54498, 54615, 54774, 47079, 46055, 47870, 47741, 47614, 48160, 48035, 47911, 46589],
+            'Sport 1 AWD': [60895, 59627, 58648, 57903, 57349, 56948, 56670, 56487, 56382, 56339, 56344, 56390, 50067, 48985, 50951, 50810, 50672, 51241, 51104, 50969, 49595],
+            'Sport 2 RWD': [60807, 59515, 58573, 57911, 57480, 57240, 57158, 57204, 57354, 57587, 57885, 58235, 48638, 47562, 49491, 49343, 49198, 49766, 49621, 49478, 48092],
+            'Sport 2 AWD': [63567, 62186, 61153, 60401, 59883, 59557, 59387, 59344, 59405, 59548, 59759, 60023, 51626, 50491, 52570, 52412, 52257, 52863, 52709, 52558, 51098],
+            'Sport 3 RWD': [64119, 62681, 61591, 60782, 60204, 59814, 59576, 59460, 59439, 59493, 59608, 59773, 50228, 48721, 50739, 50565, 50394, 50995, 50826, 50659, 49395],
+            'Sport 3 AWD': [65403, 63854, 62658, 61752, 61088, 60622, 60318, 60145, 60076, 60088, 60165, 60294, 52667, 51081, 53213, 53027, 52844, 53488, 53306, 53127, 51890]
+        };
+
+        const extendedMonths = [
+            'Jan 2024', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
+            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 
+            'Jan 2025', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+            'Jul', 'Aug', 'Sep'
+        ];
+
+        // Year ranges for filtering
+        const yearRanges = {
+            '2024': [0, 12],   // Jan 2024 to Jan 2025 (exclusive)
+            '2025': [12, 24],  // Jan 2025 to Jan 2026 (exclusive)
+            '2026': [15, 33]   // Jan 2026 to Sep 2026 (inclusive)
+        };
+
+        // Trim availability by year
+        const trimYearAvailability = {
+            // Tech Trims (available 2024)
+            'Tech': ['2024'],
+            
+            // Luxury Trims (available 2024-2025)
+            'Luxury 1': ['2024', '2025'],
+            'Luxury 2': ['2024', '2025'],
+            'Luxury 3': ['2024', '2025'],
+            
+            // Sport Trims (available 2024-2025)
+            'Sport 1': ['2024', '2025'],
+            'Sport 2': ['2024', '2025'],
+            'Sport 3': ['2024', '2025']
+        };
+
+        // Color palette for different trim lines
+        const colors = {
+            'Tech RWD': '#4CAF50',
+            'Tech AWD': '#2E7D32',
+            'Luxury 1 RWD': '#2196F3',
+            'Luxury 1 AWD': '#1565C0',
+            'Luxury 2 RWD': '#9C27B0',
+            'Luxury 2 AWD': '#6A1B9A',
+            'Luxury 3 RWD': '#FF9800',
+            'Luxury 3 AWD': '#E65100',
+            'Sport 1 RWD': '#F44336',
+            'Sport 1 AWD': '#C62828',
+            'Sport 2 RWD': '#795548',
+            'Sport 2 AWD': '#4E342E',
+            'Sport 3 RWD': '#607D8B',
+            'Sport 3 AWD': '#37474F'
+        };
+        
+        // Load data from JSON file
+        async function loadDashboardData() {
+            try {
+                const response = await fetch('chart_data.json');
+                dashboardData = await response.json();
+                console.log('Dashboard data loaded:', dashboardData);
+                initializeDashboard();
+            } catch (error) {
+                console.error('Error loading dashboard data:', error);
+                // Fallback to hardcoded data if JSON fails
+                loadFallbackData();
+            }
+        }
+        
+        // Fallback data if JSON loading fails
+        function loadFallbackData() {
+            dashboardData = {
+                locationData: {
+                    'CA': { count: 82, avgPrice: 53484, trims: ['Sport 1', 'Luxury 1', 'Luxury 2'] },
+                    'TX': { count: 62, avgPrice: 44142, trims: ['Luxury 3', 'Luxury 1', 'Sport 3'] },
+                    'FL': { count: 52, avgPrice: 42474, trims: ['Sport 1', 'Luxury 1', 'Luxury 3'] }
+                },
+                trimDistributionData: {
+                    trims: ['Luxury', 'Luxury 1', 'Luxury 2', 'Luxury 3', 'Sport 1', 'Sport 2', 'Sport 3', 'Tech', 'V-Series'],
+                    states: [
+                        { state: 'CA', total: 82, trims: [3, 24, 7, 4, 28, 7, 5, 4, 0] },
+                        { state: 'TX', total: 62, trims: [3, 11, 8, 16, 6, 4, 10, 4, 0] }
+                    ]
+                },
+                trimColors: {
+                    'Luxury': '#4ECDC4',
+                    'Luxury 1': '#45B7D1',
+                    'Luxury 2': '#96CEB4',
+                    'Luxury 3': '#FFEAA7',
+                    'Sport 1': '#DDA0DD',
+                    'Sport 2': '#98D8C8',
+                    'Sport 3': '#F7DC6F',
+                    'Tech': '#BB8FCE',
+                    'V-Series': '#FF6B6B'
+                }
+            };
+            initializeDashboard();
+        }
+        
+        // Initialize the dashboard with loaded data
+        function initializeDashboard() {
+            if (!dashboardData) return;
+            
+            // Initialize trim dropdown
+            initializeTrimDropdown();
+            
+            // Create charts
+            createPriceChart();
+            createLocationChart();
+            createTrimDistributionChart();
+            
+            // Set up event listeners
+            setupEventListeners();
+        }
+        
+        // Initialize trim dropdown with available trims
+        function initializeTrimDropdown() {
+            const trimSelect = document.getElementById('trimSelect');
+            const availableTrims = dashboardData.trimDistributionData.trims;
+            
+            trimSelect.innerHTML = '';
+            availableTrims.forEach(trim => {
+                const option = document.createElement('option');
+                option.value = trim;
+                option.textContent = trim;
+                option.selected = ['Sport 1', 'Luxury 1', 'Tech'].includes(trim);
+                trimSelect.appendChild(option);
+            });
+        }
+        
+        // Function to get filtered data based on selections
+        function getFilteredData() {
+            const selectedYears = Array.from(document.getElementById('yearSelect').selectedOptions).map(option => option.value);
+            const selectedTrims = Array.from(document.getElementById('trimSelect').selectedOptions).map(option => option.value);
+            const includeAWD = document.getElementById('awdCheckbox').checked;
+            
+            // Get all month indices that should be displayed
+            let monthIndices = [];
+            selectedYears.forEach(year => {
+                const range = yearRanges[year];
+                for (let i = range[0]; i < range[1]; i++) {
+                    if (!monthIndices.includes(i)) {
+                        monthIndices.push(i);
+                    }
+                }
+            });
+            
+            monthIndices.sort((a, b) => a - b);
+            
+            // Filter months and data
+            const filteredMonths = monthIndices.map(index => extendedMonths[index]);
+            const filteredDatasets = [];
+            
+            selectedTrims.forEach(baseTrim => {
+                // Always add RWD variant
+                const rwdTrim = baseTrim + ' RWD';
+                if (extendedPriceData[rwdTrim]) {
+                    const trimData = extendedPriceData[rwdTrim];
+                    const filteredData = monthIndices.map(index => trimData[index]);
+                    
+                    filteredDatasets.push({
+                        label: rwdTrim,
+                        data: filteredData,
+                        borderColor: colors[rwdTrim],
+                        backgroundColor: colors[rwdTrim] + '20',
+                        borderWidth: window.innerWidth < 768 ? 2 : 3,
+                        fill: false,
+                        tension: 0.4,
+                        pointRadius: function(context) {
+                            const baseRadius = window.innerWidth < 768 ? 2 : 3;
+                            const projectionRadius = window.innerWidth < 768 ? 3 : 5;
+                            const originalIndex = monthIndices[context.dataIndex];
+                            return originalIndex >= 12 ? projectionRadius : baseRadius;
+                        },
+                        pointHoverRadius: window.innerWidth < 768 ? 6 : 8,
+                        borderDash: function(context) {
+                            const originalIndex = monthIndices[context.dataIndex];
+                            return originalIndex >= 12 ? [5, 5] : [];
+                        }
+                    });
+                }
+                
+                // Add AWD variant if checkbox is checked
+                if (includeAWD) {
+                    const awdTrim = baseTrim + ' AWD';
+                    if (extendedPriceData[awdTrim]) {
+                        const trimData = extendedPriceData[awdTrim];
+                        const filteredData = monthIndices.map(index => trimData[index]);
+                        
+                        filteredDatasets.push({
+                            label: awdTrim,
+                            data: filteredData,
+                            borderColor: colors[awdTrim],
+                            backgroundColor: colors[awdTrim] + '20',
+                            borderWidth: window.innerWidth < 768 ? 2 : 3,
+                            fill: false,
+                            tension: 0.4,
+                            pointRadius: function(context) {
+                                const baseRadius = window.innerWidth < 768 ? 2 : 3;
+                                const projectionRadius = window.innerWidth < 768 ? 3 : 5;
+                                const originalIndex = monthIndices[context.dataIndex];
+                                return originalIndex >= 12 ? projectionRadius : baseRadius;
+                            },
+                            pointHoverRadius: window.innerWidth < 768 ? 6 : 8,
+                            borderDash: function(context) {
+                                const originalIndex = monthIndices[context.dataIndex];
+                                return originalIndex >= 12 ? [5, 5] : [];
+                            }
+                        });
+                    }
+                }
+            });
+            
+            return {
+                labels: filteredMonths,
+                datasets: filteredDatasets
+            };
+        }
+        
+        // Function to update the price chart
+        function updatePriceChart() {
+            if (priceChart) {
+                const filteredData = getFilteredData();
+                priceChart.data = filteredData;
+                priceChart.update('active');
+            }
+        }
+        
+        // Create price trends chart
+        function createPriceChart() {
+            const ctx = document.getElementById('priceChart').getContext('2d');
+            const initialData = getFilteredData();
+            
+            priceChart = new Chart(ctx, {
+                type: 'line',
+                data: initialData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: window.innerWidth < 768 ? 
+                                'Cadillac Lyriq - 21-Month Price Trends' : 
+                                'Cadillac Lyriq - Extended 21-Month Price Analysis (Historical + Projected)',
+                            font: { 
+                                size: window.innerWidth < 768 ? 14 : 18, 
+                                weight: 'bold' 
+                            },
+                            color: '#ffffff',
+                            padding: window.innerWidth < 768 ? 15 : 20
+                        },
+                        legend: {
+                            position: window.innerWidth < 768 ? 'bottom' : 'right',
+                            labels: {
+                                color: '#ffffff',
+                                font: { size: window.innerWidth < 768 ? 9 : 11 },
+                                usePointStyle: true,
+                                padding: window.innerWidth < 768 ? 8 : 12,
+                                boxWidth: window.innerWidth < 768 ? 8 : 12,
+                                boxHeight: window.innerWidth < 768 ? 8 : 12
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#ffffff', 
+                                font: { size: window.innerWidth < 768 ? 8 : 10 },
+                                maxRotation: window.innerWidth < 768 ? 90 : 45
+                            },
+                            title: {
+                                display: window.innerWidth >= 768,
+                                text: 'Time Period (Solid: Historical | Dashed: Projected)',
+                                color: '#ffffff',
+                                font: { size: 14, weight: 'bold' }
+                            }
+                        },
+                        y: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#ffffff',
+                                font: { size: window.innerWidth < 768 ? 8 : 12 },
+                                callback: function(value) {
+                                    if (window.innerWidth < 768) {
+                                        return '$' + (value / 1000).toFixed(0) + 'k';
+                                    }
+                                    return '$' + value.toLocaleString();
+                                }
+                            },
+                            title: {
+                                display: window.innerWidth >= 768,
+                                text: 'Average Used Car Price',
+                                color: '#ffffff',
+                                font: { size: 14, weight: 'bold' }
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    elements: {
+                        point: {
+                            hoverBackgroundColor: '#ffd700'
+                        }
+                    },
+                    onHover: (event, elements) => {
+                        event.native.target.style.cursor = elements.length > 0 ? 'pointer' : 'default';
+                    }
+                }
+            });
+            
+            // Add projection marker after chart renders
+            setTimeout(() => {
+                const projectionMarker = document.createElement('div');
+                projectionMarker.innerHTML = window.innerWidth < 768 ? 
+                    '<span style="color: #ffd700; font-size: 10px;">↑ Jan 2025 Projection</span>' :
+                    '<span style="color: #ffd700; font-size: 12px;">↑ Jan 2025 - Projection Starts</span>';
+                projectionMarker.style.position = 'absolute';
+                projectionMarker.style.top = '10px';
+                projectionMarker.style.left = window.innerWidth < 768 ? '50%' : '60%';
+                projectionMarker.style.transform = window.innerWidth < 768 ? 'translateX(-50%)' : 'none';
+                projectionMarker.style.zIndex = '10';
+                document.querySelector('.chart-container').appendChild(projectionMarker);
+            }, 500);
+        }
+        
+        // Create location chart
+        function createLocationChart() {
+            const ctx = document.getElementById('locationChart').getContext('2d');
+            const locationData = dashboardData.locationData;
+            
+            // Prepare data
+            const labels = Object.keys(locationData);
+            const counts = Object.values(locationData).map(data => data.count);
+            const prices = Object.values(locationData).map(data => data.avgPrice);
+            
+            // Color scale based on average price
+            const maxPrice = Math.max(...prices);
+            const minPrice = Math.min(...prices);
+            const priceRange = maxPrice - minPrice;
+            
+            const colors = prices.map(price => {
+                const ratio = (price - minPrice) / priceRange;
+                const hue = 120 - (ratio * 120); // Green to red scale
+                return `hsl(${hue}, 70%, 50%)`;
+            });
+            
+            locationChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Number of Vehicles',
+                        data: counts,
+                        backgroundColor: colors,
+                        borderColor: colors.map(color => color.replace('50%)', '80%)')),
+                        borderWidth: 2,
+                        yAxisID: 'y'
+                    }, {
+                        label: 'Average Price ($)',
+                        data: prices,
+                        type: 'line',
+                        borderColor: '#ffd700',
+                        backgroundColor: 'rgba(255, 215, 0, 0.1)',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.4,
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        yAxisID: 'y1'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: window.innerWidth < 768 ? 
+                                'Cadillac Lyriq Distribution by State (Current Inventory as of 10-01-25)' : 
+                                'Cadillac Lyriq Market Distribution: Inventory Count & Average Prices by State (Current Inventory as of 10-01-25)',
+                            font: { 
+                                size: window.innerWidth < 768 ? 14 : 18, 
+                                weight: 'bold' 
+                            },
+                            color: '#ffffff',
+                            padding: window.innerWidth < 768 ? 15 : 20
+                        },
+                        legend: {
+                            position: window.innerWidth < 768 ? 'bottom' : 'top',
+                            labels: {
+                                color: '#ffffff',
+                                font: { size: window.innerWidth < 768 ? 9 : 11 },
+                                usePointStyle: true,
+                                padding: window.innerWidth < 768 ? 8 : 12
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                afterLabel: function(context) {
+                                    const state = context.label;
+                                    const data = locationData[state];
+                                    return [
+                                        `Top Trims: ${data.trims.slice(0, 3).join(', ')}`,
+                                        `Average Price: $${data.avgPrice.toLocaleString()}`
+                                    ];
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#ffffff', 
+                                font: { size: window.innerWidth < 768 ? 8 : 10 },
+                                maxRotation: window.innerWidth < 768 ? 90 : 45
+                            },
+                            title: {
+                                display: window.innerWidth >= 768,
+                                text: 'States (Color = Average Price: Green = Lower, Red = Higher)',
+                                color: '#ffffff',
+                                font: { size: 12, weight: 'bold' }
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#ffffff',
+                                font: { size: window.innerWidth < 768 ? 8 : 10 }
+                            },
+                            title: {
+                                display: window.innerWidth >= 768,
+                                text: 'Number of Vehicles',
+                                color: '#ffffff',
+                                font: { size: 12, weight: 'bold' }
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            grid: { drawOnChartArea: false },
+                            ticks: { 
+                                color: '#ffd700',
+                                font: { size: window.innerWidth < 768 ? 8 : 10 },
+                                callback: function(value) {
+                                    return '$' + (value / 1000).toFixed(0) + 'k';
+                                }
+                            },
+                            title: {
+                                display: window.innerWidth >= 768,
+                                text: 'Average Price',
+                                color: '#ffd700',
+                                font: { size: 12, weight: 'bold' }
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    }
+                }
+            });
+        }
+        
+        // Create trim distribution chart
+        function createTrimDistributionChart() {
+            const ctx = document.getElementById('trimDistributionChart').getContext('2d');
+            const trimData = dashboardData.trimDistributionData;
+            const trimColors = dashboardData.trimColors;
+            
+            // Prepare data for stacked bar chart
+            const trimLabels = trimData.trims;
+            const stateLabels = trimData.states.map(s => s.state);
+            
+            // Create datasets for each trim
+            const trimDatasets = trimLabels.map(trim => ({
+                label: trim,
+                data: trimData.states.map(state => {
+                    const trimIndex = trimLabels.indexOf(trim);
+                    return state.trims[trimIndex] || 0;
+                }),
+                backgroundColor: trimColors[trim],
+                borderColor: trimColors[trim].replace(')', ', 0.8)'),
+                borderWidth: 1,
+                stack: 'trim-stack'
+            }));
+            
+            trimDistributionChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: stateLabels,
+                    datasets: trimDatasets
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: window.innerWidth < 768 ? 
+                                'Trim Distribution by State (Current Inventory as of 10-01-25)' : 
+                                'Cadillac Lyriq Trim Distribution: Vehicle Count by State and Trim Level (Current Inventory as of 10-01-25)',
+                            font: { 
+                                size: window.innerWidth < 768 ? 14 : 18, 
+                                weight: 'bold' 
+                            },
+                            color: '#ffffff',
+                            padding: window.innerWidth < 768 ? 15 : 20
+                        },
+                        legend: {
+                            position: window.innerWidth < 768 ? 'bottom' : 'right',
+                            labels: {
+                                color: '#ffffff',
+                                font: { size: window.innerWidth < 768 ? 9 : 11 },
+                                usePointStyle: true,
+                                padding: window.innerWidth < 768 ? 8 : 12,
+                                boxWidth: window.innerWidth < 768 ? 8 : 12
+                            }
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                            callbacks: {
+                                title: function(context) {
+                                    return 'State: ' + context[0].label;
+                                },
+                                label: function(context) {
+                                    const trim = context.dataset.label;
+                                    const count = context.parsed.y;
+                                    const percentage = ((count / trimData.states[context.dataIndex].total) * 100).toFixed(1);
+                                    return `${trim}: ${count} vehicles (${percentage}%)`;
+                                },
+                                footer: function(context) {
+                                    const stateIndex = context[0].dataIndex;
+                                    const total = trimData.states[stateIndex].total;
+                                    return `Total: ${total} vehicles`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            stacked: true,
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#ffffff', 
+                                font: { size: window.innerWidth < 768 ? 8 : 10 },
+                                maxRotation: window.innerWidth < 768 ? 90 : 45
+                            },
+                            title: {
+                                display: window.innerWidth >= 768,
+                                text: 'States (Stacked by Trim Level)',
+                                color: '#ffffff',
+                                font: { size: 12, weight: 'bold' }
+                            }
+                        },
+                        y: {
+                            stacked: true,
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#ffffff',
+                                font: { size: window.innerWidth < 768 ? 8 : 10 }
+                            },
+                            title: {
+                                display: window.innerWidth >= 768,
+                                text: 'Number of Vehicles',
+                                color: '#ffffff',
+                                font: { size: 12, weight: 'bold' }
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    }
+                }
+            });
+        }
+        
+        // Set up event listeners
+        function setupEventListeners() {
+            // Year selection change
+            document.getElementById('yearSelect').addEventListener('change', function() {
+                updatePriceChart();
+            });
+            
+            // Trim selection change
+            document.getElementById('trimSelect').addEventListener('change', function() {
+                updatePriceChart();
+            });
+            
+            // AWD checkbox change
+            document.getElementById('awdCheckbox').addEventListener('change', function() {
+                updatePriceChart();
+            });
+            
+            // Select All Trims button
+            document.getElementById('selectAllTrims').addEventListener('click', function() {
+                const trimSelect = document.getElementById('trimSelect');
+                Array.from(trimSelect.options).forEach(option => option.selected = true);
+                updatePriceChart();
+            });
+            
+            // Clear All Trims button
+            document.getElementById('clearAllTrims').addEventListener('click', function() {
+                const trimSelect = document.getElementById('trimSelect');
+                Array.from(trimSelect.options).forEach(option => option.selected = false);
+                updatePriceChart();
+            });
+            
+            // Window resize handler
+            window.addEventListener('resize', function() {
+                if (priceChart) {
+                    priceChart.resize();
+                }
+                if (locationChart) {
+                    locationChart.resize();
+                }
+                if (trimDistributionChart) {
+                    trimDistributionChart.resize();
+                }
+            });
+        }
+        
+        // Load data when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDashboardData();
+        });
+    </script>
+</body>
+</html>

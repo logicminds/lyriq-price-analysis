@@ -18,6 +18,7 @@ import sys
 import argparse
 from collections import defaultdict, Counter
 from typing import Dict, List, Any
+from datetime import datetime
 
 
 def extract_location_data(data: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -192,16 +193,82 @@ def generate_color_palette_js(trims: List[str]) -> str:
         'Tech': '#BB8FCE',
         'V-Series': '#FF6B6B'
     }
-    
+
     js_lines = ['// Color palette for trim levels', 'const trimColors = {']
-    
+
     for i, trim in enumerate(trims):
         color = color_mapping.get(trim, '#CCCCCC')  # Default gray for unknown trims
         comma = ',' if i < len(trims) - 1 else ''
         js_lines.append(f"    '{trim}': '{color}'{comma}")
-    
+
     js_lines.append('};')
     return '\n'.join(js_lines)
+
+
+def generate_comprehensive_json(
+    location_data: List, trim_data: Dict, data: List[Dict], args
+) -> Dict:
+    """
+    Generate comprehensive JSON data for the dashboard.
+
+    Args:
+        location_data: Location-based data
+        trim_data: Trim distribution data
+        data: Original vehicle data
+        args: Command line arguments
+
+    Returns:
+        Comprehensive JSON data structure
+    """
+    # Calculate trim distribution statistics
+    trim_counts = Counter()
+    for record in data:
+        if isinstance(record, dict):
+            trim = record.get("trim", "")
+            if trim:
+                trim_counts[trim] += 1
+
+    # Generate color palette
+    colors = {
+        "Luxury": "#4ECDC4",
+        "Luxury 1": "#45B7D1",
+        "Luxury 2": "#96CEB4",
+        "Luxury 3": "#FFEAA7",
+        "Sport 1": "#DDA0DD",
+        "Sport 2": "#98D8C8",
+        "Sport 3": "#F7DC6F",
+        "Tech": "#BB8FCE",
+        "V-Series": "#FF6B6B",
+    }
+
+    # Create comprehensive output
+    output_data = {
+        "metadata": {
+            "generated_at": datetime.now().isoformat(),
+            "source_file": args.input_json,
+            "total_records": len(data),
+            "states_count": len(location_data),
+            "unique_trims": len(trim_data["trims"]),
+            "states_in_trim_chart": len(trim_data["states"]),
+        },
+        "locationData": dict(location_data),
+        "trimDistributionData": {
+            "trims": trim_data["trims"],
+            "states": trim_data["states"],
+        },
+        "trimColors": {
+            trim: colors.get(trim, "#CCCCCC") for trim in trim_data["trims"]
+        },
+        "summary": {
+            "top_states": [
+                {"state": state, "count": data["count"], "avgPrice": data["avgPrice"]}
+                for state, data in location_data[:5]
+            ],
+            "trim_distribution": trim_counts.most_common(),
+        },
+    }
+
+    return output_data
 
 
 def main():
@@ -226,79 +293,89 @@ def main():
         action="store_true",
         help="Output to stdout instead of file"
     )
-    
+
     args = parser.parse_args()
-    
+
     try:
         # Load JSON data
         print(f"Loading data from {args.input_json}...")
         with open(args.input_json, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        
+
         print(f"Processing {len(data)} records...")
-        
+
         # Extract location data
         print("Extracting location data...")
         location_data = extract_location_data(data)
-        
+
         # Extract trim distribution data
         print("Extracting trim distribution data...")
         trim_data = extract_trim_distribution_data(data)
-        
+
         # Generate JavaScript output
         print("Generating JavaScript output...")
         output_lines = []
-        
+
         # Add header comment
         output_lines.append("// Auto-generated chart data for Cadillac Lyriq Dashboard")
         output_lines.append("// Generated from CarGurus JSON data")
         output_lines.append("// Do not edit manually - regenerate using extract_chart_data.py")
         output_lines.append("")
-        
+
         # Add location data
         output_lines.append(format_location_data_js(location_data))
         output_lines.append("")
-        
+
         # Add trim distribution data
         output_lines.append(format_trim_distribution_data_js(trim_data))
         output_lines.append("")
-        
+
         # Add color palette
         output_lines.append(generate_color_palette_js(trim_data['trims']))
         output_lines.append("")
-        
+
         # Add usage instructions
         output_lines.append("// Usage instructions:")
         output_lines.append("// 1. Copy the locationData object to replace the locationData in index.html")
         output_lines.append("// 2. Copy the trimDistributionData object to replace the trimDistributionData in index.html")
         output_lines.append("// 3. Copy the trimColors object to replace the trimColors in index.html")
         output_lines.append("// 4. Update chart titles with current date if needed")
-        
+
+        # Generate comprehensive JSON data
+        json_data = generate_comprehensive_json(location_data, trim_data, data, args)
+
         # Output results
         output_content = '\n'.join(output_lines)
-        
+
         if args.stdout:
             print("\n" + "="*60)
             print("CHART DATA OUTPUT")
             print("="*60)
             print(output_content)
         else:
+            # Write JavaScript file
             with open(args.output_file, 'w', encoding='utf-8') as f:
                 f.write(output_content)
             print(f"Chart data written to {args.output_file}")
-        
+
+            # Write JSON file
+            json_filename = args.output_file.replace(".js", ".json")
+            with open(json_filename, "w", encoding="utf-8") as f:
+                json.dump(json_data, f, indent=2)
+            print(f"JSON data written to {json_filename}")
+
         # Print summary statistics
         print(f"\nSummary:")
         print(f"  Total records processed: {len(data)}")
         print(f"  States with data: {len(location_data)}")
         print(f"  Unique trim levels: {len(trim_data['trims'])}")
         print(f"  States in trim chart: {len(trim_data['states'])}")
-        
+
         # Show top states by inventory
         print(f"\nTop 5 states by inventory:")
         for i, (state, data) in enumerate(location_data[:5]):
             print(f"  {i+1}. {state}: {data['count']} vehicles (avg: ${data['avgPrice']:,})")
-        
+
         # Show trim distribution
         print(f"\nTrim level distribution:")
         trim_counts = Counter()
@@ -307,11 +384,11 @@ def main():
                 trim = record.get('trim', '')
                 if trim:
                     trim_counts[trim] += 1
-        
+
         for trim, count in trim_counts.most_common():
             percentage = (count / len(data)) * 100
             print(f"  {trim}: {count} vehicles ({percentage:.1f}%)")
-        
+
     except FileNotFoundError:
         print(f"Error: Input file '{args.input_json}' not found")
         sys.exit(1)

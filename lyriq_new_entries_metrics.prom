@@ -1,0 +1,306 @@
+# HELP lyriq_vehicles_total Total number of LYRIQ vehicles
+# TYPE lyriq_vehicles_total counter
+# HELP lyriq_price_average Average price of LYRIQ vehicles
+# TYPE lyriq_price_average gauge
+# HELP lyriq_price_min Minimum price of LYRIQ vehicles
+# TYPE lyriq_price_min gauge
+# HELP lyriq_price_max Maximum price of LYRIQ vehicles
+# TYPE lyriq_price_max gauge
+# HELP lyriq_mileage_average Average mileage of LYRIQ vehicles
+# TYPE lyriq_mileage_average gauge
+# HELP lyriq_mileage_min Minimum mileage of LYRIQ vehicles
+# TYPE lyriq_mileage_min gauge
+# HELP lyriq_mileage_max Maximum mileage of LYRIQ vehicles
+# TYPE lyriq_mileage_max gauge
+# HELP lyriq_vehicles_by_year Number of vehicles by year
+# TYPE lyriq_vehicles_by_year gauge
+# HELP lyriq_vehicles_by_trim Number of vehicles by trim
+# TYPE lyriq_vehicles_by_trim gauge
+# HELP lyriq_vehicles_by_state Number of vehicles by state
+# TYPE lyriq_vehicles_by_state gauge
+# HELP lyriq_vehicles_by_drive_type Number of vehicles by drive type
+# TYPE lyriq_vehicles_by_drive_type gauge
+# HELP lyriq_vehicles_by_interior_color Number of vehicles by interior color
+# TYPE lyriq_vehicles_by_interior_color gauge
+# HELP lyriq_vehicles_by_exterior_color Number of vehicles by exterior color
+# TYPE lyriq_vehicles_by_exterior_color gauge
+# HELP lyriq_vehicles_by_price_range Number of vehicles by price range
+# TYPE lyriq_vehicles_by_price_range gauge
+# HELP lyriq_vehicles_by_mileage_range Number of vehicles by mileage range
+# TYPE lyriq_vehicles_by_mileage_range gauge
+# HELP lyriq_payment_average Average payment amount
+# TYPE lyriq_payment_average gauge
+# HELP lyriq_payment_min Minimum payment amount
+# TYPE lyriq_payment_min gauge
+# HELP lyriq_payment_max Maximum payment amount
+# TYPE lyriq_payment_max gauge
+
+lyriq_vehicles_total 30 1759459202654
+lyriq_price_average 43600.68 1759459202654
+lyriq_price_min 36900 1759459202654
+lyriq_price_max 49998 1759459202654
+lyriq_mileage_average 12344.25 1759459202654
+lyriq_mileage_min 1357 1759459202654
+lyriq_mileage_max 25688 1759459202654
+lyriq_vehicles_by_year{year="2024"} 25 1759459202654
+lyriq_vehicles_by_year{year="2025"} 2 1759459202654
+lyriq_vehicles_by_year{year="2023"} 3 1759459202654
+lyriq_vehicles_by_trim{trim="luxury_3"} 17 1759459202654
+lyriq_vehicles_by_trim{trim="luxury_2"} 3 1759459202654
+lyriq_vehicles_by_trim{trim="sport_1"} 2 1759459202654
+lyriq_vehicles_by_trim{trim="luxury_1"} 4 1759459202654
+lyriq_vehicles_by_trim{trim="luxury"} 3 1759459202654
+lyriq_vehicles_by_trim{trim="sport_2"} 1 1759459202654
+lyriq_vehicles_by_state{state="mi"} 4 1759459202654
+lyriq_vehicles_by_state{state="or"} 8 1759459202654
+lyriq_vehicles_by_state{state="oh"} 2 1759459202654
+lyriq_vehicles_by_state{state="ca"} 3 1759459202654
+lyriq_vehicles_by_state{state="fl"} 2 1759459202654
+lyriq_vehicles_by_state{state="md"} 3 1759459202654
+lyriq_vehicles_by_state{state="ga"} 1 1759459202654
+lyriq_vehicles_by_state{state="nc"} 2 1759459202654
+lyriq_vehicles_by_state{state="ky"} 1 1759459202654
+lyriq_vehicles_by_state{state="ny"} 1 1759459202654
+lyriq_vehicles_by_state{state="il"} 2 1759459202654
+lyriq_vehicles_by_state{state="wa"} 1 1759459202654
+lyriq_vehicles_by_drive_type{drive_type="awd"} 21 1759459202654
+lyriq_vehicles_by_drive_type{drive_type="rwd"} 9 1759459202654
+lyriq_vehicles_by_interior_color{color="noir_with_santorini_blue_accents"} 11 1759459202654
+lyriq_vehicles_by_interior_color{color="noir_with_santorini_blue_accents"} 9 1759459202654
+lyriq_vehicles_by_interior_color{color="noir"} 2 1759459202654
+lyriq_vehicles_by_interior_color{color="gray_(sky_grey)"} 1 1759459202654
+lyriq_vehicles_by_interior_color{color="sky_gray_with_santorini_blue_accents"} 1 1759459202654
+lyriq_vehicles_by_interior_color{color="black"} 1 1759459202654
+lyriq_vehicles_by_interior_color{color="sky_cool_gray_with_santorini_blue_accents"} 1 1759459202654
+lyriq_vehicles_by_interior_color{color="gray_(sky_cool_grey)"} 1 1759459202654
+lyriq_vehicles_by_interior_color{color="white"} 1 1759459202654
+lyriq_vehicles_by_exterior_color{color="stellar_black_metallic"} 10 1759459202654
+lyriq_vehicles_by_exterior_color{color="celestial_metallic"} 1 1759459202654
+lyriq_vehicles_by_exterior_color{color="argent_silver_metallic"} 4 1759459202654
+lyriq_vehicles_by_exterior_color{color="crystal_white_tricoat"} 2 1759459202654
+lyriq_vehicles_by_exterior_color{color="radiant_red_tintcoat"} 5 1759459202654
+lyriq_vehicles_by_exterior_color{color="black"} 3 1759459202654
+lyriq_vehicles_by_exterior_color{color="gray_(satin_steel_metallic)"} 2 1759459202654
+lyriq_vehicles_by_exterior_color{color="emerald_lake_metallic"} 1 1759459202654
+lyriq_vehicles_by_exterior_color{color="opulent_blue_metallic"} 1 1759459202654
+lyriq_vehicles_by_exterior_color{color="gray"} 1 1759459202654
+lyriq_vehicles_by_price_range{range="under_40k"} 3 1759459202654
+lyriq_vehicles_by_price_range{range="40k_50k"} 22 1759459202654
+lyriq_vehicles_by_price_range{range="50k_60k"} 0 1759459202654
+lyriq_vehicles_by_price_range{range="over_60k"} 0 1759459202654
+lyriq_vehicles_by_mileage_range{range="0_2500"} 2 1759459202654
+lyriq_vehicles_by_mileage_range{range="2500_5000"} 4 1759459202654
+lyriq_vehicles_by_mileage_range{range="5000_7500"} 2 1759459202654
+lyriq_vehicles_by_mileage_range{range="7500_10000"} 1 1759459202654
+lyriq_vehicles_by_mileage_range{range="10000_12500"} 4 1759459202654
+lyriq_vehicles_by_mileage_range{range="12500_15000"} 4 1759459202654
+lyriq_vehicles_by_mileage_range{range="15000_17500"} 6 1759459202654
+lyriq_vehicles_by_mileage_range{range="17500_20000"} 3 1759459202654
+lyriq_vehicles_by_mileage_range{range="20000_22500"} 0 1759459202654
+lyriq_vehicles_by_mileage_range{range="22500_25000"} 1 1759459202654
+lyriq_vehicles_by_mileage_range{range="25000_27500"} 1 1759459202654
+lyriq_vehicles_by_mileage_range{range="27500_30000"} 0 1759459202654
+lyriq_vehicles_by_mileage_range{range="30000_32500"} 0 1759459202654
+lyriq_vehicles_by_mileage_range{range="32500_35000"} 0 1759459202654
+lyriq_vehicles_by_mileage_range{range="35000_37500"} 0 1759459202654
+lyriq_vehicles_by_mileage_range{range="37500_40000"} 0 1759459202654
+lyriq_vehicles_by_mileage_range{range="over_40000"} 0 1759459202654
+lyriq_payment_average 768.88 1759459202654
+lyriq_payment_min 652 1759459202654
+lyriq_payment_max 883 1759459202654
+lyriq_vehicles_by_trim_state{state="mi",trim="luxury_3"} 4 1759459202654
+lyriq_vehicles_by_trim_state{state="or",trim="luxury_3"} 8 1759459202654
+lyriq_vehicles_by_trim_state{state="oh",trim="luxury_2"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="oh",trim="luxury_3"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="ca",trim="sport_1"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="ca",trim="luxury_1"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="ca",trim="luxury"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="fl",trim="luxury_3"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="fl",trim="luxury_2"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="md",trim="luxury"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="md",trim="luxury_1"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="md",trim="sport_1"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="ga",trim="luxury_1"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="nc",trim="luxury_3"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="nc",trim="sport_2"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="ky",trim="luxury_1"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="ny",trim="luxury"} 1 1759459202654
+lyriq_vehicles_by_trim_state{state="il",trim="luxury_3"} 2 1759459202654
+lyriq_vehicles_by_trim_state{state="wa",trim="luxury_2"} 1 1759459202654
+lyriq_vehicles_by_year_state{state="mi",year="2024"} 4 1759459202654
+lyriq_vehicles_by_year_state{state="or",year="2025"} 2 1759459202654
+lyriq_vehicles_by_year_state{state="or",year="2024"} 6 1759459202654
+lyriq_vehicles_by_year_state{state="oh",year="2024"} 2 1759459202654
+lyriq_vehicles_by_year_state{state="ca",year="2024"} 2 1759459202654
+lyriq_vehicles_by_year_state{state="ca",year="2023"} 1 1759459202654
+lyriq_vehicles_by_year_state{state="fl",year="2024"} 2 1759459202654
+lyriq_vehicles_by_year_state{state="md",year="2023"} 1 1759459202654
+lyriq_vehicles_by_year_state{state="md",year="2024"} 2 1759459202654
+lyriq_vehicles_by_year_state{state="ga",year="2024"} 1 1759459202654
+lyriq_vehicles_by_year_state{state="nc",year="2024"} 2 1759459202654
+lyriq_vehicles_by_year_state{state="ky",year="2024"} 1 1759459202654
+lyriq_vehicles_by_year_state{state="ny",year="2023"} 1 1759459202654
+lyriq_vehicles_by_year_state{state="il",year="2024"} 2 1759459202654
+lyriq_vehicles_by_year_state{state="wa",year="2024"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="mi",drive_type="awd"} 4 1759459202654
+lyriq_vehicles_by_drive_state{state="or",drive_type="awd"} 8 1759459202654
+lyriq_vehicles_by_drive_state{state="oh",drive_type="awd"} 2 1759459202654
+lyriq_vehicles_by_drive_state{state="ca",drive_type="rwd"} 3 1759459202654
+lyriq_vehicles_by_drive_state{state="fl",drive_type="awd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="fl",drive_type="rwd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="md",drive_type="rwd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="md",drive_type="awd"} 2 1759459202654
+lyriq_vehicles_by_drive_state{state="ga",drive_type="rwd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="nc",drive_type="awd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="nc",drive_type="rwd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="ky",drive_type="awd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="ny",drive_type="rwd"} 1 1759459202654
+lyriq_vehicles_by_drive_state{state="il",drive_type="awd"} 2 1759459202654
+lyriq_vehicles_by_drive_state{state="wa",drive_type="rwd"} 1 1759459202654
+lyriq_price_by_state{state="mi"} 44990.00 1759459202654
+lyriq_price_min_by_state{state="mi"} 43990 1759459202654
+lyriq_price_max_by_state{state="mi"} 47990 1759459202654
+lyriq_price_by_state{state="or"} 44615.00 1759459202654
+lyriq_price_min_by_state{state="or"} 41990 1759459202654
+lyriq_price_max_by_state{state="or"} 49990 1759459202654
+lyriq_price_by_state{state="oh"} 42999.00 1759459202654
+lyriq_price_min_by_state{state="oh"} 42999 1759459202654
+lyriq_price_max_by_state{state="oh"} 42999 1759459202654
+lyriq_price_by_state{state="ca"} 38947.50 1759459202654
+lyriq_price_min_by_state{state="ca"} 36900 1759459202654
+lyriq_price_max_by_state{state="ca"} 40995 1759459202654
+lyriq_price_by_state{state="fl"} 42976.50 1759459202654
+lyriq_price_min_by_state{state="fl"} 41969 1759459202654
+lyriq_price_max_by_state{state="fl"} 43984 1759459202654
+lyriq_price_by_state{state="md"} 38964.00 1759459202654
+lyriq_price_min_by_state{state="md"} 37392 1759459202654
+lyriq_price_max_by_state{state="md"} 40500 1759459202654
+lyriq_price_by_state{state="ga"} 41998.00 1759459202654
+lyriq_price_min_by_state{state="ga"} 41998 1759459202654
+lyriq_price_max_by_state{state="ga"} 41998 1759459202654
+lyriq_price_by_state{state="nc"} 41900.00 1759459202654
+lyriq_price_min_by_state{state="nc"} 41900 1759459202654
+lyriq_price_max_by_state{state="nc"} 41900 1759459202654
+lyriq_price_by_state{state="il"} 47751.00 1759459202654
+lyriq_price_min_by_state{state="il"} 47001 1759459202654
+lyriq_price_max_by_state{state="il"} 48501 1759459202654
+lyriq_price_by_state{state="wa"} 49998.00 1759459202654
+lyriq_price_min_by_state{state="wa"} 49998 1759459202654
+lyriq_price_max_by_state{state="wa"} 49998 1759459202654
+lyriq_mileage_by_state{state="mi"} 12938.50 1759459202654
+lyriq_mileage_min_by_state{state="mi"} 2743 1759459202654
+lyriq_mileage_max_by_state{state="mi"} 16915 1759459202654
+lyriq_mileage_by_state{state="or"} 8559.25 1759459202654
+lyriq_mileage_min_by_state{state="or"} 2322 1759459202654
+lyriq_mileage_max_by_state{state="or"} 14713 1759459202654
+lyriq_mileage_by_state{state="oh"} 15490.50 1759459202654
+lyriq_mileage_min_by_state{state="oh"} 11189 1759459202654
+lyriq_mileage_max_by_state{state="oh"} 19792 1759459202654
+lyriq_mileage_by_state{state="ca"} 15057.67 1759459202654
+lyriq_mileage_min_by_state{state="ca"} 11717 1759459202654
+lyriq_mileage_max_by_state{state="ca"} 18906 1759459202654
+lyriq_mileage_by_state{state="fl"} 13712.50 1759459202654
+lyriq_mileage_min_by_state{state="fl"} 10014 1759459202654
+lyriq_mileage_max_by_state{state="fl"} 17411 1759459202654
+lyriq_mileage_by_state{state="md"} 21641.00 1759459202654
+lyriq_mileage_min_by_state{state="md"} 15693 1759459202654
+lyriq_mileage_max_by_state{state="md"} 25688 1759459202654
+lyriq_mileage_by_state{state="ga"} 1357.00 1759459202654
+lyriq_mileage_min_by_state{state="ga"} 1357 1759459202654
+lyriq_mileage_max_by_state{state="ga"} 1357 1759459202654
+lyriq_mileage_by_state{state="ky"} 17620.00 1759459202654
+lyriq_mileage_min_by_state{state="ky"} 17620 1759459202654
+lyriq_mileage_max_by_state{state="ky"} 17620 1759459202654
+lyriq_mileage_by_state{state="nc"} 4132.00 1759459202654
+lyriq_mileage_min_by_state{state="nc"} 4132 1759459202654
+lyriq_mileage_max_by_state{state="nc"} 4132 1759459202654
+lyriq_mileage_by_state{state="il"} 14808.00 1759459202654
+lyriq_mileage_min_by_state{state="il"} 12136 1759459202654
+lyriq_mileage_max_by_state{state="il"} 17480 1759459202654
+lyriq_mileage_by_state{state="wa"} 4184.00 1759459202654
+lyriq_mileage_min_by_state{state="wa"} 4184 1759459202654
+lyriq_mileage_max_by_state{state="wa"} 4184 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_with_santorini_blue_accents_stellar_black_metallic"} 8 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_with_santorini_blue_accents_celestial_metallic"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_with_santorini_blue_accents_argent_silver_metallic"} 4 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_stellar_black_metallic"} 2 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_with_santorini_blue_accents_crystal_white_tricoat"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_with_santorini_blue_accents_radiant_red_tintcoat"} 4 1759459202654
+lyriq_vehicles_by_color_combo{combo="gray_(sky_grey)_gray_(satin_steel_metallic)"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="sky_gray_with_santorini_blue_accents_crystal_white_tricoat"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_with_santorini_blue_accents_emerald_lake_metallic"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="black_black"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="noir_with_santorini_blue_accents_opulent_blue_metallic"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="sky_cool_gray_with_santorini_blue_accents_radiant_red_tintcoat"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="gray_(sky_cool_grey)_gray_(satin_steel_metallic)"} 1 1759459202654
+lyriq_vehicles_by_color_combo{combo="white_gray"} 1 1759459202654
+lyriq_vehicles_by_trim_year{trim="luxury_3",year="2024"} 15 1759459202654
+lyriq_vehicles_by_trim_year{trim="luxury_3",year="2025"} 2 1759459202654
+lyriq_vehicles_by_trim_year{trim="luxury_2",year="2024"} 3 1759459202654
+lyriq_vehicles_by_trim_year{trim="sport_1",year="2024"} 2 1759459202654
+lyriq_vehicles_by_trim_year{trim="luxury_1",year="2024"} 4 1759459202654
+lyriq_vehicles_by_trim_year{trim="luxury",year="2023"} 3 1759459202654
+lyriq_vehicles_by_trim_year{trim="sport_2",year="2024"} 1 1759459202654
+lyriq_price_by_trim{trim="luxury_3"} 44765.69 1759459202654
+lyriq_price_min_by_trim{trim="luxury_3"} 41900 1759459202654
+lyriq_price_max_by_trim{trim="luxury_3"} 49990 1759459202654
+lyriq_price_by_trim{trim="luxury_2"} 45660.33 1759459202654
+lyriq_price_min_by_trim{trim="luxury_2"} 42999 1759459202654
+lyriq_price_max_by_trim{trim="luxury_2"} 49998 1759459202654
+lyriq_price_by_trim{trim="sport_1"} 40747.50 1759459202654
+lyriq_price_min_by_trim{trim="sport_1"} 40500 1759459202654
+lyriq_price_max_by_trim{trim="sport_1"} 40995 1759459202654
+lyriq_price_by_trim{trim="luxury_1"} 39299.33 1759459202654
+lyriq_price_min_by_trim{trim="luxury_1"} 36900 1759459202654
+lyriq_price_max_by_trim{trim="luxury_1"} 41998 1759459202654
+lyriq_price_by_trim{trim="luxury"} 37392.00 1759459202654
+lyriq_price_min_by_trim{trim="luxury"} 37392 1759459202654
+lyriq_price_max_by_trim{trim="luxury"} 37392 1759459202654
+lyriq_mileage_by_trim{trim="luxury_3"} 11690.44 1759459202654
+lyriq_mileage_min_by_trim{trim="luxury_3"} 2322 1759459202654
+lyriq_mileage_max_by_trim{trim="luxury_3"} 19792 1759459202654
+lyriq_mileage_by_trim{trim="luxury_2"} 8462.33 1759459202654
+lyriq_mileage_min_by_trim{trim="luxury_2"} 4184 1759459202654
+lyriq_mileage_max_by_trim{trim="luxury_2"} 11189 1759459202654
+lyriq_mileage_by_trim{trim="sport_1"} 17629.50 1759459202654
+lyriq_mileage_min_by_trim{trim="sport_1"} 11717 1759459202654
+lyriq_mileage_max_by_trim{trim="sport_1"} 23542 1759459202654
+lyriq_mileage_by_trim{trim="luxury_1"} 14803.75 1759459202654
+lyriq_mileage_min_by_trim{trim="luxury_1"} 1357 1759459202654
+lyriq_mileage_max_by_trim{trim="luxury_1"} 25688 1759459202654
+lyriq_mileage_by_trim{trim="luxury"} 17299.50 1759459202654
+lyriq_mileage_min_by_trim{trim="luxury"} 15693 1759459202654
+lyriq_mileage_max_by_trim{trim="luxury"} 18906 1759459202654
+lyriq_mileage_by_trim{trim="sport_2"} 4132.00 1759459202654
+lyriq_mileage_min_by_trim{trim="sport_2"} 4132 1759459202654
+lyriq_mileage_max_by_trim{trim="sport_2"} 4132 1759459202654
+lyriq_payment_by_trim{trim="luxury_3"} 788.56 1759459202654
+lyriq_payment_min_by_trim{trim="luxury_3"} 738 1759459202654
+lyriq_payment_max_by_trim{trim="luxury_3"} 877 1759459202654
+lyriq_payment_by_trim{trim="luxury_2"} 806.67 1759459202654
+lyriq_payment_min_by_trim{trim="luxury_2"} 760 1759459202654
+lyriq_payment_max_by_trim{trim="luxury_2"} 883 1759459202654
+lyriq_payment_by_trim{trim="sport_1"} 720.00 1759459202654
+lyriq_payment_min_by_trim{trim="sport_1"} 716 1759459202654
+lyriq_payment_max_by_trim{trim="sport_1"} 724 1759459202654
+lyriq_payment_by_trim{trim="luxury_1"} 694.33 1759459202654
+lyriq_payment_min_by_trim{trim="luxury_1"} 652 1759459202654
+lyriq_payment_max_by_trim{trim="luxury_1"} 742 1759459202654
+lyriq_payment_by_trim{trim="luxury"} 662.00 1759459202654
+lyriq_payment_min_by_trim{trim="luxury"} 662 1759459202654
+lyriq_payment_max_by_trim{trim="luxury"} 662 1759459202654
+lyriq_vehicles_by_trim_drive{trim="luxury_3",drive_type="awd"} 17 1759459202654
+lyriq_vehicles_by_trim_drive{trim="luxury_2",drive_type="awd"} 1 1759459202654
+lyriq_vehicles_by_trim_drive{trim="luxury_2",drive_type="rwd"} 2 1759459202654
+lyriq_vehicles_by_trim_drive{trim="sport_1",drive_type="rwd"} 1 1759459202654
+lyriq_vehicles_by_trim_drive{trim="sport_1",drive_type="awd"} 1 1759459202654
+lyriq_vehicles_by_trim_drive{trim="luxury_1",drive_type="rwd"} 2 1759459202654
+lyriq_vehicles_by_trim_drive{trim="luxury_1",drive_type="awd"} 2 1759459202654
+lyriq_vehicles_by_trim_drive{trim="luxury",drive_type="rwd"} 3 1759459202654
+lyriq_vehicles_by_trim_drive{trim="sport_2",drive_type="rwd"} 1 1759459202654
+lyriq_high_value_vehicles 0 1759459202654
+lyriq_low_mileage_vehicles 6 1759459202654
+lyriq_new_vehicles 2 1759459202654
+lyriq_awd_ratio 0.7000 1759459202654
+lyriq_average_vehicle_age 1.03 1759459202654
+lyriq_average_price_per_mile 6.60 1759459202654
